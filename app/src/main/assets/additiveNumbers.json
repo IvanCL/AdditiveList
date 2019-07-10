@@ -1,0 +1,2704 @@
+{"numerosE":[{
+	"Número": "E100",
+	"Nombre": "Curcumina",
+	"Descripción": "Colorante natural amarillo anaranjado, aislado a partir de las raíces y los tallos de la cúrcuma.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "No en las concentraciones utilizadas",
+	"Origen": "Vegano"
+}, {
+	"Número": "E100(ii)",
+	"Nombre": "Cúrcuma",
+	"Descripción": "Compuesto purificado de la cúrcuma",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "No en las concentraciones utilizadas",
+	"Origen": "Vegano"
+}, {
+	"Número": "E101",
+	"Nombre": "Riboflavina",
+	"Descripción": "Colorante amarillo. Es vitamina B2. Se puede obtener de huevos, leche, hígado, levadura de cerveza, etc., pero normalmente se produce por medios químicos o biotecnológicos.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "No en las concentraciones utilizadas",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E101(ii)",
+	"Nombre": "Riboflavina- 5'- fosfato",
+	"Descripción": "Colorante amarillo. Es vitamina B2. Se puede obtener de huevos, leche, hígado, levadura de cerveza, etc., pero normalmente se produce por medios químicos o biotecnológicos. (referido algunas veces como E106)",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "No en las concentraciones utilizadas",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E102",
+	"Nombre": "Tartracina",
+	"Descripción": "Colorante amarillo, colorante azoico",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina.  El uso de la tartracina está prohibido en Noruega, y lo estuvo en Austria y Alemania.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E104",
+	"Nombre": "Amarillo de quinoleína",
+	"Descripción": "Colorante amarillo-verdoso, sintético no azoico",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas y puede actuar como liberador de histamina. Aparece en algunos refrescos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E106",
+	"Nombre": "Riboflavina-5-fosfato sódico",
+	"Descripción": "Colorante amarillo. Es vitamina B2. Se puede obtener de huevos, leche, hígado, levadura de cerveza, etc., pero normalmente se produce por medios químicos o biotecnológicos.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "No en las concentraciones utilizadas",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E107",
+	"Nombre": "Amarillo 2G",
+	"Descripción": "Colorante sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "está implicado en la producción de alergias, hiperactividad y asma. Su uso está limitado y podría prohibirse en un futuro próximo.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E110",
+	"Nombre": "Amarillo ocaso FCF",
+	"Descripción": "Colorante sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E120",
+	"Nombre": "Carmín, Cochinilla",
+	"Descripción": "Colorante rojo. Se obtiene de ciertos insectos de la familia de Coccidae, parásitos de algunas especies de cactus. Hacen falta 100.000hembras de este insecto para obtener 1Kg de producto. El E120 (i) es el colorante puro, mientras que el E120 (ii) es el extracto crudo.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "En algunos casos se ha reportado un aumento de hiperactividad. Así mismo, se sabe que ha producido alergia por contacto cuando es utilizado en los cosméticos.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E122",
+	"Nombre": "Azorrubina",
+	"Descripción": "Colorante rojo sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E123",
+	"Nombre": "Amaranto",
+	"Descripción": "Colorante rojo sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina. No obstante, muchos países han restringido su uso y se hallan a la espera de mayores pruebas, viéndose la IDA reducida hasta 0.5 mg/kg.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E124",
+	"Nombre": "Ponceau 4R",
+	"Descripción": "Colorante rojo sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E127",
+	"Nombre": "Eritrosina",
+	"Descripción": "Colorante rojo sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Unos pocos incidentes han reportado un incremento en la hiperactividad, así como una posible conexión con mutagenecidad. La eritrosina causa un aumento de la fotosensibilidad en las personas sensibles a la luz solar. En altas concentraciones interfiere con el metabolismo del yodo.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E128",
+	"Nombre": "Rojo 2G",
+	"Descripción": "Colorante rojo sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina. El rojo 2G puede también generar anemia y es posiblemente mutagénico. Consecuentemente su uso ha sido altamente restringido y su valor de IDA reducido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E129",
+	"Nombre": "Rojo Allura AC",
+	"Descripción": "Colorante rojo sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina. Cuando está presente en altas concentraciones, uno de sus productos de degradación causa cáncer de vejiga.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E131",
+	"Nombre": "Azul Patentado V",
+	"Descripción": "Colorante azul sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Se han descrito muy pocos casos de reacciones alérgicas debidas al acoplamiento del colorante a las proteínas (corporales). También puede actuar como un liberador de histamina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E132",
+	"Nombre": "Indigotina",
+	"Descripción": "Colorante azul, presente de forma natural en el arbusto Indigofera tinctoria , aunque comercialmente es producido de manera sintética.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Se han descrito muy pocos casos de reacciones alérgicas debidas al acoplamiento del colorante a las proteínas (corporales). También puede actuar como un liberador de histamina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E133",
+	"Nombre": "Azul brillante FCF",
+	"Descripción": "Colorante azul sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Raramente ocurren efectos colaterales en las concentraciones utilizadas en los alimentos. Se han reportado algunos casos de reacciones alérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E140",
+	"Nombre": "Clorofilas",
+	"Descripción": "Colorante verde natural, presente en todas las plantas y algas. Es extraído comercialmente a partir de las ortigas, del césped y de la alfalfa.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "No se conocen efectos secundarios.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E141",
+	"Nombre": "Complejos cúpricos de clorofila",
+	"Descripción": "Los complejos sintéticos cúpricos de clorofila provienen de la clorofila (E140), un colorante verde natural presente en todas las plantas y algas. El E141 se extrae comercialmente de las ortigas, el césped y la alfalfa. Adicionalmente, las feofitinas se forman a través de la desesterificación química de la clorofila.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Al calentar el E141, se libera cobre; sin embargo; las concentraciones alcanzadas de este elemento no representan niveles tóxicos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E142",
+	"Nombre": "Verde S",
+	"Descripción": "Colorante verde sintético.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Solamente se han reportado algunos casos de alergias o anemia.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E150a-d",
+	"Nombre": "Caramelo",
+	"Descripción": "Mezclas complejas de colorantes marrones, elaboradas a través del secado en caliente y del quemado de azúcares en la presencia de álcalis, amoníaco, sulfuros o combinaciones de los anteriores.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Se han manifestado efectos secundarios por el uso del E150c y del E150d, los cuales pueden presentar además problemas intestinales luego del consumo de estos compuestos en grandes cantidades. Se siguen llevando a cabo las pruebas toxicológicas debido a la naturaleza compleja de dichas mezclas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E151",
+	"Nombre": "Negro brillante BN",
+	"Descripción": "Colorante azul sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina. Puede ser transformado en compuestos posiblemente peligrosos por las bacterias intestinales, de ahí su bajo valor de IDA y su uso restringido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E153",
+	"Nombre": "Carbón",
+	"Descripción": "Colorante negro que se obtiene de combustión incompleta de vegetales o grasas animales (prohibido en USA, sólo la versión vegetal es permitida en Australia).",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "No se conocen efectos secundarios en las concentraciones utilizadas. Es usado medicinalmente como un agente anti-diarreico.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E154",
+	"Nombre": "Marrón FK",
+	"Descripción": "Mezcla de colorantes sintéticos azoicos.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina. Algunos de los compuestos en la mezcla pueden ser mutagénicos; y debido a ello, su uso está restringido a sólo unos pocos productos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E155",
+	"Nombre": "Marrón HT",
+	"Descripción": "Colorante marrón sintético azoico.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Provoca reacciones alérgicas, en especial en asmáticos y con sensibilidad a los salicilatos (ácido acetil salicílico, bayas, frutas...) Se dice que está implicada en un gran porcentaje de casos de síndrome de ADHD (hiperactividad) en los niños. Las personas asmáticas también pueden experimentar síntomas luego del consumo de este aditivo, ya que se sabe actúa como un agente liberador de histamina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E160a",
+	"Nombre": "Alfa-, Beta- y Gamma- caroteno",
+	"Descripción": "Colorantes naturales aislados a partir de diversas plantas, aunque comercialmente son extraídos de las zanahorias. El E160a (i) es producido sintéticamente. Los carotenos están presentes bajo la forma de isómeros, que consisten en un grupo de compuestos químicamente idénticos pero estéricamente diferentes. La composición real varía dependiendo de las diferentes especies de plantas.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "Altas concentraciones resultan en la decoloración amarillenta de la piel. Debido a que el caroteno es una fuente de vitamina A (2 partes de caroteno equivalen a 1 parte de vitamina A), las altas concentraciones causarán síntomas de toxicidad por esta vitamina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E160b",
+	"Nombre": "Annatto, Bixina, Norbixina",
+	"Descripción": "Colorantes naturales aislados a partir de las semillas del árbol de annato (Bixa orellana). El annatto es la denominación dada al extracto crudo, mientras que la bixina es la parte del colorante liposoluble y la norbixina la parte hidrosoluble.",
+	"Función": "Colorante alimentario",
+	"Efectos secundarios": "El annatto puede causar alergias y eczema. No siempre se conoce cuál es el componente presente en la mezcla causal de estos efectos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E160c",
+	"Nombre": "Extracto de pimiento (Paprika)",
+	"Descripción": "Colorante natural aislado a partir del pimiento, Capsicum annuum. La mezcla contiene principalmente capsantina y capsorubina.",
+	"Función": "Colorante alimentario y saborizante.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E160d",
+	"Nombre": "Licopeno",
+	"Descripción": "Colorante de origen natural, presente en diversas plantas y frutas de color amarillo y rojo. Es extraída comercialmente a partir de los tomates.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos. Cada vez existen más estudios epidemiológicos que sugieren que el consumo de licopeno tiene un efecto beneficioso sobre la salud humana, reduciendo notablemente la incidencia de las patologías cancerosas sobre todo, de pulmón, próstata y tracto digestivo, cardiovasculares y del envejecimiento. También existen evidencias científicas de que previene el síndrome de degeneración macular, principal causa de ceguera en la gente mayor de 65 años.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E160e",
+	"Nombre": "Beta-apo-8'-carotenal",
+	"Descripción": "Colorante de origen natural, presente en diversas plantas. Comercialmente es preparado a partir del caroteno o es extraído de las plantas.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Altas concentraciones resultan en la decoloración amarillenta de la piel. Debido a que el E160e es una fuente de vitamina A, las altas concentraciones causarán síntomas de toxicidad por esta vitamina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E160f",
+	"Nombre": "Ester etílico del ácido beta-apo-8'-carotenoico",
+	"Descripción": "Colorante de origen natural, presente en diversas plantas. Comercialmente es preparado a partir del E160e o es extraído de las plantas.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E161a",
+	"Nombre": "Flavoxantina",
+	"Descripción": "Colorante de origen natural, presente en diversas plantas. Comercialmente es preparado a partir del ranúnculo (Ranunculus sp. ).",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E161b",
+	"Nombre": "Luteína",
+	"Descripción": "Colorante amarillento de origen natural, presente en diversas plantas y en la yema del huevo. Comercialmente es preparado a partir del césped, de las ortigas o de la especie Tagetes .",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E161c",
+	"Nombre": "Cryptoxantina",
+	"Descripción": "Colorante amarillento de origen natural, presente en diversas plantas, en la yema del huevo, en la mantequilla y en el suero de sangre bovina.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E161d",
+	"Nombre": "Rubixantina",
+	"Descripción": "Colorante de origen natural, presente en diversas plantas. Comercialmente es preparado a partir de la especie Rosa rubiginosa (rosa mosqueta).",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E161e",
+	"Nombre": "Violaxantina",
+	"Descripción": "Colorante de origen natural, presente en diversas plantas. Comercialmente es preparado a partir de la especie Viola.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E161f",
+	"Nombre": "Rodoxantina",
+	"Descripción": "Colorante de origen natural, presente en diversas plantas y aves. Comercialmente es preparado a partir de diferentes especies de plantas.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E161g",
+	"Nombre": "Cantaxantina",
+	"Descripción": "Colorante de origen natural, presente en diversas plantas y aves. Comercialmente es producido a partir de la especie Cantharellus (champiñones) o de las plumas de flamingo. Sin embargo, es principalmente elaborado de manera sintética a partir del caroteno.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Se desconocen los efectos colaterales resultantes del uso de E161g en los alimentos. Sin embargo, los problemas a la vista son comunes cuando es utilizado en las píldoras de taninos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E161h",
+	"Nombre": "Citranaxantina",
+	"Descripción": "Colorante de origen natural, presente en muchas plantas. Comercialmente es preparado a partir de las muestras deshidratadas de diversas especies de plantas.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E162",
+	"Nombre": "Extracto de remolacha",
+	"Descripción": "Colorante natural, producido comercialmente a partir de la remolacha.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Es excretado en la orina sin sufrir alteración alguna.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E163",
+	"Nombre": "Antocianinas",
+	"Descripción": "Las antocianinas y las antocianidinas son un gran grupo de colorantes naturales. Su combinación da origen al color de la mayoría de las frutas, flores y bayas. Mientras que las antocianinas siempre contienen una molécula de carbohidrato en su estructura, las antocianidinas carecen de ella. Los compuestos individuales son aislados a partir de diferentes especies de plantas, siendo el E163 (i)-(iii) una mezcla de diversos componentes respectivamente. E163a: cianidina, E163b: delfinidina, E163c: malvidina, E163d: pelargonidina, E163e: peonidina, E163f: petunidina, E163(i): Extracto de cáscara de uva, E163(ii): Mezcla de antocianinas, E163(iii): Extracto de grosella negra.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E170",
+	"Nombre": "Carbonato cálcico",
+	"Descripción": "Mineral blanco de origen natural.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E171",
+	"Nombre": "Bióxido de titanio",
+	"Descripción": "Mineral blanco de origen natural.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "Se considera inocuo para la salud.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E172",
+	"Nombre": "Oxidos de hierro",
+	"Descripción": "Minerales de origen natural, pero elaborados comercialmente a partir del hierro en polvo. E172(i): óxido negro de hierro, E172(ii): óxido rojo de hierro, E172(iii): óxido amarillo de hierro.",
+	"Función": "Recubrimiento de superficies.",
+	"Efectos secundarios": "Sin efectos secundarios conocidos. El hierro no se encuentra activamente disponible para los tejidos corporales (ya que en estos compuestos el hierro está presente bajo su forma férrica).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E173",
+	"Nombre": "Aluminio",
+	"Descripción": "Metal gris plateado presente de forma natural, y obtenido a partir de los minerales (mena) y de la bauxita.",
+	"Función": "Colorante gris plateado, usado exclusivamente para el recubrimiento de superficies o para decoraciones externas.",
+	"Efectos secundarios": "No se conocen efectos colaterales cuando es usado como un aditivo. La ingesta diaria de aluminio proveniente de otras fuentes alimentarias naturales es mayor que la ingerida cuando es usado como aditivo. Altas concentraciones de este compuesto pueden causar efectos secundarios severos en los seres humanos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E174",
+	"Nombre": "Plata",
+	"Descripción": "Metal brillante de origen natural.",
+	"Función": "Colorante gris plateado, usado exclusivamente para el recubrimiento de superficies o para decoraciones externas.",
+	"Efectos secundarios": "Desconocidos cuando es usado como un aditivo.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E175",
+	"Nombre": "Oro",
+	"Descripción": "Metal brillante y denso, de origen natural.",
+	"Función": "Colorante dorado, usado exclusivamente para el recubrimiento de superficies o para decoraciones externas.",
+	"Efectos secundarios": "Desconocidos cuando es usado como un aditivo.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E180",
+	"Nombre": "Litol -rubina BK",
+	"Descripción": "Colorante sintético azoico, que contiene iones de aluminio y de calcio. Usado exclusivamente para el recubrimiento de las superficies de los quesos.",
+	"Función": "Colorante alimentario.",
+	"Efectos secundarios": "No se conocen efectos colaterales cuando es usado como un aditivo (normalmente no es ingerido).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E181",
+	"Nombre": "Taninos",
+	"Descripción": "Mezcla de origen natural y composición compleja. Comercialmente es producida a partir de las bellotas o es elaborada sintéticamente. Es usado principalmente como un saborizante, como por ejemplo para impartir sabores similares al de la mantequilla o las nueces.",
+	"Función": "Colorante alimentario y saborizante.",
+	"Efectos secundarios": "Altas concentraciones pueden causar problemas estomacales y/o constricción de las arterias.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E200",
+	"Nombre": "Acido sórbico",
+	"Descripción": "El ácido sórbico se encuentra naturalmente en la fruta de la Sorbo montano (Sorbus aucuparia ), por la cual el ácido es nombrado. Es comercialmente producido por diferentes rutas químicas.",
+	"Función": "Conservante natural",
+	"Efectos secundarios": "Solamente un porcentaje muy bajo de personas muestras leves reacciones seudo-alérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E201",
+	"Nombre": "Sorbato de sodio / Sal sódica del ácido sórbico",
+	"Descripción": "El ácido sórbico se encuentra naturalmente en la fruta de la Sorbo montano (Sorbus aucuparia ), por la cual el ácido es nombrado. Es comercialmente producido por diferentes rutas químicas.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Solamente un porcentaje muy bajo de personas muestras leves reacciones seudo-alérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E202",
+	"Nombre": "Sorbato de potasio",
+	"Descripción": "La sal potasio del ácido sórbico (E200) se halla naturalmente presente en los frutos de Serbal de los cazadores (Sorbus acuparia) de donde proviene su nombre. Comercialmente es producido a través de diferentes métodos químicos.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Solamente un porcentaje muy bajo de personas muestras leves reacciones seudo-alérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E203",
+	"Nombre": "Sorbato de calcio",
+	"Descripción": "La sal cálcica del ácido sórbico (E200) se halla naturalmente presente en los frutos de los fresnos de las Montañas Europeas (Sorbus acuparia) de donde proviene su nombre. Comercialmente es producido a través de diferentes métodos químicos.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Solamente un porcentaje muy bajo de personas muestras leves reacciones seudo-alérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E210",
+	"Nombre": "Acido benzoico",
+	"Descripción": "El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son compuestos comúnmente encontrados en la mayoría de las frutas, especialmente en las bayas; siendo los arándanos una fuente rica del mismo. Adicionalmente, los benzoatos se encuentran de manera natural en las setas o champiñones, la canela, el clavo de olor y en algunos productos lácteos (debido a la fermentación bacteriana). Con fines comerciales, estos compuestos son preparados químicamente a partir del tolueno.",
+	"Función": "Conservante natural",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E211",
+	"Nombre": "Benzoato de sodio / Sal sódica del ácido benzoico",
+	"Descripción": "El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son compuestos comúnmente encontrados en la mayoría de las frutas, especialmente en las bayas; siendo los arándanos una fuente abundante del mismo. Adicionalmente, los benzoatos se encuentran de manera natural en las setas o champiñones, la canela, el clavo de olor y en algunos productos lácteos (debido a la fermentación bacteriana). Con fines comerciales, estos compuestos son preparados químicamente a partir del tolueno.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E212",
+	"Nombre": "Benzoato de potasio / Sal potásica del ácido benzoico",
+	"Descripción": "El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son compuestos comúnmente encontrados en la mayoría de las frutas, especialmente en las bayas; siendo los arándanos una fuente abundante del mismo. Adicionalmente, los benzoatos se encuentran de manera natural en las setas o champiñones, la canela, el clavo de olor y en algunos productos lácteos (debido a la fermentación bacteriana). Con fines comerciales, estos compuestos son preparados químicamente a partir del tolueno.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E213",
+	"Nombre": "Benzoato de calcio / Sal cálcica del ácido benzoico",
+	"Descripción": "El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son compuestos comúnmente encontrados en la mayoría de las frutas, especialmente en las bayas; siendo los arándanos una fuente abundante del mismo. Adicionalmente, los benzoatos se encuentran de manera natural en las setas o champiñones, la canela, el clavo de olor y en algunos productos lácteos (debido a la fermentación bacteriana). Con fines comerciales, estos compuestos son preparados químicamente a partir del tolueno.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E214",
+	"Nombre": "Etil 4-hidroxibenzoato",
+	"Descripción": "Ester etílico del ácido benzoico, producido sintéticamente. El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son encontrados comúnmente en la mayoría de las frutas, y especialmente en las bayas, siendo los arándanos una fuente muy rica de ácido benzoico. Además de las frutas, los benzoatos se hallan de forma natural en los champiñones, la canela, el clavo de olor y algunos productos lácteos (como resultado de la fermentación bacteriana). Para los propósitos comerciales, el ácido benzoico es preparado químicamente a partir del tolueno, el cual es posteriormente esterificado.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.Así mismo, la presencia del E214 en los cosméticos puede provocar alergias por contacto, las cuales no son muy comunes con las aplicaciones dadas en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E215",
+	"Nombre": "Sal sódica del etil 4-hidroxibenzoato",
+	"Descripción": "Ester etílico del ácido benzoico, producido sintéticamente. El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son encontrados comúnmente en la mayoría de las frutas, y especialmente en las bayas, siendo los arándanos una fuente muy rica de ácido benzoico. Además de las frutas, los benzoatos se hallan de forma natural en los champiñones, la canela, el clavo de olor y algunos productos lácteos (como resultado de la fermentación bacteriana). Para los propósitos comerciales, el ácido benzoico es preparado químicamente a partir del tolueno, el cual es posteriormente esterificado.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.Así mismo, la presencia del E215 en los cosméticos puede provocar alergias por contacto, las cuales no son muy comunes con las aplicaciones dadas en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E216",
+	"Nombre": "Propil 4-hidrobenzoato",
+	"Descripción": "Ester etílico del ácido benzoico, producido sintéticamente. El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son encontrados comúnmente en la mayoría de las frutas, y especialmente en las bayas, siendo los arándanos una fuente muy rica de ácido benzoico. Además de las frutas, los benzoatos se hallan de forma natural en los champiñones, la canela, el clavo de olor y algunos productos lácteos (como resultado de la fermentación bacteriana). Para los propósitos comerciales, el ácido benzoico es preparado químicamente a partir del tolueno, el cual es posteriormente esterificado.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.Así mismo, la presencia del E216 en los cosméticos puede provocar alergias por contacto, las cuales no son muy comunes con las aplicaciones dadas en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E217",
+	"Nombre": "Sal sódica del E216",
+	"Descripción": "Ester etílico del ácido benzoico, producido sintéticamente. El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son encontrados comúnmente en la mayoría de las frutas, y especialmente en las bayas, siendo los arándanos una fuente muy rica de ácido benzoico. Además de las frutas, los benzoatos se hallan de forma natural en los champiñones, la canela, el clavo de olor y algunos productos lácteos (como resultado de la fermentación bacteriana). Para los propósitos comerciales, el ácido benzoico es preparado químicamente a partir del tolueno, el cual es posteriormente esterificado.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.Así mismo, la presencia del E217 en los cosméticos puede provocar alergias por contacto, las cuales no son muy comunes con las aplicaciones dadas en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E218",
+	"Nombre": "Metil 4-hidroxibenzoato",
+	"Descripción": "Ester etílico del ácido benzoico, producido sintéticamente. El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son encontrados comúnmente en la mayoría de las frutas, y especialmente en las bayas, siendo los arándanos una fuente muy rica de ácido benzoico. Además de las frutas, los benzoatos se hallan de forma natural en los champiñones, la canela, el clavo de olor y algunos productos lácteos (como resultado de la fermentación bacteriana). Para los propósitos comerciales, el ácido benzoico es preparado químicamente a partir del tolueno, el cual es posteriormente esterificado.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.Así mismo, la presencia del E218 en los cosméticos puede provocar alergias por contacto, las cuales no son muy comunes con las aplicaciones dadas en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E219",
+	"Nombre": "Sal sódica del E218",
+	"Descripción": "Ester etílico del ácido benzoico, producido sintéticamente. El ácido benzoico, los benzoatos y los ésteres del ácido benzoico son encontrados comúnmente en la mayoría de las frutas, y especialmente en las bayas, siendo los arándanos una fuente muy rica de ácido benzoico. Además de las frutas, los benzoatos se hallan de forma natural en los champiñones, la canela, el clavo de olor y algunos productos lácteos (como resultado de la fermentación bacteriana). Para los propósitos comerciales, el ácido benzoico es preparado químicamente a partir del tolueno, el cual es posteriormente esterificado.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "En algunas personas, el ácido benzoico y los benzoatos pueden liberar histamina, la cual ocasiona reacciones pseudoalérgicas.Así mismo, la presencia del E219 en los cosméticos puede provocar alergias por contacto, las cuales no son muy comunes con las aplicaciones dadas en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E220",
+	"Nombre": "Dióxido de azufre",
+	"Descripción": "El azufre es un elemento común, que al entrar en combustión produce el dióxido de azufre. Este último compuesto es usado como agente conservante, y está asociado con la historia antigua, donde fue ampliamente utilizado en el antiguo Egipto así como en el Imperio Romano.",
+	"Función": "Conservante natural y blanqueante.",
+	"Efectos secundarios": "Debido a su efecto oxidante, puede reducir el contenido vitamínico de los productos. Al ser ingerido, es reducido en el hígado hasta sulfato, el cual no es dañino, y posteriormente es excretado en la orina. Sin embargo, puede causar problemas de respiración en los pacientes asmáticos. Adicionalmente, puede generar disturbios gastrointestinales en algunas personas, cuando es consumido en altas concentraciones (por encima de las usadas en los alimentos normalmente).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E221",
+	"Nombre": "Sulfito sódico",
+	"Descripción": "Sal sódica del ácido sulfúrico. Es utilizado como un agente oxidante y blanqueador, que previene el deterioro y la decoloración de los productos. También es usado como un mejorador del pan.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Debido a su efecto oxidante, puede reducir el contenido vitamínico de los productos. Al ser ingerido, es reducido en el hígado hasta sulfato, el cual no es dañino, y posteriormente es excretado en la orina. En combinación con el alcohol incrementa los síntomas de la resaca. Las personas que son intolerantes a los sulfitos de origen natural deben también evitar aquellos agregados a los productos comerciales (E221-228). Provoca asma, dolores de cabeza, irritación del traco gastrointestinal, nauseas y pérdida de vitamina B1 en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E222",
+	"Nombre": "Sulfito ácido de sodio",
+	"Descripción": "Sal monosódica del ácido sulfúrico.",
+	"Función": "Conservante sintético; blanqueador",
+	"Efectos secundarios": "Debido a su efecto oxidante, puede reducir el contenido vitamínico de los productos. Al ser ingerido, es reducido en el hígado hasta sulfato, el cual no es dañino, y posteriormente es excretado en la orina. Las personas que son intolerantes a los sulfitos de origen natural deben también evitar aquellos agregados a los productos comerciales (E221-228).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E223",
+	"Nombre": "Metabisulfito sódico",
+	"Descripción": "Sal sódica del ácido sulfúrico.",
+	"Función": "Conservante sintético; antioxidante",
+	"Efectos secundarios": "Debido a su efecto oxidante, puede reducir el contenido vitamínico de los productos. Al ser ingerido, es reducido en el hígado hasta sulfato, el cual no es dañino, y posteriormente es excretado en la orina. Las personas que son intolerantes a los sulfitos de origen natural deben también evitar aquellos agregados a los productos comerciales (E221-228).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E224",
+	"Nombre": "Metabisulfito potásico",
+	"Descripción": "Sal potásica del ácido sulfúrico.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Debido a su efecto oxidante, puede reducir el contenido vitamínico de los productos. Al ser ingerido, es reducido en el hígado hasta sulfato, el cual no es dañino, y posteriormente es excretado en la orina. Así mismo, alivia el efecto producido por las resacas. Las personas que son intolerantes a los sulfitos de origen natural deben también evitar aquellos agregados a los productos comerciales (E221-228).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E225",
+	"Nombre": "Sulfito potásico",
+	"Descripción": "Sal de potasio del ácido sulfuroso.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Debido a su efecto oxidante, puede reducir el contenido de vitaminas presentes en los productos. Adicionalmente, el sulfito de potasio es reducido en el hígado produciendo un tipo de sulfato inofensivo que es excretado en la orina. Las personas que son intolerantes a los sulfitos de origen natural, también deben evitar aquellos productos a los que se le hayan agregado suplementos de sulfitos (E221-228).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E226",
+	"Nombre": "Sulfito cálcico",
+	"Descripción": "Sal de calcio del ácido sulfuroso.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Debido a su efecto oxidante, el sulfito de calcio puede reducir el contenido de vitaminas presentes en los alimentos. Es reducido en el hígado produciendo un tipo de sulfato inofensivo el cual es excretado en la orina. Las personas que son intolerantes a los sulfitos de origen natural, también deben evitar aquellos productos a los que se le hayan agregado suplementos de sulfitos (E221-228).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E227",
+	"Nombre": "Sulfito ácido de calcio",
+	"Descripción": "Sal de calcio del ácido sulfuroso.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Es reducido en el hígado produciendo un tipo de sulfato inofensivo el cual es excretado en la orina. Las personas que son intolerantes a los sulfitos de origen natural, también deben evitar aquellos productos a los que se le hayan agregado suple mentos de sulfitos (E221-228).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E228",
+	"Nombre": "Sulfito ácido de potasio",
+	"Descripción": "Sal de potasio del ácido sulfuroso.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Es reducido en el hígado produciendo un tipo de sulfato inofensivo que es excretado en la orina. Las personas que son intolerantes a los sulfitos de origen natural, también deben evitar aquellos productos a los que se le hayan agregado suplementos de sulfitos (E221-228).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E230",
+	"Nombre": "Difenilo",
+	"Descripción": "Sintetizado a partir del benceno.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Es excretado por los riñones sin sufrir ninguna alteración. Se ha reportado sensibilidad en aquellas personas que manipulan grandes cantidades de frutas cítricas (barcos, camiones). De lo contrario no existen efectos secundarios.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E231",
+	"Nombre": "2-hidroxidifenilo",
+	"Descripción": "Sintetizado a partir del fenil éter.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Es excretado por los riñones sin sufrir ninguna alteración y sin producir ningún efecto secundario.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E232",
+	"Nombre": "Oxido de sodio del 2-il difenilo",
+	"Descripción": "Sal de sodio del fenil fenol, sintetizado a partir del fenil éter.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "El lavado normal de las frutas lo remueve fácilmente. Los residuos ingeridos son excretados por los riñones sin alteración alguna y sin provocar reacciones adversas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E233",
+	"Nombre": "2-(Tiazol-4-il)benzimidazol",
+	"Descripción": "Fungicida sintético de uso extenso, particularmente en las frutas. Principalmente es aplicado por rociado aunque también puede aplicarse mediante la inmersión de las mismas en una solución acuosa que contiene tiabendazol. Solamente puede ser aplicado en la superficie exterior, aunque puede llegar a penetrar al interior de la fruta.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Es hidrolizado en el hígado y excretado por los riñones. No hay ningún efecto colateral en las concentraciones especificadas como aceptables, pero puede llegar a provocar anorexia, náuseas, vómitos, mareo y somnolencia.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E234",
+	"Nombre": "Nisina",
+	"Descripción": "La nisina es un polipéptido (proteína de cadena corta) que actúa como antibiótico y es producido por la bacteria Lactococus lactis. Generalmente es usada en la producción de los quesos .",
+	"Función": "Antibiótico natural",
+	"Efectos secundarios": "Al ser una proteína, es tratada por el cuerpo como tal y digerida en el intestino delgado .",
+	"Origen": "Vegano"
+}, {
+	"Número": "E235",
+	"Nombre": "Pimaracina",
+	"Descripción": "La pimaracina es un antibiótico producido por las bacterias Streptomyces natalensis y S. chattanoogensis.",
+	"Función": "Antibiótico natural",
+	"Efectos secundarios": "Es metabolizada por el hígado y excretada. No hay ningún efecto colateral en las concentraciones usadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E236",
+	"Nombre": "Acido fórmico",
+	"Descripción": "El ácido fórmico se encuentra naturalmente en las hormigas, pero también en muchas frutas (como en las manzanas, fresas y frambuesas), miel y ortigas. Comercialmente es producido a partir del ácido sulfurico, hidróxido de sodio y monoxido de carbono.",
+	"Función": "Acido natural, conservante",
+	"Efectos secundarios": "Es metabolizado por el hígado y excretado. Concentraciones altas son diuréticas. No presenta efectos secundarios a las concentraciones aceptables especificadas. Reacciones alérgicas locales pueden ocurrir a concentraciones altas (como picaduras de hormigas y en contacto con ortigas).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E237",
+	"Nombre": "Formato sódico",
+	"Descripción": "Comercialmente es sintetizado a partir del hidróxido de sodio y el monóxido de carbono. Naturalmente se encuentra presente bajo la forma de ácido fórmico (E236).",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "Es metabolizado por el hígado y excretado. A altas concentraciones puede actuar como diurético. No existen efectos secundarios en las concentraciones especificadas como aceptables.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E238",
+	"Nombre": "Formato cálcico",
+	"Descripción": "Comercialmente es sintetizado a partir del hidróxido de sodio y el monóxido de carbono. Naturalmente se encuentra presente bajo la forma de ácido fórmico (E236).",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "Es metabolizado por el hígado y excretado. A altas concentraciones puede actuar como diurético.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E239",
+	"Nombre": "Hexamina",
+	"Descripción": "Comercialmente es sintetizado a partir del formaldehído y el amoníaco.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Es metabolizado por el hígado y excretado. A altas concetraciones tiene efectos considerables; sin embargo, estas concentraciones nunca se alcanzan en los alimentos, debido al sabor que les imparte.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E240",
+	"Nombre": "Formaldehído",
+	"Descripción": "El formaldehído se produce naturalmente al ahumar o calentar aquellos alimentos ricos en proteínas. Comercialmente, es sintetizado a partir del metanol.",
+	"Función": "Conservante",
+	"Efectos secundarios": "Como gas tiene fuertes efectos colaterales (no en los alimentos).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E242",
+	"Nombre": "Dimetilcarbonato",
+	"Descripción": "Sintetizado químicamente.",
+	"Función": "Conservante sintético",
+	"Efectos secundarios": "Efectos secundarios desconocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E249",
+	"Nombre": "Nitrito potásico",
+	"Descripción": "Mineral que está presente de forma natural. Puede ser extraído o producido químicamente a partir del nitrato de potasio.",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "Los nitritos son precursores de las (posiblemente carcinogénicas) nitrosaminas, las cuales se forman en el estómago a partir de los nitritos y las proteínas. A altas concentraciones pueden reaccionar con la hemoglobina. Su uso no está permitido en productos dirigidos a los niños menores de un año. Los niños pequeños tienen un tipo diferente de hemoglobina, la cual es mucho más reactiva hacia los nitratos que la hemoglobina normal.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E250",
+	"Nombre": "Nitrito sódico",
+	"Descripción": "Mineral que esta presente de forma natural. Puede ser extraído o producido químicamente a partir del nitrato de sodio.",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "Los nitritos son precursores de las (posiblemente carcinogénicas) nitrosaminas, las cuales se forman en el estómago a partir de los nitritos y las proteínas. A altas concentraciones pueden reaccionar con la hemoglobina. Su uso no está permitido en productos dirigidos a los niños menores de seis meses. Los niños pequeños tienen un tipo diferente de hemoglobina, la cual es mucho más reactiva hacia los nitratos que la hemoglobina normal.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E251",
+	"Nombre": "Nitrato sódico",
+	"Descripción": "Mineral que esta presente de forma natural. También se encuentra en casi todos los vegetales. (Salpetre de Chile, Salitre o Nitrato de Chile)",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "Los nitratos no poseen efectos colaterales conocidos; sin embargo, éstos pueden ser convertidos a nitritos (E250) ya sea debido al calentamiento o cuando éste se encuentra presente en el estómago.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E252",
+	"Nombre": "Nitrato potásico",
+	"Descripción": "Mineral de origen natural, presente en casi todos los vegetales.",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "Los nitratos no tienen efectos secundarios; sin embargo, cuando son calentados o durante su digestión en el estómago, pueden convertirse en nitritos (E250).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E260",
+	"Nombre": "Acido acético",
+	"Descripción": "Acido de origen natural, presente en la mayoría de las frutas. Es producido a través de una fermentación bacteriana, y por consiguiente, está presente en todos los productos fermentados. Comercialmente es elaborado por medio de la fermentación bacteriana del azúcar, las melazas o el alcohol, o por síntesis química del acetaldehído.",
+	"Función": "Acido natural, conservante",
+	"Efectos secundarios": "No produce efectos colaterales, ya que es un compuesto natural de todas las células corporales. Solamente debe ser evitado por aquellas personas que sufren de intolerancia al vinagre (casos muy raros).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E261",
+	"Nombre": "Acetato de potasio",
+	"Descripción": "Sal potásica del ácido acético, el cual es un ácido de origen natural, presente en la mayoría de las frutas. Este último es producido a través de una fermentación bacteriana, y por consiguiente, está presente en todos los productos fermentados. Además, es elaborado comercialmente por medio de la fermentación bacteriana del azúcar, las melazas o el alcohol, o por síntesis química del acetaldehído.",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "No produce efectos colaterales, ya que los acetatos son compuestos naturales de todas las células corporales. Solamente debe ser evitado por aquellas personas que sufren de intolerancia al vinagre (casos muy raros).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E262",
+	"Nombre": "Acetato de sodio",
+	"Descripción": "Sal sódica del ácido acético, el cual es un ácido de origen natural presente en la mayoría de las frutas. Este último es producido a través de una fermentación bacteriana, y por consiguiente, está presente en todos los productos fermentados. Además, es elaborado comercialmente por medio de la fermentación bacteriana del azúcar, las melazas o el alcohol, o por síntesis química del acetaldehído.",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "No produce efectos colaterales, ya que los acetatos son compuestos naturales de todas las células corporales. Solamente debe ser evitado por aquellas personas que sufren de intolerancia al vinagre (casos muy raros).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E263",
+	"Nombre": "Acetato de calcio",
+	"Descripción": "Sal sódica del ácido acético, el cual es un ácido de origen natural presente en la mayoría de las frutas. Este último es producido a través de una fermentación bacteriana, y por consiguiente, está presente en todos los productos fermentados. Además, es elaborado comercialmente por medio de la fermentación bacteriana del azúcar, las melazas o el alcohol, o por síntesis química del acetaldehído.",
+	"Función": "Sal natural, conservante",
+	"Efectos secundarios": "No produce efectos colaterales, ya que los acetatos son compuestos naturales de todas las células corporales. Solamente debe ser evitado por aquellas personas que sufren de intolerancia al vinagre (casos muy raros).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E270",
+	"Nombre": "Acido láctico",
+	"Descripción": "Acido de origen natural producido por las bacterias en los productos fermentados, los cuales son muy ricos en este compuesto. Comercialmente es elaborado a través de la fermentación bacteriana del almidón y las melazas. Así mismo, es producido en grandes cantidades en el intestino grueso, por la acción de la flora residente. El ácido láctico es un compuesto presente en todos los alimentos fermentados, producido por bacterias. A pesar de que el ácido láctico efectivamente se puede derivar del azúcar de la leche, se considera que a nivel comercial siempre se obtiene a partir de bacterias (pues el costo es mucho menor).",
+	"Función": "Acido natural",
+	"Efectos secundarios": "No se presentan efectos colaterales en adultos. Los lactatos de configuración tipo D- o DL- (estereoisómeros) no deben ser suministrados a los bebés o niños pequeños, debido a que no cuentan con las enzimas hepáticas apropiadas para metabolizar estas formas de lactato.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E280",
+	"Nombre": "Acido propiónico",
+	"Descripción": "Acido de origen natural presente en cantidades pequeñas en muchos alimentos. Algunas veces es hallado en altas concentraciones a consecuencia de la actividad de las bacterias en los alimentos fermentados. También es producido en grandes cantidades por las bacterias del intestino grueso, siendo además, un componente natural del sudor.",
+	"Función": "Acido natural",
+	"Efectos secundarios": "Sin efectos secundarios conocidos. El propionato es un ácido graso normal de cadena corta utilizado en muchas de las rutas metabólicas del cuerpo humano.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E281",
+	"Nombre": "Propionato sódico",
+	"Descripción": "Sal sódica del ácido propiónico, un ácido de origen natural presente en cantidades pequeñas en diversos alimentos; y encontrado algunas veces en concentraciones altas en los alimentos fermentados al ser producido por las bacterias. Es también producido en grandes cantidades por las bacterias del intestino grueso.",
+	"Función": "Sal natural",
+	"Efectos secundarios": "Sin efectos secundarios conocidos. El propionato es un ácido graso normal de cadena corta utilizado en muchas de las rutas metabólicas del cuerpo humano.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E282",
+	"Nombre": "Propionato cálcico",
+	"Descripción": "Sal cálcica del ácido propiónico, un ácido de origen natural presente en cantidades pequeñas en diversos alimentos; y encontrado algunas veces en concentraciones altas en los alimentos fermentados al ser producido por las bacterias. Es también producido en grandes cantidades por las bacterias del intestino grueso.",
+	"Función": "Sal natural",
+	"Efectos secundarios": "Sin efectos secundarios conocidos. El propionato es un ácido graso normal de cadena corta utilizado en muchas de las rutas metabólicas del cuerpo humano.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E283",
+	"Nombre": "Propionato potásico",
+	"Descripción": "Sal potásica del ácido propiónico, un ácido de origen natural presente en cantidades pequeñas en diversos alimentos; y encontrado algunas veces en concentraciones altas en los alimentos fermentados al ser producido por las bacterias. Es también producido en grandes cantidades por las bacterias del intestino grueso.",
+	"Función": "Sal natural",
+	"Efectos secundarios": "Sin efectos secundarios conocidos. El propionato es un ácido graso normal de cadena corta utilizado en muchas de las rutas metabólicas del cuerpo humano.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E284",
+	"Nombre": "Acido bórico",
+	"Descripción": "Acido de origen natural, pero es comercialmente producido a partir del boro.",
+	"Función": "Acido natural",
+	"Efectos secundarios": "No se conocen efectos secundarios producidos a partir del consumo de alimentos. En las preparaciones farmacológicas las concentraciones son mucho más elevadas, pudiendo causar severos efectos colaterales.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E285",
+	"Nombre": "Tetraborato sódico",
+	"Descripción": "Sal sódica del ácido bórico, un ácido de origen natural que comercialmente es producido a partir del boro.",
+	"Función": "Acido natural",
+	"Efectos secundarios": "No se conocen efectos secundarios producidos a partir del consumo de alimentos. Por otro lado, en las preparaciones farmacológicas las concentraciones son mucho más elevadas, pudiendo causar severos efectos colaterales.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E290",
+	"Nombre": "Dióxido de carbono",
+	"Descripción": "Gas natural. Forma parte del aire y es producido por el metabolismo del cuerpo.",
+	"Función": "Gas natural",
+	"Efectos secundarios": "No se conocen efectos secundarios producidos a partir del consumo de alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E296",
+	"Nombre": "Acido málico",
+	"Descripción": "El ácido málico es un ácido de origen natural presente en la mayoría de frutas y muchos vegetales; y forma parte de las vías metabólicas de cada una de las células vivas. Comercialmente se obtiene por síntesis química.",
+	"Función": "Acido",
+	"Efectos secundarios": "No se conocen efectos secundarios. No se permite altas concentraciones en los alimentos destinados a los niños, ya que ellos carecen de la capacidad de metabolizar grandes cantidades de ácido málico.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E297",
+	"Nombre": "Acido fumárico",
+	"Descripción": "El ácido fumárico es un ácido de origen natural presente en muchas frutas y vegetales. Comercialmente se obtiene por síntesis química o a través de la fermentación del azúcar con hongos. Forma parte de las rutas metabólicas de todas las células vivas.",
+	"Función": "Acido natural",
+	"Efectos secundarios": "No se conocen efectos secundarios.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E300",
+	"Nombre": "L- ácido ascórbico",
+	"Descripción": "Acido, presente de forma natural en la mayoría de frutas y vegetales. Comercialmente es obtenido a través de la fermentación bacteriana de la glucosa, seguido por una oxidación química.",
+	"Función": "Antioxidante natural, vitamina C",
+	"Efectos secundarios": "No se conocen efectos colaterales en las concentraciones utilizadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E301",
+	"Nombre": "L- ascorbato sódico",
+	"Descripción": "Ascorbina, ascorbato de sodio. La sal sódica del ácido ascórbico (vitamina C, un ácido natural) se presenta de forma natural en la mayoría de las frutas y los vegetales. Comercialmente es sintetizada a través de la fermentación bacteriana de la glucosa, seguida por una oxidación química.",
+	"Función": "Antioxidante natural, vitamina C",
+	"Efectos secundarios": "No se conocen efectos colaterales en las concentraciones utilizadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E302",
+	"Nombre": "L – ascorbato cálcico",
+	"Descripción": "La sal cálcica del ácido ascórbico (vitamina C, un ácido natural) se encuentra de forma natural en la mayoría de frutas y vegetales. Comercialmente es producida a través de la fermentación bacteriana de la glucosa, seguida por una oxidación química.",
+	"Función": "Antioxidante natural, vitamina C",
+	"Efectos secundarios": "No se conocen efectos colaterales en las concentraciones utilizadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E304",
+	"Nombre": "L – palmitato de ascorbilo",
+	"Descripción": "Es la combinación del ácido graso palmítico con el ácido ascórbico (vitamina C, un ácido natural), que se encuentra de forma natural en la mayoría de frutas y vegetales. El ácido palmítico es producido a partir de la grasa (que puede ser tanto de vegetal como animal) (para el ascorbato ver E300). Existe la posibilidad de que el ácido palmítico utilizado sea obtenido a partir de grasa animal, a pesar de que la principal fuente es la grasa vegetal. El uso de la grasa animal puede no estar reglamentada completamente.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "No se conocen efectos colaterales en las concentraciones utilizadas.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E306",
+	"Nombre": "Extractos de tocoferoles",
+	"Descripción": "Extraído de los aceites vegetales ricos en tocoferoles (vitamina E).",
+	"Función": "Antioxidante natural, vitamina E",
+	"Efectos secundarios": "La vitamina E puede causar diversos efectos colaterales cuando es utilizada en altas concentraciones. Estos efectos no están asociados en sí al uso de los tocoferoles como aditivos, sino a su uso como suplementos vitamínicos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E307",
+	"Nombre": "alfa- Tocoferol",
+	"Descripción": "Extraído de los aceites vegetales ricos en tocoferoles (vitamina E), especialmente del aceite de girasol. También puede ser obtenido por síntesis química. E307a D-a-tocoferol, E307b Mezcla de tocoferol concentrado.",
+	"Función": "Antioxidante sintético, vitamina E",
+	"Efectos secundarios": "La vitamina E puede producir diversos efectos colaterales cuando es consumida en altas concentraciones. Dichos efectos no están asociados al uso de los tocoferoles como aditivos en sí, sino a su uso como suplementos vitamínicos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E308",
+	"Nombre": "gamma-Tocoferol",
+	"Descripción": "El gama-tocoferol es extraído a partir de los aceites vegetales ricos en tocoferoles (vitamina E), especialmente del aceite de la semilla de soja. También puede ser obtenido por síntesis química.",
+	"Función": "Antioxidante sintético, vitamina E",
+	"Efectos secundarios": "La vitamina E puede producir diversos efectos colaterales cuando es consumida en altas concentraciones. Dichos efectos no están asociados al uso de los tocoferoles como aditivos en sí, sino a su uso como suplementos vitamínicos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E309",
+	"Nombre": "delta- Tocoferol",
+	"Descripción": "El d - tocoferol, es extraído a partir de los aceites vegetales ricos en tocoferoles (vitamina E), especialmente del aceite de la semilla de soja. También puede ser obtenido por síntesis química.",
+	"Función": "Antioxidante sintético, vitamina E",
+	"Efectos secundarios": "La vitamina E puede producir diversos efectos colaterales cuando es consumida en altas concentraciones. Dichos efectos no están asociados al uso de los tocoferoles como aditivos en sí, sino a su uso como suplementos vitamínicos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E310",
+	"Nombre": "Galato de propilo",
+	"Descripción": "Sintetizado a partir del propanol y del ácido gálico, el cual es producido a partir de los taninos de las plantas.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Es degradado en el intestino produciendo propanol y ácido gálico. Este último puede causar eczema, problemas estomacales e hiperactividad.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E311",
+	"Nombre": "Galato de octilo",
+	"Descripción": "Sintetizado a partir octanol y del ácido gálico, el cual es producido a partir de los taninos de las plantas.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Es degradado en el intestino produciendo octanol y ácido gálico. Este último puede causar eczema, problemas estomacales e hiperactividad.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E312",
+	"Nombre": "Galato de dodecilo",
+	"Descripción": "Sintetizado a partir del alcohol laúrico y del ácido gálico, el cual es producido a partir de los taninos de las plantas. No obstante, existe la posibilidad de que el ácido laúrico utilizado para la producción del alcohol laúrico sea obtenido de grasas animales, a pesar de ser las grasas vegetales la principal fuente. El uso de las grasas animales no pueden ser descartadas por completo.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Es degradado en el intestino produciendo alcohol laúrico y ácido gálico. Este último puede causar eczema, problemas estomacales e hiperactividad.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E313",
+	"Nombre": "Ácido tiodipropionico",
+	"Descripción": "Antioxidante sintético.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Ninguno conocido en las concentraciones utilizadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E314",
+	"Nombre": "Goma guayaco",
+	"Descripción": "Resina natural del árbol Guajacum officinale y de otros árboles tropicales relacionados.",
+	"Función": "Antioxidante natural",
+	"Efectos secundarios": "Ninguno conocido en las concentraciones usadas aunque se han reportado algunas alergias.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E315",
+	"Nombre": "Ácido eritorbico",
+	"Descripción": "Isómero sintético de la vitamina C, pero que posee sólo 1/20 de su actividad. Acido iso-ascórbico, iso-vitamina C.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Ninguno conocido en las concentraciones utilizadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E316",
+	"Nombre": "Eritorbato sódico",
+	"Descripción": "Sal sódica del ácido eritórbico, un isómero sintético de la vitamina C (que sólo posee 1/20 de la actividad de dicha vitamina). Isoascorbato de sodio.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Ninguno conocido en las concentraciones utilizadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E319",
+	"Nombre": "Butilhidroquinona",
+	"Descripción": "Antioxidante sintético. THBQ.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Ninguno conocido en las concentraciones utilizadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E320",
+	"Nombre": "Butilhidroxianisol",
+	"Descripción": "Antioxidante sintético. BHA.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Ninguno conocido en las concentraciones utilizadas, a pesar de que se han reportado algunas reacciones pseudo-alérgicas. La combinación de BHA con altas concentraciones de vitamina C puede producir radicales libres, los cuales pueden causar daño a los componentes celulares, incluído el ADN. Esto ha impulsado a la UE a restringir el uso de BHA en un futuro próximo.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E321",
+	"Nombre": "Butilhidroxitolueno",
+	"Descripción": "Antioxidante sintético BHT.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "A altas concentraciones puede causar daños al hígado; así como también se han reportado algunos síntomas (pseudo-) alérgicos. En algunas personas con isómeros hereditarios de una enzima hepática específica puede causar migraña. Debido a estos efectos, la UE ha restringido su uso, por lo que el número de productos que lo contienen disminuirá en los próximos años.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E322",
+	"Nombre": "Lecitina",
+	"Descripción": "El término lecitina se refiere a un grupo de compuestos encontrados en todos los organismos vivos, ya que forman parte de las paredes celulares de todas las células. La lecitina es comercialmente aislada (principalmente) a partir de los granos de soja o de la yema de huevo. La composición química de estos dos productos (fuentes) es bastante diferente, lo cual determina sus posteriores aplicaciones.",
+	"Función": "Emulsificante natural",
+	"Efectos secundarios": "La lecitina es un componente normal de las células corporales, y es degradada y utilizada por nuestro organismo sin causar efectos colaterales. Se recomienda usar con precaución en edades tempranas. Se utiliza en medicina para tratar la demencia senil.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E325",
+	"Nombre": "Lactato sódico",
+	"Descripción": "Sal sódica del ácido láctico (E270), el cual es un ácido natural producido por las bacterias en los alimentos fermentados, los cuales son ricos en este componente. Es producido comercialmente a través de la fermentación bacteriana del almidón y las melazas. Así mismo, se produce en grandes cantidades en el intestino grueso por la actividad de las bacterias residentes.",
+	"Función": "Conservante y estabilizante",
+	"Efectos secundarios": "No presenta efectos colaterales en los adultos. Los lactatos de configuración D- o DL (estereoisómeros) no deben ser suministrados a los bebés ni a los niños pequeños debido a que ellos no cuentan aún con las enzimas hepáticas apropiadas para metabolizar estas formas de lactato.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E326",
+	"Nombre": "Lactato potásico",
+	"Descripción": "Sal de potasio del ácido láctico (E270), el cual es un ácido natural producido por las bacterias en los alimentos fermentados, los cuales son ricos en este componente. Es producido comercialmente a través de la fermentación bacteriana del almidón y las melazas. Así mismo, se produce en grandes cantidades en el intestino grueso por la actividad de las bacterias residentes.",
+	"Función": "Conservante y estabilizante",
+	"Efectos secundarios": "No presenta efectos colaterales en los adultos. Los lactatos de configuración D- o DL (estereoisómeros) no deben ser suministrados a los bebés ni a los niños pequeños debido a que ellos no cuentan aún con las enzimas hepáticas apropiadas para metabolizar estas formas de lactato.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E327",
+	"Nombre": "Lactato cálcico",
+	"Descripción": "Sal de potasio del ácido láctico (E270), el cual es un ácido natural producido por las bacterias en los alimentos fermentados, los cuales son ricos en este componente. Es producido comercialmente a través de la fermentación bacteriana del almidón y las melazas. Así mismo, se produce en grandes cantidades en el intestino grueso por la actividad de las bacterias residentes.",
+	"Función": "Conservante, antioxidante y estabilizante",
+	"Efectos secundarios": "No presenta efectos colaterales en los adultos. Los lactatos de configuración D- o DL (estereoisómeros) no deben ser suministrados a los bebés ni a los niños pequeños debido a que ellos no cuentan aún con las enzimas hepáticas apropiadas para metabolizar estas formas de lactato.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E330",
+	"Nombre": "Ácido cítrico",
+	"Descripción": "El ácido cítrico es un compuesto encontrado en todos los organismos vivos debido a que forma parte de las principales rutas metabólicas de todas las células corporales. Así mismo, se halla en grandes concentraciones en las frutas cítricas, el kiwi, las fresas, entre otras. Comercialmente, es obtenido a través de la fermentación de las melazas con el hongo Aspergillus niger.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Se han reportado ciertas reacciones pseudoalérgicas (intolerancia), pero han sido escasas. En dosis altas puede producir irritaciones localizadas y pérdida de esmalte dental.  El ácido cítrico no produce reacciones alérgicas en aquellas personas normalmente afectadas por el consumo de naranjas y otros cítricos, debido a que comercialmente es obtenido a partir del azúcar y no de las frutas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E331",
+	"Nombre": "Citratos de sodio",
+	"Descripción": "Los citratos de sodio son las sales sódicas del ácido cítrico, un compuesto que se encuentra en todos los seres vivos, ya que forma parte de las principales rutas metabólicas que se llevan a cabo en todas las células corporales. Además está presente en altas concentraciones en las frutas cítricas, el kiwi, las fresas y otras. Comercialmente es preparado a través de la fermentación de las melazas utilizando el moho Aspergillus niger. E331 (i) Citrato monosódico, E331 (ii) Citrato disódico,  E331 (iii) Citrato trisódico.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Se han reportado ciertas reacciones pseudoalérgicas (intolerancia), pero han sido escasas. En dosis altas puede producir irritaciones localizadas y pérdida de esmalte dental.  El ácido cítrico no produce reacciones alérgicas en aquellas personas normalmente afectadas por el consumo de naranjas y otros cítricos, debido a que comercialmente es obtenido a partir del azúcar y no de las frutas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E332",
+	"Nombre": "Citratos de potasio",
+	"Descripción": "Los citratos de potasio son las sales de potasio del ácido cítrico, un compuesto que está presente en todos los seres vivos, ya que forma parte de las principales rutas metabólicas que se llevan a cabo en las células corporales. Además, también se halla presente en altas concentraciones en los cítricos, el kiwi, las fresas y en otras frutas. Es preparado comercialmente a través de la fermentación de melazas utilizando el moho Aspergillus niger. E332 (i) Citrato monopotásico, E332 (ii) Citrato tripotásico.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Se han reportado ciertas reacciones pseudoalérgicas (intolerancia), pero han sido escasas. En dosis altas puede producir irritaciones localizadas y pérdida de esmalte dental.  El ácido cítrico no produce reacciones alérgicas en aquellas personas normalmente afectadas por el consumo de naranjas y otros cítricos, debido a que comercialmente es obtenido a partir del azúcar y no de las frutas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E333",
+	"Nombre": "Citratos de Mono, di, y Tri-cálcico",
+	"Descripción": "Los citratos de calcio son las sales de calcio del ácido cítrico, un compuesto que está presente en todos los seres vivos, ya que forman parte de las principales rutas metabólicas que se llevan a cabo en las células corporales. Además, también se halla presente en altas concentraciones en los cítricos, el kiwi, las fresas y en otras frutas. Es preparado comercialmente a través de la fermentación de melazas utilizando el moho Aspergillus niger. E333 (i) Citrato monocálcico, E333 (ii) Citrato dicálcico,  E333 (iii) Citrato tricálcico.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Se han reportado ciertas reacciones pseudoalérgicas (intolerancia), pero han sido escasas. En dosis altas puede producir irritaciones localizadas y pérdida de esmalte dental.  El ácido cítrico no produce reacciones alérgicas en aquellas personas normalmente afectadas por el consumo de naranjas y otros cítricos, debido a que comercialmente es obtenido a partir del azúcar y no de las frutas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E334",
+	"Nombre": "Ácido L-(+)- tartárico",
+	"Descripción": "Acido de origen natural presente en muchas frutas, especialmente en las uvas. Es preparado comercialmente a partir de los desechos de la industria del vino (cáscara de las uvas).",
+	"Función": "Ácido natural",
+	"Efectos secundarios": "No es metabolizado en el organismo; por lo que es excretado a través de la orina sin ocasionar efectos colaterales.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E335",
+	"Nombre": "Tartratos L-(+) mono/di sódico",
+	"Descripción": "Los tartratos de sodio son las sales sódicas del ácido tartárico, un ácido de origen natural presente en varias frutas, especialmente en las uvas. Comercialmente es preparado a partir de los desechos de la industria vinícola (cáscara de las uvas). E335 (i) Tartrato monosódico, E335 (ii) Tartrato disódico",
+	"Función": "Sal de ácido tartárico",
+	"Efectos secundarios": "No es metabolizado en el organismo; por lo que es excretado a través de la orina sin ocasionar efectos colaterales.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E336",
+	"Nombre": "Tartratos L-(+) mono potásico",
+	"Descripción": "Los tartratos de potasio son las sales potásicas del ácido tartárico, un ácido de origen natural presente en varias frutas, especialmente en las uvas. Comercialmente es preparado a partir de los desechos de la industria vinícola (cáscara de las uvas). E336 (i) Tartrato monopotásico, E336 (ii) Tartrato dipotásico",
+	"Función": "Sal de ácido tartárico",
+	"Efectos secundarios": "No es metabolizado en el organismo; por lo que es excretado a través de la orina sin ocasionar efectos colaterales.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E337",
+	"Nombre": "Tartrato L-(+) doble de sodio y potasio",
+	"Descripción": "El tartrato potásico de sodio es la sal potásica y sódica del ácido tartárico, un ácido de origen natural presente en varias frutas, especialmente en las uvas. Comercialmente es preparado a partir de los desechos de la industria del vino (cáscara de las uvas).",
+	"Función": "Sal de ácido tartárico",
+	"Efectos secundarios": "No es metabolizado en el organismo; por lo que es excretado a través de la orina sin ocasionar efectos colaterales.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E338",
+	"Nombre": "Ácido fosfórico",
+	"Descripción": "Es un constituyente común de varias frutas y vegetales. En Estados Unidos es producido comercialmente a partir del fosfato extraído de las minas",
+	"Función": "Regulador",
+	"Efectos secundarios": "Los fosfatos son sales esenciales para el funcionamiento del organismo. Con la finalidad de evitar la deficiencia de calcio, su uso está limitado, ya que se une a éste (secuestrante de minerales) rápidamente disminuyendo su disponibilidad. No tiene efectos colaterales conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E339",
+	"Nombre": "Ortofosfatos de sodio",
+	"Descripción": "Los fosfatos de sodio son las sales de sodio del ácido fosfórico, el cual es un constituyente común del cuerpo. Comercialmente es producido a partir del ácido fosfórico el cual es obtenido en los Estados Unidos a partir del fosfato extraído de las minas. E339 (i) Fosfato monosódico diácido, E339 (ii) Fosfato disódico ácido, E339 (iii) Fosfato trisódico.",
+	"Función": "Regulador",
+	"Efectos secundarios": "Los fosfatos son sales esenciales para el funcionamiento del organismo. Con la finalidad de evitar la deficiencia de calcio, su uso está limitado, ya que se une a éste (secuestrante de minerales) rápidamente disminuyendo su disponibilidad. No tiene efectos colaterales conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E340",
+	"Nombre": "Ortofosfatos de potasio",
+	"Descripción": "Sales potásicas del ácido fosfórico, el cual es un constituyente normal del cuerpo. Son comercialmente producidos a partir del ácido fosfórico, el cual se obtiene del fosfato extraído de las minas en Estados Unidos. E340 (i) Fosfato diácido monopotásico, E340 (ii) Fosfato ácido dipotásico, E340 (iii) Fosfato tripotásico.",
+	"Función": "Regulador",
+	"Efectos secundarios": "Los fosfatos son sales esenciales para el funcionamiento del organismo. Con la finalidad de evitar la deficiencia de calcio, su uso está limitado, ya que se une a éste (secuestrante de minerales) rápidamente disminuyendo su disponibilidad. No tiene efectos colaterales conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E341",
+	"Nombre": "Ortofosfatos de calcio",
+	"Descripción": "Sales cálcicas del ácido fosfórico, el cual es un constituyente normal del cuerpo. Son comercialmente producidos a partir del ácido fosfórico, el cual se obtiene del fosfato extraído en las minas de Estados Unidos. E341 (i) Fosfato diácido de calcio, E341 (ii) Fosfato ácido de calcio, E341 (iii) Fosfato tricálcico",
+	"Función": "Regulador",
+	"Efectos secundarios": "Los fosfatos son sales esenciales para el funcionamiento del organismo. Con la finalidad de evitar la deficiencia de calcio, su uso está limitado, ya que se une a éste (secuestrante de minerales) rápidamente disminuyendo su disponibilidad. No tiene efectos colaterales conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E343",
+	"Nombre": "Ortofosfatos de magnesio",
+	"Descripción": "Sales de magnesio del ácido fosfórico, el cual es un constituyente normal del cuerpo. Comercialmente son producidos a partir del ácido fosfórico, el cual se obtiene del fosfato extraído de las minas en Estados Unidos. 343 (i) Fosfato diácido de magnesio, 343 (ii) Fosfato ácido de magnesio, 343 (iii) Fosfato trimagnésico.",
+	"Función": "Regulador",
+	"Efectos secundarios": "Los fosfatos son sales esenciales para el funcionamiento del organismo. Con la finalidad de evitar la deficiencia de calcio, su uso está limitado, ya que se une a éste (secuestrante de minerales) rápidamente disminuyendo su disponibilidad. No tiene efectos colaterales conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E350",
+	"Nombre": "Malato sódico",
+	"Descripción": "Sales de sodio del ácido málico (E296), un ácido natural presente en las frutas.",
+	"Función": "Sal de sodio de ácido málico",
+	"Efectos secundarios": "Ingesta máxima limitada, pero los isómeros de configuración tipo D,L- y D no están permitidos en los alimentos para bebés, ya que ellos carecen de las enzimas necesarias para metabolizar estos compuestos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E351",
+	"Nombre": "Malato de potasio",
+	"Descripción": "Sales de potasio del ácido málico (E296), un ácido natural presente en las frutas.",
+	"Función": "Sal de potasio de ácido málico",
+	"Efectos secundarios": "Ingesta máxima limitada, pero los isómeros de configuración tipo D,L- y D no están permitidos en los alimentos para bebés, ya que ellos carecen de las enzimas necesarias para metabolizar estos compuestos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E352",
+	"Nombre": "Malato de calcio",
+	"Descripción": "Sales de calcio del ácido málico (E296), un ácido natural presente en las frutas.",
+	"Función": "Sal de calcio de ácido málico",
+	"Efectos secundarios": "Ingesta máxima limitada, pero los isómeros de configuración tipo D,L- y D no están permitidos en los alimentos para bebés, ya que ellos carecen de las enzimas necesarias para metabolizar estos compuestos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E353",
+	"Nombre": "Ácido metatartárico",
+	"Descripción": "Acido presente en la caña de azúcar y en aquellos productos derivados a partir de la glucosa.",
+	"Función": "Ácido natural",
+	"Efectos secundarios": "Efectos secundarios desconocidos. Es metabolizado por el organismo hasta convertirlo en ácido tartárico.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E354",
+	"Nombre": "Tartrato cálcico",
+	"Descripción": "Sal de calcio del ácido tartárico, un ácido natural presente en las frutas.",
+	"Función": "Preservante natural",
+	"Efectos secundarios": "Efectos secundarios desconocidos. Es metabolizado por el organismo hasta convertirlo en ácido tartárico.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E355",
+	"Nombre": "Acido ad ípico",
+	"Descripción": "Acido de origen natural presente en la remolacha y en la caña de azúcar (jugo). También ácido adipínico.",
+	"Función": "Ácido natural",
+	"Efectos secundarios": "Efectos secundarios desconocidos. Es metabolizado en el organismo o excretado por la orina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E356",
+	"Nombre": "Adipato sódico",
+	"Descripción": "Sal de sodio del ácido adípico, un ácido de origen natural presente en la remolacha y en la caña de azúcar (jugo).",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Efectos secundarios desconocidos. Es metabolizado en el organismo o excretado por la orina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E357",
+	"Nombre": "Adipato potásico",
+	"Descripción": "Sal de potasio del ácido adípico, un ácido de origen natural presente en la remolacha y en la caña de azúcar (jugo).",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Efectos secundarios desconocidos. Es metabolizado en el organismo o excretado por la orina.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E363",
+	"Nombre": "Ácido succínico",
+	"Descripción": "Acido de origen natural, presente en la mayoría de frutas y vegetales. Es sintetizado comercialmente a partir del ácido acético.",
+	"Función": "Ácido natural",
+	"Efectos secundarios": "Ningun efecto secundario conocido, es metabolizado por el organismo (es un componente común de todas las células corporales).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E365",
+	"Nombre": "Fumarato de sodio",
+	"Descripción": "El fumarato de sodio es la sal de sodio del ácido fumárico (E297), el cual es un ácido de origen natural.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Ningun efecto secundario conocido, es metabolizado por el organismo (es un componente común de todas las células corporales).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E370",
+	"Nombre": "1,4-Heptonolactona",
+	"Descripción": "Producto sintético, preparado a partir del ácido hidroxiheptanoico.",
+	"Función": "Ácido sintético",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E375",
+	"Nombre": "Ácido nicotínico",
+	"Descripción": "Compuesto de origen natural, presente en muchos productos. Comercialmente es preparado a partir de la nicotina.",
+	"Función": "Vitamina B, protector de color",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E380",
+	"Nombre": "Citrato triamónico",
+	"Descripción": "Sal amoniacal del ácido cítrico (E330). E380(i) Citrato de Amonio, E380(ii) Citrato triamónico.",
+	"Función": "Sal sintética de ácido cítrico",
+	"Efectos secundarios": "Efectos secundarios desconocidos; el ácido cítrico es un compuesto común de todas las células corporales.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E381",
+	"Nombre": "Citrato férrico de amonio",
+	"Descripción": "Mezcla compleja de amonio, hierro y ácido cítrico (E330). 381(i) Citrato férrico de amonio (marrón), 381 (ii) Citrato férrico de amonio (verde). El hierro comúnmente utilizado no es de origen animal.",
+	"Función": "Sal sintética de ácido cítrico",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E385",
+	"Nombre": "Etilen diamino de calcio y sodio",
+	"Descripción": "De origen sintético.",
+	"Función": "Secuestrante, substancia quelante",
+	"Efectos secundarios": "La exposición prolongada a altas dosis puede provocar la reducción de los minerales presentes en el cuerpo (hierro).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E386",
+	"Nombre": "EDTA: Etilen diamino tetracetato disódico",
+	"Descripción": "De origen sintético.",
+	"Función": "Estabilizador sintético",
+	"Efectos secundarios": "La exposición prolongada a altas dosis puede provocar la reducción de los minerales presentes en el cuerpo (hierro).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E387",
+	"Nombre": "Oxiestearina",
+	"Descripción": "Mezcla de glicéridos del ácido esteárico y otros ácidos grasos. A pesar que comercialmente (casi siempre) es obtenida a partir de los aceites vegetales, los ácidos grasos de origen animal no pueden excluirse.",
+	"Función": "Estabilizador",
+	"Efectos secundarios": "Se desconocen efectos secundarios.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E388",
+	"Nombre": "Ácido tiodipropionico",
+	"Descripción": "De origen sintético.",
+	"Función": "Antioxidante sintético",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E400",
+	"Nombre": "Ácido algínico",
+	"Descripción": "Es un polisacárido de origen natural, producido por diversas algas marinas de la familia Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum) en los Estados Unidos y el Reino Unido.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Ninguno conocido en las concentraciones utilizadas. Altas concentraciones conllevan a alteraciones en la absorción del hierro, ya que este mineral es secuestrado.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E401",
+	"Nombre": "Alginato sódico",
+	"Descripción": "Sal sódica del ácido algínico (E400), un polisacárido de origen natural, producido por diferentes algas de la familia Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum) en Estados Unidos y el Reino Unido.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones conllevan a la discapacidad para la asimilación de hierro, debido a que este mineral se halla enlazado, no siendo disponible.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E402",
+	"Nombre": "Alginato potásico",
+	"Descripción": "Sal potásica del ácido algínico (E400), un polisacárido de origen natural, producido por diferentes algas de la familia Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum) en Estados Unidos y el Reino Unido.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "No se conocen efectos colaterales para las concentraciones usadas en los alimentos. Las altas concentraciones conllevan a la discapacidad para la asimilación de hierro, debido a que este mineral se halla enlazado, no siendo disponible.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E403",
+	"Nombre": "Alginato amónico",
+	"Descripción": "Sal amoniacal del ácido algínico (E400), un polisacárido de origen natural, producido por diferentes algas de la familia Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum) en Estados Unidos y el Reino Unido.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "No se conocen efectos colaterales para las concentraciones usadas en los alimentos. Las altas concentraciones conllevan a la discapacidad para la asimilación de hierro, debido a que este mineral se halla enlazado, no siendo disponible.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E404",
+	"Nombre": "Alginato cálcico (algin)",
+	"Descripción": "Sal cálcica del ácido algínico (E400), un polisacárido de origen natural, producido por diferentes algas de la familia Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum) en Estados Unidos y el Reino Unido.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "No se conocen efectos colaterales para las concentraciones usadas en los alimentos. Las altas concentraciones conllevan a la discapacidad para la asimilación de hierro, debido a que este mineral se halla enlazado, no siendo disponible.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E405",
+	"Nombre": "Alginato de propano-1,2-diol",
+	"Descripción": "Ester propilenglicol del ácido algínico (E400), un polisacárido de origen natural, producido por diferentes algas de la familia Phaeophyceae (Macrocystis pyrifera, Laminaria digitata, L. cloustoni, Ascophyllum nodosum) en Estados Unidos y el Reino Unido.",
+	"Función": "Derivado del ácido algínico",
+	"Efectos secundarios": "Algunas personas presentan reacciones adversas frente a altas concentraciones de propilenglicol.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E406",
+	"Nombre": "Agar",
+	"Descripción": "Polisacárido de origen natural, producido por diversas algas marinas de la familia Rhodophyceae (Gelidium amansii, G. cartilagineum) en Estados Unidos y Japón.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E407",
+	"Nombre": "Carragenato (Irish Moss)",
+	"Descripción": "Polisacárido de origen natural, producido por diversas algas (Chrondrus crispus , Gigartina stellata , Euchema spinosum, E. cottonii ) en Europa, Asia y América. Es una mezcla compleja de polisacáridos. El E407a presenta una composición ligeramente diferente; y además, contiene una cantidad considerable de celulosa.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles). Los carragenanos de cadena corta pueden producir daños intestinales por lo que su uso no está permitido en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E408",
+	"Nombre": "Furcelleran",
+	"Descripción": "Polisacárido de origen natural, producido a partir de las algas marinas (Furcellaria fastigata ) en Dinamarca. Algunas veces es considerado dentro del grupo del aditivo E407 debido a que ambos poseen estructuras químicas similares.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E410",
+	"Nombre": "Goma de algarrobo",
+	"Descripción": "Polisacárido de origen natural, producido a partir del árbol de algarrobo (Ceratonia siliqua ) encontrado mayormente en la región del Mediterráneo. Goma garrofín, goma de semillas de algarrobo",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E411",
+	"Nombre": "Goma de avena",
+	"Descripción": "Polisacárido natural producido a partir de avena.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Altas concentraciones producen flatulencia e hinchazón, debido a la fermentación en la microflora intestinal (de la misma manera que todos los polisacáridos no digestibles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E412",
+	"Nombre": "Goma guar",
+	"Descripción": "Polisacárido de origen natural, producido a partir del arbusto de guar (Cyamopsis tetragonolobus ) encontrado en Pakistán y la India.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E413",
+	"Nombre": "Tragacanto",
+	"Descripción": "Polisacárido de origen natural, producido a partir del árbol Astralagus gummifer encontrado en Irán, Siria y Turquía.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E414",
+	"Nombre": "Goma arábica",
+	"Descripción": "Polisacárido de origen natural, producido a partir del árbol Acacia senegal encontrado en las zonas tropicales de Africa.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E415",
+	"Nombre": "Goma xantana",
+	"Descripción": "Polisacárido de origen natural, producido por la bacteria Xanthomonas campestris a partir del azúcar y las melazas.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E416",
+	"Nombre": "Goma karaya",
+	"Descripción": "Polisacárido de origen natural, obtenido a partir del árbol Sterculia urens encontrado en la India, así como de algunos árboles relacionados.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles). Posee propiedades laxantes.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E417",
+	"Nombre": "Goma Tara",
+	"Descripción": "Polisacárido de origen natural, obtenido a partir del árbol Cesalpinia spinosa encontrado en la América del Sur, pero también cultivado en la región mediterránea.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles). Posee propiedades laxantes.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E418",
+	"Nombre": "Goma gellan",
+	"Descripción": "Polisacárido de origen natural, producido por la bacteria Pseudomonas elodea a partir del almidón.",
+	"Función": "Espesante natural",
+	"Efectos secundarios": "Las altas concentraciones producen flatulencias y acumulación de gases, debido a la fermentación realizada por la flora intestinal (así como ocurre con todos los polisacáridos no digeribles).",
+	"Origen": "Vegano"
+}, {
+	"Número": "E420",
+	"Nombre": "Sorbitol",
+	"Descripción": "Es un carbohidrato del alcohol, y se encuentra presente en varias bayas y frutas, e.g., manzanas, ciruelas, cerezas y uvas. Es comercialmente producido a partir de la glucosa (dextrosa). E420 (i) Sorbitol, E420 (ii) Jarabe de sorbitol",
+	"Función": "Estabilizante, edulcorante de bajas calorías, agente aumentador de volumen",
+	"Efectos secundarios": "El sorbitol es en parte absorbido y metabolizado por el cuerpo como fructuosa; l a fracción restante es fermentada en el intestino grueso. Durante la fermentación, se producen gases los cuales pueden causar hinchazón y flatulencia. En las personas que no lo toleran este producto puede actuar como laxante. Normalmente no presenta efectos en las concentraciones usadas; sin embargo, algunas personas que no lo toleran presentan formación de gases al consumirse una cantidad tan baja como 5 gramos. Los efectos colaterales normalmente ocurren después de una ingesta de 25 a 30 gramos en una simple dosis, la cual está muy por encima de su uso normal en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E421",
+	"Nombre": "Manitol",
+	"Descripción": "Es un carbohidrato del alcohol, presente en varias plantas, como por ejemplo las coníferas, las algas marinas y los hongos. Es comercialmente producido a partir de la glucosa (dextrosa).",
+	"Función": "Antiaglomerante, edulcorante de bajas calorías, agente hinchador.",
+	"Efectos secundarios": "El manitol es en su mayoria es absorbido y metabolizado por el cuerpo como glucosa. La fracción restante es fermentada en el intestino grueso. Durante este proceso de fermentación, se producen gases los que pueden causar hinchazón y flatulencia. En las personas que no lo toleran este producto puede actuar como laxante. Los efectos colaterales normalmente ocurren después ingerir en una simple dosis de 25 a 30 gramos, el cual está muy por encima de su uso normal en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E422",
+	"Nombre": "Glicerol",
+	"Descripción": "Es un tipo de alcohol-azúcar de origen natural que forma parte de todas las grasas. También se encuentra presente en la sangre en pequeñas concentraciones. Se produce comercial o sinteticamente ya sea a partir del propano o mediante la fermentación bacteriana de azúcares. No es producido a partir de las grasas, aunque puede ser obtenido como subproducto de la industria del jabón, en cuyo caso, podrían haber utilizado grasa animal, lo cual sería casi imposible de comprobar.",
+	"Función": "Edulcorante bajo en calorías, humectante",
+	"Efectos secundarios": "El glicerol es absorbido y metabolizado (por el cuerpo) del mismo modo que la glucosa hasta convertirse en grasas.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E430",
+	"Nombre": "Estearato de (8) polioxietileno",
+	"Descripción": "Es un compuesto sintético, producido a partir del óxido de etileno (un compuesto sintético) y del ácido esteárico (un ácido graso natural). Estos compuestos (430 – E436) contienen ácidos grasos, los cuales casi siempre provienen de aceites vegetales. Sin embargo, el uso de grasas animales no puede excluirse totalmente. Químicamente, no se puede determinar el origen de estos compuestos, y solamente la empresa productora puede proveer dicha informacion.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Las personas intolerantes al glicol de propileno (propilenglicol) también deben evitar el grupo 430 – E436.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E431",
+	"Nombre": "Estearato de polioxietileno",
+	"Descripción": "El E431 es un compuesto sintético, producido a partir del óxido de etileno (un compuesto sintético) y del ácido esteárico (un ácido graso natural). Estos compuestos (430 – E436) contienen ácidos grasos, los cuales casi siempre provienen de aceites vegetales. Sin embargo, el uso de grasas animales no puede excluirse totalmente. Químicamente, no se puede determinar el origen de estos compuestos, y solamente la empresa productora puede proveer dicha informacion.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Las personas intolerantes al glicol de propileno (propilenglicol) también deben evitar el grupo 430 – E436.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E432",
+	"Nombre": "Sorbinato de (20) polioxietileno, Polisorbato 20",
+	"Descripción": "El E432 es un compuesto sintético, producido a partir del óxido de etileno (un compuesto sintético), conjuntamente con el sorbitol (ver E420) y el ácido laúrico (un ácido graso natural). Estos compuestos (430 – E436) contienen ácidos grasos, los cuales casi siempre provienen de aceites vegetales. Sin embargo, el uso de grasas animales no puede excluirse totalmente. Químicamente, no se puede determinar el origen de estos compuestos, y solamente la empresa productora puede proveer dicha informacion.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Las personas intolerantes al glicol de propileno (propilenglicol) también deben evitar el grupo 430 – E436.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E433",
+	"Nombre": "Polisorbato 80",
+	"Descripción": "El E433 es un compuesto sintético, producido a partir del óxido de etileno (un compuesto sintético), conjuntamente con el sorbitol (ver E420) y el ácido oleico (un ácido graso natural). Estos compuestos (430 – E436) contienen ácidos grasos, los cuales casi siempre provienen de aceites vegetales. Sin embargo, el uso de grasas animales no puede excluirse totalmente. Químicamente, no se puede determinar el origen de estos compuestos, y solamente la empresa productora puede proveer dicha informacion.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Las personas intolerantes al glicol de propileno (propilenglicol) también deben evitar el grupo 430 – E436.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E434",
+	"Nombre": "Polisorbato 40",
+	"Descripción": "El E434 es un compuesto sintético, producido a partir del óxido de etileno (un compuesto sintético), conjuntamente con el sorbitol (ver E420) y el ácido palmítico (un ácido graso natural). Estos compuestos (430 – E436) contienen ácidos grasos, los cuales casi siempre provienen de aceites vegetales. Sin embargo, el uso de grasas animales no puede excluirse totalmente. Químicamente, no se puede determinar el origen de estos compuestos, y solamente la empresa productora puede proveer dicha informacion.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Las personas intolerantes al glicol de propileno (propilenglicol) también deben evitar el grupo 430 – E436.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E435",
+	"Nombre": "Polisorbato 60",
+	"Descripción": "El E435 es un compuesto sintético, producido a partir del óxido de etileno (un compuesto sintético), conjuntamente con el sorbitol (ver E420) y el ácido esteárico (un ácido graso natural). Estos compuestos (430 – E436) contienen ácidos grasos, los cuales casi siempre provienen de aceites vegetales. Sin embargo, el uso de grasas animales no puede excluirse totalmente. Químicamente, no se puede determinar el origen de estos compuestos, y solamente la empresa productora puede proveer dicha informacion.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Las personas intolerantes al glicol de propileno (propilenglicol) también deben evitar el grupo 430 – E436.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E436",
+	"Nombre": "Polisorbato 65",
+	"Descripción": "El E436 es un compuesto sintético, producido a partir del óxido de etileno (un compuesto sintético), conjuntamente con el sorbitol (ver E420) y el ácido esteárico (un ácido graso natural). Estos compuestos (430 – E436) contienen ácidos grasos, los cuales casi siempre provienen de aceites vegetales. Sin embargo, el uso de grasas animales no puede excluirse totalmente. Químicamente, no se puede determinar el origen de estos compuestos, y solamente la empresa productora puede proveer dicha informacion.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Las personas intolerantes al glicol de propileno (propilenglicol) también deben evitar el grupo 430 – E436.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E440",
+	"Nombre": "Pectina",
+	"Descripción": "La pectina es un polisacárido ácido de origen natural, presente en casi todas las frutas, especialmente en las manzanas, los membrillos y las naranjas. Comercialmente es producida a partir de la pulpa de manzana o de las cáscaras de naranja. Los pectatos de sodio, potasio y amonio son las sales respectivas de la pectina. Por otro lado, la pectina amidada es preparada mediante el tratamiento de la pectina con amoníaco, después de lo cual se forman las amidas en las cadenas ácidas. E440a (i): Pectina, E440a (ii): Pectato de sodio, E440a (iii): Pectato de potasio, E440a (iv): Pectato de amonio, E440b: Pectina amidada",
+	"Función": "Agente espesante natural",
+	"Efectos secundarios": "La pectina actúa como un agente espesante, y por ello puede causar problemas intestinales cuando está presente en altas concentraciones. Además, como resultado de su efecto espesante, también es usada en las dietas debido a que reduce la sensación de hambre. Puede ser fermentada en el intestino grueso, provocando flatulencia.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E441",
+	"Nombre": "Gelatina",
+	"Descripción": "Obtenida a partir de subproductos animales, tales como los huesos y las pieles. Puede producirse a partir de todas la especies de animales.",
+	"Función": "Agente gelificante",
+	"Efectos secundarios": "No se conocen efectos secundarios cuando es usada en los alimentos.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E442",
+	"Nombre": "Fosfátidos de amonio",
+	"Descripción": "Obtenidos a partir del amonio y de los ácidos grasos fosforilados, principalmente obtenidos a partir del aceite de semilla de colza. Sin embargo, el uso de grasa animal no puede ser completamente excluído. Consultar el tiquetado vegano y si no aparece, consultar con la marca.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "No se conocen efectos secundarios cuando es usada en los alimentos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E445",
+	"Nombre": "Éster glicérido de resina de madera",
+	"Descripción": "Tembién conocido como abietato de glicerilo (E455i) o goma éster (E455ii). Se produce mediante la reacción entre la resina refinada de pinos y abetos y el Glicerol (E422). Se emplea en bebidas, refrescos, chicles, helados y algunos productos cosméticos.",
+	"Función": "Agente de retención y estabilizante.",
+	"Efectos secundarios": "Efectos secundarios desconocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E450",
+	"Nombre": "Di- y trifosfatos",
+	"Descripción": "Sales de sodio, potasio y calcio, con fosfatos. Todas son producidas sintéticamente a partir de los carbonatos respectivos y del ácido fosfórico. E450 (i) Difosfato disódico (pirofosfato disódico), E450 (ii) Difosfato trisódico, E450 (iii) Pirofosfato tetrasódico, E450 (v) Pirofosfato tetrapotásico, E450 (vi) Difosfato diácido de calcio. E450b y E450c han sido renombrados como E451 y E452.",
+	"Función": "Amortiguadores y emulsionantes.",
+	"Efectos secundarios": "Altas concentraciones de fosfatos pueden alterar diversos procesos metabólicos debido a que el fosfato juega un rol importante en el metabolismo general.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E451",
+	"Nombre": "Trifosfatos",
+	"Descripción": "Sales de sodio/potasio con fosfatos. Todos son producidos sintéticamente a partir de los carbonatos respectivos y del ácido fosfórico. E451 (i) Trifosfato pentasódico (inicialmente designado E450b (i)), E 451 (ii) Trifosfato pentapotásico (E450b(ii))",
+	"Función": "Sal emulsificante sintética",
+	"Efectos secundarios": "Altas concentraciones de fosfatos pueden alterar diversos procesos metabólicos debido a que el fosfato juega un rol importante en el metabolismo general.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E452",
+	"Nombre": "Polifosfatos",
+	"Descripción": "Sales de sodio/potasio/calcio/amonio con fosfatos. Todas son producidas sintéticamente a partir de los carbonatos respectivos y del ácido fosfórico. E452 (i) Polifosfato de sodio (anteriormente E450 c(i)), E452 (ii) Polifosfato de potasio (anteriormente E450 c(ii)), E452 (iii) Polifosfato cálcico de sodio, E452 (iv) Polifosfato de calcio (también 544), E452 (v) Polifosfato de amonio (anteriormente E450 c(i))",
+	"Función": "Sal emulsificante sintética",
+	"Efectos secundarios": "Las altas concentraciones de fosfatos pueden alterar diversos procesos metabólicos debido al importante rol de los fosfatos en el metabolismo general. Puede provocar excitación.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E460",
+	"Nombre": "Celulosa",
+	"Descripción": "La celulosa es el principal polisacárido y constituyente de la madera y todas las estructuras de las plantas. Comercialmente preparado a partir de la madera.",
+	"Función": "Sal emulsificante sintética",
+	"Efectos secundarios": "La celulosa es no soluble, pero puede ser fermentada en el intestino grueso. Las grandes concentraciones pueden causar problemas intestinales, tales como hinchazón, estreñimiento y diarrea. Debido a este hecho, no se puede utilizar en alimentos de destete.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E461",
+	"Nombre": "Metilcelulosa",
+	"Descripción": "El CMC es preparado a partir de la celulosa, el cual es el principal polisacárido constituyente de la madera y de todas las estructuras vegetales. Es preparado comercialmente a partir de la madera y metilado químicamente. CMC, Eter metílico de celulosa",
+	"Función": "Agente espesante natural",
+	"Efectos secundarios": "La metilcelulosa es prácticamente insoluble, pero puede ser fermentada en el intestino grueso. Altas concentraciones pueden causar problemas intestinales, tales como hinchazón, estreñimiento y diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E462",
+	"Nombre": "Etilcelulosa",
+	"Descripción": "La etilcelulosa es preparada a partir de la celulosa, la cual es el principal polisacárido constituyente de la madera y de todas las estructuras vegetales. Es preparada comercialmente a partir de la madera y etilado químicamente.",
+	"Función": "Espesante, emulsificante",
+	"Efectos secundarios": "La etilcelulosa es prácticamente insoluble, pero puede ser fermentada en el intestino grueso. Altas concentraciones pueden causar problemas intestinales, tales como hinchazón, estreñimiento y diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E463",
+	"Nombre": "Hidroxipropilcelulosa",
+	"Descripción": "La hidroxipropilcelulosa es preparada a partir de la celulosa, la cual es el principal polisacárido constituyente de la madera y de todas las estructuras vegetales. Es preparada comercialmente a partir de la madera y posteriormente propilada químicamente.",
+	"Función": "Espesante, emulsificante",
+	"Efectos secundarios": "La hidroxipropilcelulosa es bastante soluble, y puede ser fermentada además en el intestino grueso. Altas concentraciones pueden causar problemas intestinales, tales como hinchazón, estreñimiento y diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E464",
+	"Nombre": "Hidroxipropilmetilcelulosa",
+	"Descripción": "La hidroxipropilmetilcelulosa es preparada a partir de la celulosa, la cual es el principal polisacárido constituyente de la madera y de todas las estructuras vegetales. Es preparada comercialmente de la madera y posteriormente modificada químicamente.",
+	"Función": "Espesante, emulsificante",
+	"Efectos secundarios": "La hidroxipropilmetilcelulosa es bastante soluble, y puede ser fermentada en el intestino grueso. Altas concentraciones pueden causar problemas intestinales, tales como hinchazón, estreñimiento y diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E465",
+	"Nombre": "Etilmetilcelulosa",
+	"Descripción": "La metiletilcelulosa es preparada a partir de la celulosa, la cual es el principal polisacárido constituyente de la madera y de todas las estructuras vegetales. Es preparada comercialmente de la madera y posteriormente modificada químicamente.",
+	"Función": "Espesante, emulsificante",
+	"Efectos secundarios": "La metiletilcelulosa es muy poco soluble, pero puede ser fermentada en el intestino grueso. Altas concentraciones pueden causar problemas intestinales, tales como hinchazón, estreñimiento y diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E466",
+	"Nombre": "Carboximetilcelulosa",
+	"Descripción": "La carboximetilcelulosa es preparada a partir de la celulosa, la cual es el principal polisacárido constituyente de la madera y de todas las estructuras vegetales. Es preparada comercialmente de la madera y posteriormente modificada químicamente.",
+	"Función": "Espesante, emulsificante",
+	"Efectos secundarios": "La carboximetilcelulosa es muy soluble, y puede ser fermentada en el intestino grueso. Altas concentraciones pueden causar problemas intestinales, tales como hinchazón, estreñimiento y diarrea. También reduce ligeramente el nivel de colesterol en la sangre.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E470",
+	"Nombre": "Sales de ácidos grasos",
+	"Descripción": "Sales de ácidos grasos de origen natural, principalmente obtenidos de las plantas, pero también de las grasas animales. Los ácidos son una mezcla de ácido esteárico, oleico, palmítico y mirístico. Aunque principalmente se usan aceites vegetales para su producción, el uso de grasa animal no puede ser excluída. Sólo el productor puede brindar la información detallada acerca del origen de los ácidos grasos. Los ácidos grasos tanto de origen vegetal como animal son químicamente idénticos.",
+	"Función": "Emulsificantes y estabilizantes.",
+	"Efectos secundarios": "Efectos desconocidos. El cuerpo los metaboliza como cualquier otro tipo de grasa.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E471",
+	"Nombre": "Mono- y diglicéridos de ácidos grasos",
+	"Descripción": "Grasas sintéticas, producidas a partir del glicerol y de los ácidos grasos naturales, que principalmente son de origen vegetal pero también existen aquellos de origen animal. El producto generalmente es una mezcla de diversos componentes, con una composición similar a la grasa natural parcialmente digerida. Aunque principalmente se usan aceites vegetales para su producción, el uso de grasa animal no puede ser excluída. Sólo el productor puede brindar la información detallada acerca del origen de los ácidos grasos. Los ácidos grasos tanto de origen vegetal como animal son químicamente idénticos.",
+	"Función": "Emulsificantes y estabilizantes.",
+	"Efectos secundarios": "Efectos desconocidos. El cuerpo los metaboliza como cualquier otra grasa. Los componentes individuales también son producidos normalmente en el cuerpo durante la digestión normal de la grasa.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E472",
+	"Nombre": "Esteres de los mono y diglicéridos de ácidos grasos",
+	"Descripción": "Esteres de grasas sintéticas, producidas a partir del glicerol, de los ácidos grasos naturales y de otros ácidos orgánicos (acético, láctico, tartárico, cítrico). Los ácidos grasos son principalmente de origen vegetal pero también las grasas de origen animal pueden ser usadas. El producto generalmente es una mezcla de diversos componentes, con una composición similar a la de la grasa natural parcialmente digerida y esterificada con otros ácidos naturales. Aunque principalmente se usan aceites vegetales para su producción, el uso de grasa animal no puede ser excluída. Sólo el productor puede brindar la información detallada acerca del origen de los ácidos grasos. Los ácidos grasos tanto de origen vegetal como animal son químicamente idénticos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E473",
+	"Nombre": "Sucroésteres de ácidos grasos",
+	"Descripción": "Esteres de azúcares y grasas sintéticas, producidas a partir del glicerol y de ácidos grasos naturales. Estos últimos son principalmente de origen vegetal pero también las grasas de origen animal pueden ser usadas. El producto generalmente es una mezcla de diversos componentes, con una composición similar a la grasa natural parcialmente digerida y esterificada con azúcares. Aunque principalmente se usan aceites vegetales para su producción, el uso de grasa animal no puede ser excluída. Sólo el productor puede brindar la información detallada acerca del origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E474",
+	"Nombre": "Sucroglicéridos",
+	"Descripción": "Esteres de azúcares y grasas, producidos a partir de azúcares y grasas naturales. Las grasas son principalmente de origen vegetal aunque también las grasas de origen animal pueden ser usadas. El producto generalmente es una mezcla de diversos componentes. Aunque principalmente se usan aceites vegetales para su producción, el uso de grasa animal no puede ser excluída. Sólo el productor puede brindar la información detallada acerca del origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E475",
+	"Nombre": "Ésteres poliglicéridos de ácidos grasos",
+	"Descripción": "Combinación de poliglicerol y grasas naturales. La grasa normal consiste en glicerol y ácidos grasos, para estos productos se adiciona un glicerol más al glicerol normal. Las grasas provienen mayormente de plantas, pero también de origen animal puede utilizarse. El producto es generalmente una mezcla de diferentes componentes.  Aunque principalmente se usan aceites vegetales para su producción, el uso de grasa animal no puede ser excluída. Sólo el productor puede brindar la información detallada acerca del origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E476",
+	"Nombre": "Esteres de poliglicerol de los ácidos grasos policondensados del aceite de ricino",
+	"Descripción": "Combinación de poliglicerol y aceite de ricino (aceite del árbol Ricinus sp.). Las grasas normales consisten en glicerol y ácidos grasos, para estos productos glicerol adicional es enlazado al glicerol normal. El producto es originalmente una mezcla de componentes.",
+	"Función": "Emulsificante preparado a partir del aceite de ricino",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E477",
+	"Nombre": "Ésteres de propano-1,2 –diol de ácidos grasos",
+	"Descripción": "Una combinación de propanodiol y grasas naturales. Las grasas naturales consisten en glicerol y ácidos grasos, para estos productos el glicerol es reemplazado por propanodiol. Las grasas son se originan mayormente de plantas, pero también se pueden utilizar de origen animal. El producto es generalmente una mezcla de diferentes componentes. Solamente el productor puede dar información detallada acerca del origen de los ácidos grasos. Químicamente los ácidos grasos de origen animal y vegetal son idénticos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Altas concentraciones de propilenglicol pueden causar eczema en personas sensitivas, pero no sucede normalmente en el consumo de alimentos.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E478",
+	"Nombre": "Esteres de ácidos grasos lactilados de glicerol y de propano-1,2-diol",
+	"Descripción": "Una combinación de ácido láctico, glicerol, propanodiol y grasas naturales. Las grasas naturales consisten en glicerol y ácidos grasos, para estos productos el glicerol es reemplazado por propanodiol. Las grasas son se originan mayormente de plantas, pero también se pueden utilizar de origen animal. El producto es generalmente una mezcla de diferentes componentes. Solamente el productor puede dar información detallada acerca del origen de los ácidos grasos. Químicamente los ácidos grasos de origen animal y vegetal son idénticos.",
+	"Función": "Preparados a partir del ácido láctico",
+	"Efectos secundarios": "Altas concentraciones de propilenglicol pueden causar eczema en personas sensitivas, pero no sucede normalmente en el uso en alimentos.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E479",
+	"Nombre": "Aceite de soja esterificado",
+	"Descripción": "Se produce por el calentamiento del aceite de soya en la presencia de ácidos grasos libres. Los ácidos grasos son mayormente de origen vegetal, pero también se pueden utilizar de origen animal. El producto es generalmente una mezcla de diferentes componentes. A pesar que mayormente se utiliza aceites vegetales, el uso de grasa animal no puede ser excluida. Solamente el productor puede dar información detallada acerca del origen de los ácidos grasos. Químicamente los ácidos grasos de origen animal y vegetal son idénticos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E480",
+	"Nombre": "Dioctyl sodium sulphosuccinate",
+	"Descripción": "Se produce a partir de la reacción de octano con ácido málico anhidrido, seguida por una reacción con bisulfito sódico.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Actúa como laxante.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E481",
+	"Nombre": "Estearoil-2-lactilato de sodio",
+	"Descripción": "Combinación de ácido esteárico y ácido láctico, que resulta en una mezcla de varios componentes. El origen del ácido esteárico puede ser de grasa vegetal o animal, sin embargo en la práctica casi siempre se utiliza aceite vegetal. Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "No se conocen efectos secundarios, el ácido láctico y el ácido esteárico son productos normales en el metabolismo humano.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E482",
+	"Nombre": "Estearoil-2-lactilato de calcio",
+	"Descripción": "Combinación de calcio, ácido esteárico y ácido láctico, que resulta en una mezcla de varios componentes. El origen del ácido esteárico puede ser de grasa vegetal o animal, sin embargo en la práctica casi siempre se utiliza aceite vegetal. Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "No se conocen efectos secundarios, el ácido láctico y el ácido esteárico son productos normales en el metabolismo humano.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E483",
+	"Nombre": "Tartrato de estearilo",
+	"Descripción": "Combinación del ácido esteárico y ácido tartárico, que resulta en una mezcla de varios componentes. El origen del ácido esteárico puede ser de grasa vegetal o animal, sin embargo en la práctica casi siempre se utiliza aceite vegetal. Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "No se conocen efectos secundarios, el ácido láctico y el ácido esteárico son productos normales en el metabolismo humano.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E484",
+	"Nombre": "Estearilcitrato",
+	"Descripción": "Es una combinación de ácido esteárico con ácido cítrico, que resulta en una mezcla de diferentes compuestos. El ácido esteárico puede obtenerse a partir de la grasa animal o vegetal, aunque en la práctica casi siempre se utiliza aceite vegetal. Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "No se conocen efectos secundarios, tanto el ácido cítrico como el esteárico son productos comunes del metabolismo humano.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E490",
+	"Nombre": "Propilenglicol",
+	"Descripción": "Producto sintético preparado a partir del propileno obtenido del aceite.",
+	"Función": "solvente",
+	"Efectos secundarios": "Altas concentraciones causan eczema, pero esto no ocurre cuando es usado en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E491",
+	"Nombre": "Monoestearato de sorbinato",
+	"Descripción": "Producido a partir del sorbitol y del ácido esteárico, el cual es un ácido graso normal de origen animal o vegetal. Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Es metabolizado hasta sorbitol y ácido esteárico sin causar ningún efecto colateral.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E492",
+	"Nombre": "Triestearato de sorbinato",
+	"Descripción": "Producido a partir del sorbitol y del ácido esteárico, el cual es un ácido graso normal de origen animal o vegetal. Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Es metabolizado hasta sorbitol y ácido esteárico sin causar ningún efecto colateral.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E493",
+	"Nombre": "Monolaurato de sorbinato",
+	"Descripción": "Producido a partir del sorbitol y del ácido laúrico, el cual es un ácido graso normal de origen animal o vegetal.  Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Es metabolizado hasta sorbitol y ácido laúrico sin causar ningún efecto colateral.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E494",
+	"Nombre": "Monooleato de sorbinato",
+	"Descripción": "Producido a partir del sorbitol y del ácido oleico, el cual es un ácido graso normal de origen animal o vegetal. Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Es metabolizado hasta sorbitol y ácido oleico sin causar ningún efecto colateral.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E495",
+	"Nombre": "Monopalmitato de sorbinato",
+	"Descripción": "Producido a partir del sorbitol y del ácido palmítico, el cual es un ácido graso normal de origen animal o vegetal.  Solamente el productor puede brindar información detallada sobre el origen de los ácidos grasos.",
+	"Función": "Emulsificante sintético",
+	"Efectos secundarios": "Es metabolizado hasta sorbitol y ácido palmítco sin causar ningún efecto colateral.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E500",
+	"Nombre": "Carbonato de sodio",
+	"Descripción": "Minerales naturales producidos a partir del agua de mar o de la sal. E500 (i) Carbonato de sodio, E500(ii) Bicarbonato de sodio, E500 (iii) Sesquicarbonato de sodio.",
+	"Función": "Reguladores de acidez, álcalis y agentes leudantes.",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E501",
+	"Nombre": "Carbonato de potasio",
+	"Descripción": "Producidos a partir del cloruro de potasio, un mineral de origen natural. E501 (i) Carbonato de potasio, E501(ii) Bicarbonato de potasio",
+	"Función": "Reguladores de acidez, álcalis y agentes leudantes.",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E503",
+	"Nombre": "Carbonato de amonio",
+	"Descripción": "Producidos a partir de los minerales naturales sulfato de amonio y carbonato cálcico. E503 (i) Carbonato de amonio, E503(ii) Bicarbonato de amonio",
+	"Función": "Reguladores de acidez, álcalis y agentes leudantes.",
+	"Efectos secundarios": "Cierta formación de gases en el estómago luego de su consumo.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E504",
+	"Nombre": "Carbonato de magnesio",
+	"Descripción": "Producido a partir del hidróxido de magnesio, pero también se encuentra presente como un mineral de origen natural. E504 (i) Carbonato de magnesio, E504(ii) Bicarbonato de magnesio",
+	"Función": "Alcali, agente anti-apelmazante",
+	"Efectos secundarios": "Efecto laxante cuando es consumido en altas concentraciones.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E505",
+	"Nombre": "Carbonato férrico",
+	"Descripción": "Mineral de origen natural.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E507",
+	"Nombre": "Acido clorhídrico",
+	"Descripción": "Ácido natural, normal en el estómago. Producido a partir de la sal y el ácido sulfúrico.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E508",
+	"Nombre": "Cloruro de potasio",
+	"Descripción": "Sal natural, en parte de la sal marina y sal de roca.",
+	"Función": "Sustituto de sales",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E509",
+	"Nombre": "Cloruro de calcio",
+	"Descripción": "Sal natural, en parte de la sal marina y sal de roca.",
+	"Función": "Secuestrante, agente fijador",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E510",
+	"Nombre": "Cloruro de amonio",
+	"Descripción": "Sal natural, en parte de la sal marina y sal de roca.Preparado a partir de ácido clorhídrico y amoníaco.",
+	"Función": "Alimento de levaduras, saborizante",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E511",
+	"Nombre": "Cloruro de magnesio",
+	"Descripción": "Sal natural, en parte de la sal marina y sal de roca.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Puede actuar como laxante.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E512",
+	"Nombre": "Cloruro de estaño",
+	"Descripción": "Elaborado a partir de minerales de estaño y ácido clorhídrico.",
+	"Función": "Antioxidante",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E513",
+	"Nombre": "Acido sulfúrico",
+	"Descripción": "Preparado a partir de dióxido de azufre, oxígeno y agua",
+	"Función": "Acido",
+	"Efectos secundarios": "Efectos secundarios desconocidos en el uso alimentario",
+	"Origen": "Vegano"
+}, {
+	"Número": "E514",
+	"Nombre": "Sulfato de sodio",
+	"Descripción": "Preparado a partir de la sal y el ácido sulfúrico.",
+	"Función": "Acido, diluyente",
+	"Efectos secundarios": "Efectos secundarios desconocidos en el uso alimentario",
+	"Origen": "Vegano"
+}, {
+	"Número": "E515",
+	"Nombre": "Sulfato de potasio",
+	"Descripción": "Preparado a partir de sales de potasio y ácido sulfúrico. Mineral natural.",
+	"Función": "Sustituto de sales",
+	"Efectos secundarios": "Efectos secundarios desconocidos en el uso alimentario",
+	"Origen": "Vegano"
+}, {
+	"Número": "E516",
+	"Nombre": "Sulfato de calcio",
+	"Descripción": "Preparado a partir de sales de calcio y ácido sulfúrico. Mineral natural.",
+	"Función": "Agente fijador",
+	"Efectos secundarios": "Efectos secundarios desconocidos en el uso alimentario",
+	"Origen": "Vegano"
+}, {
+	"Número": "E517",
+	"Nombre": "Sulfato de amonio",
+	"Descripción": "Preparado a partir de sales de amonio y ácido sulfúrico. Mineral natural.",
+	"Función": "Estabilizante",
+	"Efectos secundarios": "Efectos secundarios desconocidos en el uso alimentario",
+	"Origen": "Vegano"
+}, {
+	"Número": "E518",
+	"Nombre": "Sulfato de magnesio",
+	"Descripción": "Preparado a partir de sales de magnesio y ácido sulfúrico. Mineral natural.",
+	"Función": "Suplemento dietético",
+	"Efectos secundarios": "Fuerte laxante.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E520",
+	"Nombre": "Sulfato de aluminio",
+	"Descripción": "Mineral natural, de la que se purifica el producto comercial.",
+	"Función": "Agente clarificante",
+	"Efectos secundarios": "El aluminio inhibe la absorción de vitaminas B. También puede influir en la función del hígado en altas concentraciones.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E521",
+	"Nombre": "Sulfato sódico de aluminio",
+	"Descripción": "Preparado a partir de sulfato de aluminio natural.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "El aluminio inhibe la absorción de vitaminas B. También puede influir en la función del hígado en altas concentraciones.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E523",
+	"Nombre": "Sulfato amónico de aluminio",
+	"Descripción": "Preparado a partir de sulfato de aluminio natural.",
+	"Función": "Estabilizante",
+	"Efectos secundarios": "El aluminio inhibe la absorción de vitaminas B. También puede influir en la función del hígado en altas concentraciones.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E524",
+	"Nombre": "Hidróxido de sodio",
+	"Descripción": "Preparado a partir de la sal natural.",
+	"Función": "Base, solvente de color",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E525",
+	"Nombre": "Hidróxido de potasio",
+	"Descripción": "Preparado a partir de la sal natural del cloruro de potasio.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E526",
+	"Nombre": "Hidróxido de calcio",
+	"Descripción": "Preparado a partir de la sal natural del óxido de calcio.",
+	"Función": "Agente fijador",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E527",
+	"Nombre": "Hidróxido de amonio",
+	"Descripción": "Preparado a partir del amoniaco y el agua.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Efectos secundarios desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E528",
+	"Nombre": "Hidróxido de magnesio",
+	"Descripción": "Preparado de minerales naturales.",
+	"Función": "Regulador de acidez",
+	"Efectos secundarios": "Laxante en altas concentraciones.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E529",
+	"Nombre": "Oxido de calcio",
+	"Descripción": "Obtenido de la tiza (carbonato cálcico).",
+	"Función": "Alcalinizante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E530",
+	"Nombre": "Oxido de magnesio",
+	"Descripción": "El óxido de magnesio se produce por la calcinación de carbonato de magnesio o hidróxido de magnesio o por el tratamiento de cloruro de magnesio con cal seguido por el calor",
+	"Función": "Agente anti-apelmazante, álcali",
+	"Efectos secundarios": "Actúa como laxante en concentraciones elevadas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E535",
+	"Nombre": "Ferrocianuro de sodio",
+	"Descripción": "Preparado a partir de ferrocianuro de hidrógeno e hidróxido de sodio.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningun efecto conocido en las concentraciones utilizadas. El uso es muy limitado, en parte debido al fuerte color amarillo.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E536",
+	"Nombre": "Ferrocianuro de potasio",
+	"Descripción": "Preparado a partir de ferrocianuro de hidrógeno e hidróxido de potasio.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E537",
+	"Nombre": "Hexacianomanganato de fierro",
+	"Descripción": "Preparado a partir de mangano-cianuro de hidrógeno y de hidróxido de hierro.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E538",
+	"Nombre": "Ferrocianuro de calcio",
+	"Descripción": "Preparado a partir de ferrocianuro de hidrógeno e hidróxido de calcio.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E539",
+	"Nombre": "Tiosulfato de sodio",
+	"Descripción": "Compuesto sintético.",
+	"Función": "Antioxidante",
+	"Efectos secundarios": "Tiosulfato se convierte en sulfito y tiene efectos secundarios similares, véase E221.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E540",
+	"Nombre": "Pirofosfato dicálcico (->E450)",
+	"Descripción": "Sales de sodio, potasio y calcio, con fosfatos. Todas son producidas sintéticamente a partir de los carbonatos respectivos y del ácido fosfórico.",
+	"Función": "Agente leudante",
+	"Efectos secundarios": "Altas concentraciones de fosfatos pueden alterar diversos procesos metabólicos debido a que el fosfato juega un rol importante en el metabolismo general.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E541",
+	"Nombre": "Fosfato sódico de aluminio",
+	"Descripción": "Sintéticamente producido a partir de aluminio, ácido fosfórico e hidróxido sódico.",
+	"Función": "Agente leudante",
+	"Efectos secundarios": "El aluminio deteriora la absorción de calcio y de fósforo por el cuerpo. Las concentraciones de E541 son generalmente tan bajas que ningún efecto es de esperar.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E542",
+	"Nombre": "Fosfato comestible extraído de los huesos",
+	"Descripción": "Producido a partir de huesos de animales.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E543",
+	"Nombre": "Polifosfato sódico de calcio",
+	"Descripción": "Producido a partir de fosfato de sodio y fosfato de calcio de origen no animal.",
+	"Función": "Emulsificante",
+	"Efectos secundarios": "Los polifosfatos pueden inhibir enzimas digestivas en altas concentraciones.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E544",
+	"Nombre": "Polifosfatos de calcio",
+	"Descripción": "Producido por calentamiento de fosfato de calcio.",
+	"Función": "Emulsificante",
+	"Efectos secundarios": "Los polifosfatos pueden inhibir enzimas digestivas en altas concentraciones.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E545",
+	"Nombre": "Polifosfatos de amonio",
+	"Descripción": "Producido por calentamiento de fosfato de hidrógeno de amonio.",
+	"Función": "Emulsificante",
+	"Efectos secundarios": "Los polifosfatos pueden inhibir enzimas digestivas en altas concentraciones.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E546",
+	"Nombre": "Pirofosfato de magnesio",
+	"Descripción": "Producido por calentamiento de fosfato de magnesio.",
+	"Función": "Emulsificante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E550",
+	"Nombre": "Silicatos de sodio",
+	"Descripción": "Producida por calentamiento de dióxido de silicio (cuarzo, arena) y carbonato de sodio.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E551",
+	"Nombre": "Dióxido de silicona",
+	"Descripción": "Obtenido de la arena",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E552",
+	"Nombre": "Silicato de calcio",
+	"Descripción": "Producido a partir de tiza y arena especial.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E553",
+	"Nombre": "Silicato de magnesio",
+	"Descripción": "Producido a partir de sulfato de magnesio y silicato de sodio o directamente a partir de minerales tales como talco, sepiolita y esteatita. E553a (i) synthetic magnesium silicate, E553a (ii) magnesium trisilicate, E553b of E553 (iii) Talcum powder",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E554",
+	"Nombre": "Silicato sódico de aluminio",
+	"Descripción": "Producido a partir de varios minerales naturales.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E555",
+	"Nombre": "Silicato potásico de aluminio",
+	"Descripción": "Producido a partir de varios minerales naturales.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E556",
+	"Nombre": "Silicato cálcico de aluminio",
+	"Descripción": "Producido a partir de varios minerales naturales.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E557",
+	"Nombre": "Silicato de zinc",
+	"Descripción": "Producido a partir de la willemite mineral, también producido a partir de óxido de silicio (cuarzo) y óxido de zinc.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E558",
+	"Nombre": "Bentonita",
+	"Descripción": "Un tipo natural de arcilla de origen volcánico.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E559",
+	"Nombre": "Kaolina",
+	"Descripción": "Una arcilla fina generalmente de color blanco formado por la meteorización de minerales aluminosos (como el feldespato).",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E570",
+	"Nombre": "Acido esteárico",
+	"Descripción": "Una parte normal de cualquier grasa. Comercialmente preparado a partir de aceite de semilla de algodón, pero el origen animal no se puede excluir. Solo el productor puede proporcionar el origen exacto.",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E571",
+	"Nombre": "Estearato de amonio",
+	"Descripción": "Sal de amonio de ácido esteárico, E570. Solo el productor puede proporcionar el origen exacto (animal o vegetal).",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E572",
+	"Nombre": "Estearato de magnesio",
+	"Descripción": "Sal de magnesio de ácido esteárico, E570. Solo el productor puede proporcionar el origen exacto (animal o vegetal).",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E573",
+	"Nombre": "Estearato de aluminio",
+	"Descripción": "Sal de aluminio de ácido esteárico, E570. Solo el productor puede proporcionar el origen exacto (animal o vegetal).",
+	"Función": "Agente anti-apelmazante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E574",
+	"Nombre": "Acido glucónico",
+	"Descripción": "Sintético, o producido por hongos del azúcar.",
+	"Función": "Secuestrante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E575",
+	"Nombre": "D-glucono-1,5-lactona",
+	"Descripción": "Sintético, o producido por hongos del azúcar.",
+	"Función": "Secuestrante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E576",
+	"Nombre": "Gluconato de sodio",
+	"Descripción": "Sal sódica del ácido glucónico, E574.",
+	"Función": "Secuestrante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E577",
+	"Nombre": "Gluconato de potasio",
+	"Descripción": "Sal potásica del ácido glucónico, E574.",
+	"Función": "Secuestrante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E578",
+	"Nombre": "Gluconato de calcio",
+	"Descripción": "Sal de calcio del ácido glucónico, E574.",
+	"Función": "Agente fijador, secuestrante",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E579",
+	"Nombre": "Gluconato de fierro",
+	"Descripción": "Sal de hierro del ácido glucónico, E574.",
+	"Función": "Colorante y nutriente",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E585",
+	"Nombre": "Lactato férrico",
+	"Descripción": "Sal de hierro de ácido láctico, E270.",
+	"Función": "Nutriente",
+	"Efectos secundarios": "Ningún efecto secundario conocido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E620",
+	"Nombre": "Ácido glutámico",
+	"Descripción": "Aminoácido natural (componente básico de proteína). Comercialmente preparado a partir de la melaza de la fermentación bacteriana. También preparado a partir de proteína vegetal, tales como gluten, o proteína de soja. Ácido glutámico y glutamatos están presentes en todas las proteínas.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Aunque han sido reportados muchos efectos secundarios por glutamatos, éstos no han sido “científicamente” probados. Existe controversia y diferentes opiniones respecto a los posibles efectos de estas sustancias.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E621",
+	"Nombre": "Glutamato monosódico",
+	"Descripción": "Sal de sodio del ácido glutámico (E620), un aminoácido natural (componente básico de proteína). Comercialmente preparado a partir de la melaza de la fermentación bacteriana. También preparado a partir de proteínas vegetales, tales como gluten, o proteína de soja. Ácido glutámico y glutamatos están presentes en todas las proteínas. MSG, ve-tsin, ajinomoto, sodium glutaminate",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Aunque han sido reportados muchos efectos secundarios por glutamatos, éstos no han sido “científicamente” probados. Existe controversia y diferentes opiniones respecto a los posibles efectos de estas sustancias.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E622",
+	"Nombre": "Glutamato monopotásico",
+	"Descripción": "Sal de potasio del ácido glutámico (E620), un aminoácido natural (componente básico de proteína). Comercialmente preparado a partir de la melaza de la fermentación bacteriana. También preparado a partir de proteínas vegetales, tales como gluten, o proteína de soja. Ácido glutámico y glutamatos están presentes en todas las proteínas",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Aunque han sido reportados muchos efectos secundarios por glutamatos, éstos no han sido “científicamente” probados. Existe controversia y diferentes opiniones respecto a los posibles efectos de estas sustancias.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E623",
+	"Nombre": "Glutamato cálcico",
+	"Descripción": "Sal de calcio del ácido glutámico (E620), un aminoácido natural (componente básico de proteína). Comercialmente preparado a partir de la melaza de la fermentación bacteriana. También preparado a partir de proteínas vegetales, tales como gluten, o proteína de soja. Ácido glutámico y glutamatos están presentes en todas las proteínas",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Aunque han sido reportados muchos efectos secundarios por glutamatos, éstos no han sido “científicamente” probados. Existe controversia y diferentes opiniones respecto a los posibles efectos de estas sustancias.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E624",
+	"Nombre": "Glutamato amónico",
+	"Descripción": "Sal de amonio del ácido glutámico (E620), un aminoácido natural (componente básico de proteína). Comercialmente preparado a partir de la melaza de la fermentación bacteriana. También preparado a partir de proteínas vegetales, tales como gluten, o proteína de soja. Ácido glutámico y glutamatos están presentes en todas las proteínas",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Aunque han sido reportados muchos efectos secundarios por glutamatos, éstos no han sido “científicamente” probados. Existe controversia y diferentes opiniones respecto a los posibles efectos de estas sustancias.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E625",
+	"Nombre": "Glutamato magnésico",
+	"Descripción": "Sal de magnesio del ácido glutámico (E620), un aminoácido natural (componente básico de proteína). Comercialmente preparado a partir de la melaza de la fermentación bacteriana. También preparado a partir de proteínas vegetales, tales como gluten, o proteína de soja. Ácido glutámico y glutamatos están presentes en todas las proteínas",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Aunque han sido reportados muchos efectos secundarios por glutamatos, éstos no han sido “científicamente” probados. Existe controversia y diferentes opiniones respecto a los posibles efectos de estas sustancias.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E626",
+	"Nombre": "Ácido guanílico",
+	"Descripción": "El ácido guanílico es un ácido natural, que es parte del ARN, una de las moléculas portadoras de genes en la célula. Por lo tanto, es parte de todas las células en todos los organismos vivos. Comercialmente preparado a partir de extracto de levadura o las sardinas.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E627",
+	"Nombre": "Guanilato sódico",
+	"Descripción": "Sal sódica del ácido guanílico (E626), un ácido natural, que es parte del ARN, una de las moléculas portadoras de genes en la célula. Por lo tanto, es parte de todas las células en todos los organismos vivos. Comercialmente preparado a partir de extracto de levadura o las sardinas.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E628",
+	"Nombre": "Guanilato dipotásico",
+	"Descripción": "Sal potásica del ácido guanílico (E626), un ácido natural, que es parte del ARN, una de las moléculas portadoras de genes en la célula. Por lo tanto, es parte de todas las células en todos los organismos vivos. Comercialmente preparado a partir de extracto de levadura o las sardinas.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E629",
+	"Nombre": "Guanilato cálcico",
+	"Descripción": "Sal de calcio del ácido guanílico (E626), un ácido natural, que es parte del ARN, una de las moléculas portadoras de genes en la célula. Por lo tanto, es parte de todas las células en todos los organismos vivos. Comercialmente preparado a partir de extracto de levadura o las sardinas.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E630",
+	"Nombre": "Ácido inosínico",
+	"Descripción": "Un ácido natural, que está presente principalmente en los animales. Comercialmente se prepara con carne o pescado (sardinas). También puede ser producido por fermentación bacteriana de los azúcares.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E631",
+	"Nombre": "Inosinato sódico",
+	"Descripción": "Sal sódica del ácido inosínico (E630), un ácido natural, que está presente principalmente en los animales. Comercialmente se prepara con carne o pescado (sardinas). También puede ser producido por fermentación bacteriana de los azúcares.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E632",
+	"Nombre": "Inosinato dipotásico",
+	"Descripción": "Sal potásica del ácido inosínico (E630), un ácido natural, que está presente principalmente en los animales. Comercialmente se prepara con carne o pescado (sardinas). También puede ser producido por fermentación bacteriana de los azúcares.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E633",
+	"Nombre": "Inosinato cálcico",
+	"Descripción": "Sal de calcio del ácido inosínico (E630), un ácido natural, que está presente principalmente en los animales. Comercialmente se prepara con carne o pescado (sardinas). También puede ser producido por fermentación bacteriana de los azúcares.",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E634",
+	"Nombre": "Ribonucleótidos cálcicos",
+	"Descripción": "Mezcla de sales de calcio de guanylic (E626) y el ácido inosínico (E630).",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E635",
+	"Nombre": "Ribonucleótidos disódicos",
+	"Descripción": "Mezcla de sales de sodio de guanílico (E626) y ácido inosínico (E630).",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Las personas asmáticas deben evitar el ácido guanílico y guanilatos. Como los guanilatos se metabolizan en purinas, deben ser evitados por las personas que sufren de gota.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E636",
+	"Nombre": "Maltol",
+	"Descripción": "Un compuesto natural que se extrae comercialmente de la corteza de los árboles alondra o de la malta tostada. También por calentamiento de la lactosa y la maltosa. Sólo el productor puede garantizar el origen (animal o vegetal)",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E637",
+	"Nombre": "Etil maltol",
+	"Descripción": "Producido a partir de maltol (636), un compuesto natural que se extrae comercialmente de la corteza de los árboles alondra o de la malta tostada. También por calentamiento de la lactosa y la maltosa. Sólo el productor puede garantizar el origen (animal o vegetal)",
+	"Función": "Potenciador de sabor",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E640",
+	"Nombre": "Glicina y glicinato sódico",
+	"Descripción": "La glicina es un aminoácido natural, un componente básico de las proteínas. Principalmente producido a partir de gelatina, en parte sintética.",
+	"Función": "Nutriente",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E710",
+	"Nombre": "Espiramicina",
+	"Descripción": "Las espiramicinas son una clase de antibióticos, producidos por el hongo Streptomyces ambofaciens.",
+	"Función": "Antibiótico",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E713",
+	"Nombre": "Tilosina",
+	"Descripción": "La tilosina es un antibiótico, producido por el hongo Streptomyces fradiae.",
+	"Función": "Antibiótico",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E900",
+	"Nombre": "Dimetilpolisiloxano",
+	"Descripción": "Polímero sintético",
+	"Función": "Agente antiespumante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E901",
+	"Nombre": "Cera de abejas",
+	"Descripción": "Polímero natural producido por las abejas. La cera blanca se blanquea por la luz solar o peróxido de hidrógeno (agua oxigenada).",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E902",
+	"Nombre": "Cera candelilla",
+	"Descripción": "Polímero natural producido a partir de los árboles mexicanos antisyphilitica Euphorbia, E. cerifera y pavonis Pedilanthus.",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E903",
+	"Nombre": "Cera carnauba",
+	"Descripción": "Polímero natural producido a partir de la palma de Carnauba (Copernicia cerifera) y especies afines de Brasil.",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "La cera Canauba es ampliamente utilizada en cosmética y puede causar eczema dérmica. Las personas que han desarrollado tales eczemas pueden ser sensibles a la utilización de cera canauba en los alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E904",
+	"Nombre": "Goma laca",
+	"Descripción": "Polímero natural derivado de ciertas especies de piojos de la India.",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "Sin efectos secundarios conocidos.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E905",
+	"Nombre": "Parafina, Vaselina",
+	"Descripción": "Mezcla sintética de hidrocarburos. E905a Aceite mineral, E905b Vaselina, E905c Cera Microcristalina",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "Efectos laxantes en altas concentraciones",
+	"Origen": "Vegano"
+}, {
+	"Número": "E906",
+	"Nombre": "Goma benzoica",
+	"Descripción": "Polímero natural derivado de árboles del género Styrax del sudeste asiático.",
+	"Función": "Sabor, revestimiento",
+	"Efectos secundarios": "A menudo contiene ácido benzoico (E210), el cual puede provocar reacciones alérgicas.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E907",
+	"Nombre": "Cera microcristalina",
+	"Descripción": "Mezcla sintética de hidrocarburos.",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "Efectos laxantes en altas concentraciones",
+	"Origen": "Vegano"
+}, {
+	"Número": "E908",
+	"Nombre": "Cera de salvado de arroz",
+	"Descripción": "Polímero natural derivado del salvado de arroz.",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E912",
+	"Nombre": "Ésteres de ácido montánico",
+	"Descripción": "Cera obtenida por extracción con disolventes de lignito (carbón marrón). Se compone de ésteres no glicéridos de ácidos carboxílicos, ácidos libres y resinas.",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E913",
+	"Nombre": "Lanolina",
+	"Descripción": "Cera de oveja. Se excreta por la piel de las ovejas y extrae de la lana.",
+	"Función": "Revestimiento",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "No vegano"
+}, {
+	"Número": "E914",
+	"Nombre": "Cera polietileno oxidada",
+	"Descripción": "Cera sintética que se obtiene del petróleo, y se usa como recubrimiento, sobre todo en frutas. Se obtiene a partir del etileno, que se obtiene por la ruptura mediante vapor (steam cracking) de hidrocarburos de refinería (etano, propano, nafta y gasóleo, principalmente). Esta cera confiere gran dureza y escasa absorción de humedad. Con estos productos se consigue evitar la pérdida de agua de la fruta, reparar daños en su superficie, dar mayor brillo. retrasar el proceso de maduración de la fruta para que dure más tiempo.",
+	"Función": "Revestimiento, estabilizante",
+	"Efectos secundarios": "Se recomienda lavarse bien las manos después de manipular fruta tratada con este aditivo.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E915",
+	"Nombre": "Ésteres de colofonia",
+	"Descripción": "Resina obtenida del pino Pinus silvestris y especies relacionadas.",
+	"Función": "Estabilizador, sabor",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E920",
+	"Nombre": "Cisteina",
+	"Descripción": "Un aminoácido esencial, presente en todas las proteínas (esencial, indica que es necesario por el cuerpo humano). Derivados de proteínas, incluyendo proteínas de origen animal y el cabello.",
+	"Función": "Potenciador de pan",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "No vegano"
+}, {
+	"Número": "E921",
+	"Nombre": "L-cisteína",
+	"Descripción": "Un aminoácido esencial, presente en todas las proteínas (esencial, indica que es necesario por el cuerpo humano). Derivados de proteínas, incluyendo proteínas de origen animal y el cabello.",
+	"Función": "Potenciador de pan",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "No vegano"
+}, {
+	"Número": "E922",
+	"Nombre": "Persulfato potásico",
+	"Descripción": "Producido a partir de metasulfato de potasio y peróxido de hidrógeno",
+	"Función": "Potenciador de pan",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E923",
+	"Nombre": "Persulfato amónico",
+	"Descripción": "Producido a partir de metasulfato de amonio y peróxido de hidrógeno",
+	"Función": "Potenciador de pan",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E924",
+	"Nombre": "Bromato potásico (número inválido)",
+	"Descripción": "Sal iónica que está formada por los iones bromato y potasio",
+	"Función": "Agente blanqueador de harina",
+	"Efectos secundarios": "Los bromatos son considerados carcinógenos de categoría 2B (posiblemente carcinógeno para los humanos). Ha sido prohibido en Europa, incluido el Reino Unido (en 1990); en Canadá (en 1994); y en la mayoría de países de Sudamérica de Asia y de África, pero no en EEUU",
+	"Origen": "Vegano"
+}, {
+	"Número": "E925",
+	"Nombre": "Cloro",
+	"Descripción": "Gas natural obtenido a partir de la sal.",
+	"Función": "Agente blanqueador de harina",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E926",
+	"Nombre": "Dioxido de cloro",
+	"Descripción": "Obtenido a partir de cloro y clorito de sodio.",
+	"Función": "Agente blanqueador y preservante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E927a",
+	"Nombre": "Carbamida",
+	"Descripción": "Obtenido a partir de carbonamida.",
+	"Función": "Potenciador de pan",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E927b",
+	"Nombre": "Urea",
+	"Descripción": "Obtenido a partir de amoníaco y dióxido de carbono.",
+	"Función": "Regulador",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E928",
+	"Nombre": "Benzoil peróxido",
+	"Descripción": "Obtenido a partir de cloruro de benzoilo y peróxido de sodio.",
+	"Función": "Potenciador de pan",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E930",
+	"Nombre": "Peróxido de sodio",
+	"Descripción": "Es el producto natural de la combustión de sodio.",
+	"Función": "Potenciador de pan",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E938",
+	"Nombre": "Argón",
+	"Descripción": "Gas natural inerte",
+	"Función": "Propelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E939",
+	"Nombre": "Helio",
+	"Descripción": "Gas natural inerte",
+	"Función": "Propelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E940",
+	"Nombre": "Diclorodifluorometano",
+	"Descripción": "Gas sintético inerte",
+	"Función": "Propelante, anticongelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E941",
+	"Nombre": "Nitrógeno",
+	"Descripción": "Gas natural inerte",
+	"Función": "Propelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E942",
+	"Nombre": "Óxido nitroso",
+	"Descripción": "Gas natural inerte",
+	"Función": "Propelante, anticongelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos cuando se usa en alimentación",
+	"Origen": "Vegano"
+}, {
+	"Número": "E943",
+	"Nombre": "Butano, isobutano",
+	"Descripción": "Gas natural inerte. E943a : Butano, E943b : Isobutano",
+	"Función": "Propelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos cuando se usa en alimentación",
+	"Origen": "Vegano"
+}, {
+	"Número": "E944",
+	"Nombre": "Propano",
+	"Descripción": "Gas natural inerte",
+	"Función": "Propelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos cuando se usa en alimentación",
+	"Origen": "Vegano"
+}, {
+	"Número": "E948",
+	"Nombre": "Oxígeno",
+	"Descripción": "Gas natural.",
+	"Función": "Propelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos cuando se usa en alimentación",
+	"Origen": "Vegano"
+}, {
+	"Número": "E949",
+	"Nombre": "Hidrógeno",
+	"Descripción": "Gas natural.",
+	"Función": "Propelante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos cuando se usa en alimentación",
+	"Origen": "Vegano"
+}, {
+	"Número": "E950",
+	"Nombre": "Acesulfamo K",
+	"Descripción": "Compuesto químico",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "Sospechoso de causar cáncer y tiroides",
+	"Origen": "Vegano"
+}, {
+	"Número": "E951",
+	"Nombre": "Aspartamo",
+	"Descripción": "Compuesto sintético",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "Existe mucha controversia en cuanto a sus efectos secundarios. Se le acusa de producir cáncer y deaño en los genes, pero diversas asociaciones y organizaciones alimentarias niegan todo efecto.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E952",
+	"Nombre": "Ciclamatos",
+	"Descripción": "Compuesto sintético",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "Existe mucha controversia en cuanto a sus efectos secundarios. Por un lado se ha demostrado que el ciclamato puede convertirse en ciclohexilamina en el tracto intestinal, compuesto que podría ser cancerígeno, por otro lado diversas organizaciones sostienen que no tiene ningún peligro en las dosis utilizadas por la industria alimentaria.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E953",
+	"Nombre": "Isomalt",
+	"Descripción": "Disacárido, formado por la unión de glucomanitol y glucosorbitol; Fabricado con azúcar como materia prima",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "Puede producir diarrea y gases intestinales.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E954",
+	"Nombre": "Sacarina",
+	"Descripción": "Se obtiene mediante síntesis química del tolueno o de otros derivados del petróleo",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "Existe controversia en cuanto a los efectos secundarios de este producto. En algunos países como Canadá su uso está prohibido.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E955",
+	"Nombre": "Sucralosa",
+	"Descripción": "Se fabrica por halogenación selectiva de sacarosa, reemplazando los tres grupos hidroxilo de la molécula por cloro",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "Se ha reportado la formación de compuestos tóxicos al calentar aceites en presencia de sucralosa. Provoca reducción en la beneficiosa microflora fecal, incremento del pH fecal y a niveles elevados, la sucralosa daña el ADN.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E957",
+	"Nombre": "Taumatina",
+	"Descripción": "Es una proteína extraída de los arilos del katemfe (Thaumatococcus), un arbusto de África Occidental.",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "En grandes dosis puede causar efectos laxantes",
+	"Origen": "Vegano"
+}, {
+	"Número": "E959",
+	"Nombre": "Neohesperidina",
+	"Descripción": "se obtiene por modificación química de una sustancia presente en la naranja amarga, Citrus aurantium.",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "En grandes dosis puede provocar náuseas y migrañas",
+	"Origen": "Vegano"
+}, {
+	"Número": "E960",
+	"Nombre": "Esteviósido (Extracto de Estevia)",
+	"Descripción": "La estevia es un edulcorante elaborado en laboratorios a partir del extracto de una planta denominada Stevia rebaudiana. Hasta 300 veces más dulce que el azúcar común. Es apto para diabéticos y no produce caries. También conocido como Glicósidos de Esteviol o Rebaudiósido A.",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "Desconocidos.",
+	"Origen": "Vegano"
+},{
+	"Número": "E962",
+	"Nombre": "Sal de aspartamo-acesulfamo",
+	"Descripción": "La  sal  de  aspartamo acesulfamo  es  un  edulcorante  bajo  en  calorías  que contiene  aspartamo  y  acesulfamo  unidos  iónicamente, es aproximadamente 350 veces más dulce que el azúcar.",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "Desconocidos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E965",
+	"Nombre": "Maltitol",
+	"Descripción": "Es un azúcar-alcohol sintético, producido a patir del azúcar de malta (maltosa) derivado del almidón.",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "El maltitol es absorbido y metabolizado parcialmente por el cuerpo como la glucosa; y la parte restante es fermentada en el intestino grueso. Durante la fermentación, se producen gases, los cuales pueden producir hinchamiento y flatulencia. En personas intolerantes puede actuar como laxante.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E966",
+	"Nombre": "Lactitol",
+	"Descripción": "Es un azúcar-alcohol sintético, producido a partir del azúcar de la leche (lactosa) derivado del suero (leche)",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "El lactitol es absorbido y metabolizado parcialmente por el cuerpo como la glucosa; y la parte restante es fermentada en el intestino grueso. Durante la fermentación, se producen gases, los cuales pueden producir hinchamiento y flatulencia. En personas intolerantes puede actuar como laxante.",
+	"Origen": "No vegano"
+}, {
+	"Número": "E967",
+	"Nombre": "Xilitol",
+	"Descripción": "Es un azúcar-alcohol de origen natural presente en muchas plantas. Es producido comercialmente a partir del xilan, el cual es una fracción de polisacárido de la pulpa de la madera.",
+	"Función": "Edulcorante",
+	"Efectos secundarios": "El xilitol es absorbido y metabolizado parcialmente por el cuerpo como todos los azúcares; y la parte restante es fermentada en el intestino grueso. Durante la fermentación, se producen gases, los cuales pueden producir hinchamiento y flatulencia. En personas intolerantes puede actuar como laxante.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E999",
+	"Nombre": "Extracto de quilaya",
+	"Descripción": "Estabilizante natural obtenido de un árbol de América del Sur llamado quillay (Quillaja saponaria)",
+	"Función": "Agente espumante",
+	"Efectos secundarios": "Es considerado como tóxico de la sangre y posible causante de inflamación intestinal.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1000",
+	"Nombre": "Ácido cólico",
+	"Descripción": "Componente normal de la bilis de todos los vertebrados. Extraído de la bilis de las vacas, pero también puede ser producido sintéticamente.",
+	"Función": "Emulsificante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E1001",
+	"Nombre": "Sales y ésteres de colina",
+	"Descripción": "La colina es un nutriente esencial que es vital para el funcionamiento del cerebro y, normalmente, se agrupa con el complejo de vitamina B. Se presenta en una amplia variedad de alimentos animales y vegetales. La colina se encuentra en muchos alimentos procesados en forma de lecitina y se utiliza como un emulsionante. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+	"Función": "Emulsionante",
+	"Efectos secundarios": "Efectos negativos desconocidos",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E1100",
+	"Nombre": "Amilasa",
+	"Descripción": "La amilasa, denominada también sacarasa o ptialina, es una enzima hidrolasa que tiene la función de catalizar la reacción de hidrólisis de los enlaces 1-4 del componente α-amilasa al digerir el glucógeno y el almidón para formar azúcares simples. Se produce principalmente en las glándulas salivales (sobre todo en las glándulas parótidas) y en el páncreas de diversos animales. También se obtiene de algunos hongos y mohos o mediante ingeniería genética.  Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+	"Función": "Se emplea como mejorante del pan, endulzante en frutas y productos vegetales, bebidas (cerveza), azúcar, confitería y productos de panadería.",
+	"Efectos secundarios": "No se conocen sus efectos negativos, pero está prohibido en la UE",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E1101",
+	"Nombre": "Proteasas",
+	"Descripción": "Son enzimas proteolíticas, es decir, actúan rompiendo los enlaces que unen los aminoácidos de las proteínas facilitando su digestión. Pueden obtenerse de diferentes fuentes como animales (quimosina, tripsina y peptina), vegetales (papaya, la piña y el kiwi, entre otros) bacterias u hongos. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+	"Función": "Potenciador del sabor, estabilizador y se utiliza en el tratamiento de harinas.",
+	"Efectos secundarios": "No se conocen sus efectos negativos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E1102",
+	"Nombre": "Oxidasa de glucosa",
+	"Descripción": "Es una enzima extraída de los hongos Aspergillus niger y Penicillium. Es altamente específico para D-glucosa provocando que se descomponga en sus metabolitos. Después de una serie de reacciones de oxidación / reducción de la molécula de oxígeno, se reduce a peróxido de hidrógeno.",
+	"Función": "Actúa como un antioxidante, agente antimicrobiano y se utiliza como conservante en alimentos para evitar el deterioro debido a la oxidación.",
+	"Efectos secundarios": "No se conocen sus efectos negativos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1103",
+	"Nombre": "Invertasa",
+	"Descripción": "Es una enzima empleada en muchos alimentos como estabilizador. Se encuentra en el organismo de las abejas y en algunas levaduras. Se encarga de transformar la sacarosa en fructosa y galactosa o a la inversa. A la mezcla resultante de glucosa y fructosa se le denomina “azúcar invertido”; la forma más común de este “azúcar invertido” es la miel de abeja, la cual es una mezcla sobresaturada de glucosa y fructosa. Se emplea en cerezas cubiertas de chocolate o en barritas de chocolate con caramelo. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+	"Función": "Estabilizante",
+	"Efectos secundarios": "No se conocen sus efectos negativos.",
+	"Origen": "Dudoso"
+}, {
+	"Número": "E1105",
+	"Nombre": "Lisozima",
+	"Descripción": "Una enzima, que es un componente normal de las lágrimas, la saliva, la sangre y la leche (humana). Comercialmente preparados a partir de huevos de gallina o por bacterias.",
+	"Función": "Conservante",
+	"Efectos secundarios": "Puede causar reacciones alérgicas",
+	"Origen": "No vegano"
+}, {
+	"Número": "E1200",
+	"Nombre": "Polidextrosa",
+	"Descripción": "Polímero de la glucosa, con algo de sorbitol. Producida por calentamiento de dextrosa (glucosa) en la presencia de sorbitol y ácido cítrico.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En altas dosis actúa como laxante",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1201",
+	"Nombre": "Polivinilpirrolidona",
+	"Descripción": "Políemero sintético",
+	"Función": "Agente espesante, estabilizador",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1202",
+	"Nombre": "Polivinilpolipirrolidona insoluble",
+	"Descripción": "Políemero sintético",
+	"Función": "Agente clarificante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1400",
+	"Nombre": "Dextrinas",
+	"Descripción": "Polímero de dextrosa, preparado por la degradación parcial del almidón.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1401",
+	"Nombre": "Almidón ácido",
+	"Descripción": "Preparado por el tratamiento de almidón o gránulos de almidón con ácidos inorgánicos. El almidón es parcialmente degradado.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1402",
+	"Nombre": "Almidón alcalino modificado",
+	"Descripción": "Preparado por el tratamiento de almidón o gránulos con hidróxido de sodio o de potasio. El almidón es parcialmente degradado.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1403",
+	"Nombre": "Almidón blanqueado",
+	"Descripción": "Preparado por tratamiento de almidón con agentes de blanqueo. El almidón es parcialmente degradado y oxidado.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1404",
+	"Nombre": "Almidón oxidado",
+	"Descripción": "Preparado por tratamiento de almidón con hipoclorito. El almidón es parcialmente degradado y oxidado.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "Puede provocar diarrea y daños en el hígado.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1410",
+	"Nombre": "Fosfato monoalmidón",
+	"Descripción": "Preparado por tratamiento de almidón con ácido fosfórico. El almidón es parcialmente degradado y fosforilado.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1411",
+	"Nombre": "Glicerol dialmidón",
+	"Descripción": "Preparado por tratamiento de almidón con glicerol. El almidón se degrada parcialmente y se combina con glicerol.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "Sin efectos secundarios conocidos",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1412",
+	"Nombre": "Fosfato dialmidón",
+	"Descripción": "Preparado por tratamiento de almidón con un agente de fosforilación. Esto se traduce en mejores posibilidades de aplicación.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1413",
+	"Nombre": "Fosfato Dialmidón Fosfatado",
+	"Descripción": "Preparado por tratamiento de almidón con un agente de fosforilación y ácido fosfórico. El almidón resultante tiene una mayor estabilidad a altas y bajas temperaturas y es más resistente contra el ácido.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1414",
+	"Nombre": "Fosfato Dialmidón Acetilado",
+	"Descripción": "Preparado por tratamiento de almidón con un agente de fosforilación y ácido acético. El almidón resultante tiene una mayor estabilidad y se disuelve mejor a bajas temperaturas.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1420",
+	"Nombre": "Almidón Acetilado",
+	"Descripción": "Preparado por tratamiento de almidón con anhídrido de ácido acético. El almidón resultante es más estable a altas temperaturas y bajo pH.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos como diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1421",
+	"Nombre": "Almidón Acetilado de Vinilo",
+	"Descripción": "Preparado por tratamiento de almidón con acetato de vinilo. El almidón resultante es más estable a altas temperaturas y bajo pH compatible con E1420.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos como diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1422",
+	"Nombre": "Adipato Dialmidón Acetilado",
+	"Descripción": "Preparado por tratamiento de almidón con anhídrido de ácido acético y anhídrido de ácido adípico. Esto da lugar a un almidón que es resistente contra la agitación y temperaturas elevadas.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos como diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1423",
+	"Nombre": "Glicerol dialmidón acetilado",
+	"Descripción": "reparado por tratamiento de almidón con anhídrido de ácido acético y glicerol. Esto da lugar a un almidón que es resistente contra la agitación y las altas temperaturas y con una alta estabilidad después del enfriamiento.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos como diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1440",
+	"Nombre": "Hidroxipropil Almidón",
+	"Descripción": "Preparado por tratamiento de almidón con óxido de propileno. El almidón resultante es más estable frente a ácidos, alcalinos y las enzimas que degradan el almidón. También proporciona un mejor color y brillo a los productos.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos como diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1441",
+	"Nombre": "Glicerol Dialmidon Hidroxipropilado",
+	"Descripción": "Preparado por tratamiento de almidón con óxido de propileno, epiclorhidrina y glicerol. El almidón resultante es más estable frente a ácidos, alcalinos y las enzimas que degradan el almidón. También proporciona un mejor color y brillo a los productos y es más estable después del enfriamiento.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos como diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1442",
+	"Nombre": "Fosfato Dialmidon Hidroxipropilado",
+	"Descripción": "Preparado por tratamiento de almidón con óxido de propileno y ácido fosfórico. El almidón resultante es más estable frente a ácidos, alcalinos y las enzimas que degradan el almidón. También proporciona un mejor color y brillo a los productos y tiene muy buenas propiedades de congelación-descongelación.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos como diarrea, así como ralentizar la digestión.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1450",
+	"Nombre": "Octenil Succinato Sódico de Almidón",
+	"Descripción": "Preparado por tratamiento de almidón con octenilsuccinato",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En grandes dosis puede causar hiperactividad y daños digestivos como diarrea.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1501",
+	"Nombre": "Hidrocarbonos bencilados",
+	"Descripción": "Compuestos naturales que constituyen parte del sabor y la fragancia de varias especies de plantas. Son producidos comercialmente por síntesis química. 1501(i):Bencil alcohol, 1501(ii): Acetato de bencilo, 1501(iii): Benzoato de bencilo",
+	"Función": "Saborizantes",
+	"Efectos secundarios": "No se conocen efectos en alimentos, pero al usarse en los cosméticos pueden presentarse problemas en la piel.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1502",
+	"Nombre": "1,3 butanodiol",
+	"Descripción": "Es producido comercialmente por síntesis química.",
+	"Función": "Solvente para saborizantes",
+	"Efectos secundarios": "No se conocen efectos en alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1503",
+	"Nombre": "Aceite de ricino",
+	"Descripción": "Aceite natural extraído de las semillas del Ricinus communis (árbol de ricino).",
+	"Función": "Saborizante y solvente",
+	"Efectos secundarios": "No se conocen efectos en alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1504",
+	"Nombre": "Acetato de etilo",
+	"Descripción": "Componente natural de varias frutas; es comercialmente producido a partir del ácido acético.",
+	"Función": "Solvente para saborizantes",
+	"Efectos secundarios": "No se conocen efectos en alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1505",
+	"Nombre": "Citrato de trietilo",
+	"Descripción": "Es comercialmente producido a partir del ácido cítrico.",
+	"Función": "Solvente para saborizantes",
+	"Efectos secundarios": "No se conocen efectos en alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1516",
+	"Nombre": "Monoacetato de glicerol",
+	"Descripción": "es comercialmente producido a partir del ácido acético y el glicerol.",
+	"Función": "Solvente para saborizantes",
+	"Efectos secundarios": "No se conocen efectos en alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1517",
+	"Nombre": "Diacetato de glicerol",
+	"Descripción": "El diacetato de glicerol es producido comercialmente a partir del ácido acético y el glicerol.",
+	"Función": "Solvente para saborizantes",
+	"Efectos secundarios": "No se conocen efectos en alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1518",
+	"Nombre": "Triacetato de glicerol",
+	"Descripción": "El triacetato de glicerol es producido comercialmente a partir del ácido acético y el glicerol.",
+	"Función": "Solvente para saborizantes",
+	"Efectos secundarios": "No se conocen efectos en alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1520",
+	"Nombre": "Propilenglicol",
+	"Descripción": "El propilenglicol es producido comercialmente a partir del propileno y el carbonato.",
+	"Función": "Solvente para antioxidantes",
+	"Efectos secundarios": "No se conocen efectos en alimentos.",
+	"Origen": "Vegano"
+}, {
+	"Número": "E1525",
+	"Nombre": "Hidroxietil celulosa",
+	"Descripción": "La hidroxietil celulosa es producida comercialmente a partir del etanol y la celulosa.",
+	"Función": "Agente espesante",
+	"Efectos secundarios": "En altas concentraciones actúa como laxante.",
+	"Origen": "Vegano"
+}]
+}
