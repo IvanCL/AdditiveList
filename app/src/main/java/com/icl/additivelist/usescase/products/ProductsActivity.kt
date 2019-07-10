@@ -1,14 +1,13 @@
-package com.icl.additivelist.usescase.additives
+package com.icl.additivelist.usescase.products
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.icl.additivelist.R
 
-class FindAdditivesActivity : AppCompatActivity() {
+class ProductsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_find_additives)
+        setContentView(R.layout.activity_products)
     }
 }
-0
