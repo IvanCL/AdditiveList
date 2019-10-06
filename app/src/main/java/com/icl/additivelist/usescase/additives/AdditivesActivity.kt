@@ -11,4 +11,3 @@ class AdditivesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_find_additives)
     }
 }
-0
