@@ -1,11 +1,7 @@
 package com.icl.additivelist
 
 import android.app.Application
-import androidx.lifecycle.Lifecycle
-
-import androidx.lifecycle.LifecycleObserver
-import androidx.lifecycle.OnLifecycleEvent
-import androidx.lifecycle.ProcessLifecycleOwner
+import android.util.Log
 
 
 /**
@@ -14,13 +10,10 @@ import androidx.lifecycle.ProcessLifecycleOwner
  * Responde a un patron singleton, es decir, solo puedo tener una instancia de esta clase.
  * El ejemplo visual es que no puedo tener dos veces abiertas "whatsapp"
  */
-class App : Application() {
-    companion object {
-        var isInForeground = false
-    }
-
+class App : Application(){
 
     override fun onCreate() {
         super.onCreate()
+        Log.d("CICE", "La aplicación se ha iniciado")
     }
 }

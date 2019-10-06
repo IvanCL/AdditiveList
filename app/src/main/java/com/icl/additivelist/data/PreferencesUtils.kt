@@ -5,6 +5,8 @@ import android.content.SharedPreferences
 import android.preference.PreferenceManager
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import com.icl.additivelist.models.Additive
+import java.util.*
 
 class PreferencesUtils(context: Context) : AppCompatActivity() {
 
@@ -17,13 +19,13 @@ class PreferencesUtils(context: Context) : AppCompatActivity() {
         preferences = PreferenceManager.getDefaultSharedPreferences(context)
     }
 
-    fun saveSetPreferences(nameList: ArrayList<String>, namePreference: String) {
+    fun saveSetPreferences(nameList: List<Any>, namePreference: String) {
 
         initPreferences()
         val editor = preferences.edit()
         var preferenceElement = getPreference(namePreference) ?: mutableSetOf()
-        nameList.forEach { it: String ->
-            preferenceElement.add(it)
+        nameList.forEach { it: Any ->
+            preferenceElement.add(it.toString())
         }
 
         editor.clear()
