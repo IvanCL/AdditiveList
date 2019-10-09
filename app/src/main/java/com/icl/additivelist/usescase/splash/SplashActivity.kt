@@ -15,6 +15,7 @@ import com.google.gson.Gson
 import com.icl.additivelist.data.PreferencesUtils
 import com.icl.additivelist.models.Additive
 import com.icl.additivelist.usescase.additives.AdditivesActivity
+import com.icl.additivelist.usescase.main.MainActivity
 
 
 class SplashActivity :AppCompatActivity() {
@@ -43,7 +44,7 @@ class SplashActivity :AppCompatActivity() {
                     additiveList = Gson().fromJson(result, Array<Additive>::class.java).toList()
 
                     loadAdditivesIntoPreferences()
-                    var intent = Intent(this@SplashActivity, AdditivesActivity::class.java)
+                    var intent = Intent(this@SplashActivity, MainActivity::class.java)
                     startActivity(intent)
                 }
             }.start()
