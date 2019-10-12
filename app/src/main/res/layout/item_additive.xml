@@ -6,7 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#A94CAF50">
+        android:background="#A94CAF50"
+        android:id="@+id/itemAdditive">
 
 
     <TextView android:id="@+id/additiveNameTxt"
@@ -52,8 +53,8 @@
     -->
     <ImageView
             android:id="@+id/vegNoVegIcon"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:background="@android:color/transparent"
             android:src="@drawable/vegan_icon_ok"
             app:layout_constraintTop_toTopOf="parent"
@@ -63,8 +64,8 @@
               android:layout_width="0dp"
               android:layout_height="match_parent"
               android:layout_margin="10dp"
-              android:maxLines="2"
               android:ellipsize="end"
+              android:singleLine="true"
               android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
               tools:text="Description additive"
               app:layout_constraintStart_toStartOf="@id/additiveNameTxt"
@@ -83,5 +84,12 @@
               app:layout_constraintStart_toStartOf="parent"
               tools:text="origin (Vegan, Not Vegan)"/>
 
+    <android.support.constraint.Guideline
+            android:id="@+id/lineSplitHorizon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="5dp"
+            />
 
 </android.support.constraint.ConstraintLayout>

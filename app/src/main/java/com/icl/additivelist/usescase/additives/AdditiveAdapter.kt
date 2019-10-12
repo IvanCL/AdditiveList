@@ -1,7 +1,9 @@
 package com.icl.additivelist.usescase.additives
 
+import android.app.PendingIntent.getActivity
 import android.content.Context
 import android.graphics.drawable.Drawable
+import android.support.v4.content.ContextCompat
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -36,23 +38,33 @@ class AdditiveAdapter(private val items: ArrayList<Additive>, private  val conte
 
 class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     fun bindItems(item: Additive, context: Context) {
-        /*itemView.postsId.text = item.id.toString()*/
-        itemView.additiveNameTxt.text= item.name
-        itemView.descriptionTxt.text=item.description
-        /*itemView.postsBody.maxLines=5*/
-        itemView.originAdditive.text=item.origin
-        if (!item.origin.equals("Vegano")){
-            val new_image: Drawable? = getDrawable(context, R.drawable.ic_launcher)
-            //itemView.vegNoVegIcon.setBackgroundDrawable(new_image)
+        if (!item.name.isNullOrEmpty() && !item.numb.isNullOrEmpty() && !item.description.isNullOrEmpty() && !item.origin.isNullOrEmpty()) {
+            itemView.additiveNameTxt.text = item.numb + " - " + item.name
+            itemView.descriptionTxt.text = item.description
 
-            itemView.vegNoVegIcon.setImageDrawable(new_image!!)
-        }
-        /*itemView.setOnClickListener {
+            // Check type of additive
+            var newIconImage: Drawable?
+            newIconImage = getDrawable(context, R.drawable.vegan_icon_ok)
+            itemView.vegNoVegIcon.setImageDrawable(newIconImage!!)
+            itemView.originAdditive.text = item.origin
+            itemView.itemAdditive.setBackgroundColor(ContextCompat.getColor(context, R.color.colorVegan))
+            if (item.origin.trim().equals("No vegano", true)) {
+                newIconImage = getDrawable(context, R.drawable.ic_launcher)
+                //itemView.vegNoVegIcon.setBackgroundDrawable(new_image)
+
+                itemView.vegNoVegIcon.setImageDrawable(newIconImage!!)
+                itemView.itemAdditive.setBackgroundColor(ContextCompat.getColor(context, R.color.colorDangerous))
+            }else if (item.origin.trim().equals("Dudoso", true)){
+                newIconImage = getDrawable(context, R.drawable.ic_launcher)
+                itemView.vegNoVegIcon.setImageDrawable(newIconImage!!)
+                itemView.itemAdditive.setBackgroundColor(ContextCompat.getColor(context, R.color.colorDoubtful))
+            }
+            /*itemView.setOnClickListener {
             var intent = Intent(context, AdditivesActivity::class.java)
             intent.putExtra("post", item)
             context.startActivity(intent)
         }*/
-
+        }
     }
 
 }
