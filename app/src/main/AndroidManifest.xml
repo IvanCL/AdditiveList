@@ -30,7 +30,8 @@
         <activity android:name=".usescase.additives.AdditivesActivity"
                 android:label="@string/title_activity_additives">
         </activity>
-        <activity android:name=".usescase.main.MainActivity">
+        <activity android:name=".usescase.main.MainActivity"
+                android:label="@string/title_activity_main">
 
         </activity>
 
