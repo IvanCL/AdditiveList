@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="POSTS"
+
+          android:id="@+id/op1"></item>
+    <item android:title="ALBUMS"
+
+          android:id="@+id/op2"></item>
+    <item android:title="USERS"
+
+          android:id="@+id/op3"></item>
+    <item android:title="TUTORIAL"
+          android:icon="@android:drawable/ic_menu_edit"
+          android:id="@+id/op4"></item>
+</menu>

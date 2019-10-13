@@ -1,33 +1,72 @@
 package com.icl.additivelist.usescase.splash
 
 import android.content.Intent
-import android.icu.util.TimeZone
-import android.os.Build
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.content.ContextCompat.startActivity
-import android.util.JsonReader
 import com.icl.additivelist.R
 import com.icl.additivelist.config.ConfigProperties
 import java.net.URL
 import android.util.Log
 import com.google.gson.Gson
 import com.icl.additivelist.data.PreferencesUtils
+import com.icl.additivelist.globals.ADDITIVES
+import com.icl.additivelist.globals.DAYS_FROM_ADDITIVES_UPDATE
 import com.icl.additivelist.models.Additive
-import com.icl.additivelist.usescase.additives.AdditivesActivity
+import com.icl.additivelist.usescase.main.MainActivity
 
 
 class SplashActivity :AppCompatActivity() {
 
     var additiveList : List<Additive>? = null
+    var days : MutableSet<String>? = mutableSetOf()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        getAdditives()
+
+        var additivesSaved:  MutableSet<String>? = PreferencesUtils(this.applicationContext).getPreference(ADDITIVES)
+        days = PreferencesUtils(this.applicationContext).getPreference(DAYS_FROM_ADDITIVES_UPDATE)
+
+        if(additivesSaved.isNullOrEmpty() || (days.isNullOrEmpty() || (!days.isNullOrEmpty() && checkLastUpdateOfAdditives()))){
+            getAdditives()
+        }else{
+            var intent = Intent(this@SplashActivity, MainActivity::class.java)
+            startActivity(intent)
+        }
+        var intent = Intent(this@SplashActivity, MainActivity::class.java)
+        startActivity(intent)
     }
 
+    /**
+     * Check the last day when shared preferences were updated
+     */
+    private fun checkLastUpdateOfAdditives(): Boolean {
+        var any =false
+        if (days != null) {
+            var any = days!!.any { p: String ->
+                run {
+                    var a = Integer.parseInt(p)
+                    if (a > 7) {
+                        days!!.clear()
+                        days!!.add("0")
+                        return true
+                    }
+                    Log.d("ADITIVOS AL DIA", "ADITIVOS AL DIA")
+                    days!!.clear()
+                    a += 1
+                    days!!.add(a.toString())
+                    PreferencesUtils(this.applicationContext).saveSetPreferences(days!!.toList(), DAYS_FROM_ADDITIVES_UPDATE)
+                    return false
+                }
+            }
+        }
+        return any
+    }
+
+    /**
+     * Gets the updated list of additives
+     */
     private fun getAdditives() {
         var result: String
             Thread {
@@ -43,19 +82,23 @@ class SplashActivity :AppCompatActivity() {
                     additiveList = Gson().fromJson(result, Array<Additive>::class.java).toList()
 
                     loadAdditivesIntoPreferences()
-                    var intent = Intent(this@SplashActivity, AdditivesActivity::class.java)
+                    var intent = Intent(this@SplashActivity, MainActivity::class.java)
                     startActivity(intent)
                 }
             }.start()
 
     }
 
+    /**
+     * Save and update additives and timer
+     */
     private fun loadAdditivesIntoPreferences(){
-        // lateinit var date : LocalDateTime
-        // if (Build.VERSION.SDK_INT>=26) date = LocalDateTime.now()
-
         if(additiveList!=null){
-           PreferencesUtils(this.applicationContext).saveSetPreferences(additiveList!!, "ADDITIVES")
+            Log.d("ADITIVOS ACTUALIZADOS", "ADITIVOS ACTUALIZADOS")
+           PreferencesUtils(this.applicationContext).saveSetPreferences(additiveList!!, ADDITIVES)
+            if (days.isNullOrEmpty())
+                days  = mutableSetOf("1")
+           PreferencesUtils(this.applicationContext).saveSetPreferences(days!!.toList(), DAYS_FROM_ADDITIVES_UPDATE)
         }
     }
 

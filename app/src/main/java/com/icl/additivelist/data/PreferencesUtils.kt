@@ -15,13 +15,14 @@ class PreferencesUtils(context: Context) : AppCompatActivity() {
 
     lateinit var preferences: SharedPreferences
 
-    private fun initPreferences() {
-        preferences = PreferenceManager.getDefaultSharedPreferences(context)
+    private fun initPreferences(name: String) {
+        /*preferences = PreferenceManager.getDefaultSharedPreferences(context)*/
+        preferences = context.getSharedPreferences(name, Context.MODE_PRIVATE)
     }
 
     fun saveSetPreferences(nameList: List<Any>, namePreference: String) {
 
-        initPreferences()
+        initPreferences(namePreference)
         val editor = preferences.edit()
         var preferenceElement = getPreference(namePreference) ?: mutableSetOf()
         nameList.forEach { it: Any ->
@@ -31,10 +32,11 @@ class PreferencesUtils(context: Context) : AppCompatActivity() {
         editor.clear()
         editor.putStringSet(namePreference, preferenceElement)
         editor.apply()
+        editor.commit()
     }
 
     fun savePreferences(name: String, namePreference: String) {
-        initPreferences()
+        initPreferences(namePreference)
         val editor = preferences.edit()
         var preferenceElement = getPreference(namePreference) ?: mutableSetOf()
 
@@ -42,10 +44,11 @@ class PreferencesUtils(context: Context) : AppCompatActivity() {
         editor.clear()
         editor.putStringSet(namePreference, preferenceElement)
         editor.apply()
+        editor.commit()
     }
 
     fun getPreference(namePreference: String): MutableSet<String>? {
-        initPreferences()
+        initPreferences(namePreference)
         val prfSetElement = preferences.getStringSet(namePreference, null)
         prfSetElement?.forEach { Log.d("Getting preferences", it) }
         return prfSetElement
