@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".usescase.additives.AdditivesActivity"
-        android:background="#A94CAF50">
+        android:background="@color/colorBackgroundPrimary">
 
 
     <EditText
@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:tooltipText="Busqueda de aditivos: E-120...120, Carmin"
-            android:hint="Búsqueda de aditivos"
+            android:hint="Buscar nº(E120...) o nombre de aditivos"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toTopOf="@id/containerAdditives"

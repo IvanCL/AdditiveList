@@ -6,23 +6,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#A94CAF50"
-        android:id="@+id/itemAdditive">
+        android:background="@color/colorBackgroundPrimary"
+        android:id="@+id/itemAdditive"
+        android:layout_margin="5dp">
 
 
     <TextView android:id="@+id/additiveNameTxt"
-              android:layout_margin="10dp"
-              android:padding="10dp"
-              android:layout_width="0dp"
-              android:layout_height="wrap_content"
-              android:maxLines="1"
-              android:ellipsize="end"
-              android:textAppearance="@style/TextAppearance.AppCompat.Large"
-              android:textAlignment="center"
-              app:layout_constraintTop_toTopOf="parent"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintEnd_toStartOf="@id/vegNoVegIcon"
-              tools:text="Aditivo"/>
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/colorTextPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAlignment="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/vegNoVegIcon"
+            tools:text="Aditivo"/>
 
     <android.support.constraint.Guideline
             android:layout_width="0dp"
@@ -30,7 +32,7 @@
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.90"
             app:layout_constraintBottom_toTopOf="@+id/lineHorizon"
-    />
+            />
 
     <android.support.constraint.Guideline
             android:id="@+id/lineHorizon"
@@ -38,51 +40,43 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             app:layout_constraintGuide_end="50dp"
-    />
+            />
 
-<!--    <TextView android:id="@+id/postsId"
-              android:layout_width="wrap_content"
-              android:layout_height="match_parent"
-              android:layout_margin="10dp"
-              android:padding="10dp"
-              app:layout_constraintTop_toTopOf="parent"
-              app:layout_constraintEnd_toEndOf="parent"
-              tools:text="ID"/>-->
-    <!--android:src="@drawable/vegan_icon_ok"
-    android:src="@android:drawable/stat_notify_error"
-    -->
     <ImageView
             android:id="@+id/vegNoVegIcon"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@android:color/transparent"
             android:src="@drawable/vegan_icon_ok"
+            android:layout_margin="10dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView android:id="@+id/descriptionTxt"
-              android:layout_width="0dp"
-              android:layout_height="match_parent"
-              android:layout_margin="10dp"
-              android:ellipsize="end"
-              android:singleLine="true"
-              android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-              tools:text="Description additive"
-              app:layout_constraintStart_toStartOf="@id/additiveNameTxt"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintTop_toBottomOf="@+id/additiveNameTxt"
-    />
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/colorTextPrimary"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            tools:text="Description additive"
+            app:layout_constraintStart_toStartOf="@id/additiveNameTxt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/additiveNameTxt"
+            />
 
     <TextView android:id="@+id/originAdditive"
-              android:layout_width="wrap_content"
-              android:layout_height="match_parent"
-              android:layout_margin="10dp"
-              android:padding="10dp"
-              android:textStyle="italic"
-              app:layout_constraintBottom_toBottomOf="parent"
-              app:layout_constraintTop_toBottomOf="@+id/descriptionTxt"
-              app:layout_constraintStart_toStartOf="parent"
-              tools:text="origin (Vegan, Not Vegan)"/>
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:textColor="@color/colorTextPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionTxt"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="origin (Vegan, Not Vegan)"/>
 
     <android.support.constraint.Guideline
             android:id="@+id/lineSplitHorizon"
