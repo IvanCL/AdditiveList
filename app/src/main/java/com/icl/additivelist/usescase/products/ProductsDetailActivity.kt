@@ -2,14 +2,14 @@ package com.icl.additivelist.usescase.products
 
 import android.content.Intent
 import android.graphics.drawable.Drawable
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
 import com.icl.additivelist.R
 import com.icl.additivelist.globals.GlobalActivity
 import com.icl.additivelist.models.Products
-import kotlinx.android.synthetic.main.activity_additive_detail.*
-import kotlinx.android.synthetic.main.item_product.*
+import kotlinx.android.synthetic.main.activity_products_detail.*
+import kotlinx.android.synthetic.main.activity_products_detail.productNameTxt
+
 
 class ProductsDetailActivity : GlobalActivity() {
 
@@ -28,24 +28,25 @@ class ProductsDetailActivity : GlobalActivity() {
             productNameTxt.text = product.name
             productDescriptionTxt.text = product.description
             productOrigin.text = product.origin
+            usesTxt.text = product.uses
 
             // Check type of additive
             var newIconImage: Drawable?
             newIconImage = ContextCompat.getDrawable(this, R.drawable.vegan_icon_ok)
             typeIcon.setImageDrawable(newIconImage!!)
-            originAdditive.text = product.origin
-            itemAdditive.setBackgroundColor(ContextCompat.getColor(this, R.color.colorVegan))
+            productOrigin.text = product.origin
+            itemProductDetail.setBackgroundColor(ContextCompat.getColor(this, R.color.colorVegan))
 
             // Check origin
             if (product.origin.trim().equals("No vegano", true)) {
                 newIconImage = ContextCompat.getDrawable(this, R.drawable.skull_icon)
 
                 typeIcon.setImageDrawable(newIconImage!!)
-                itemAdditive.setBackgroundColor(ContextCompat.getColor(this, R.color.colorDangerous))
+                itemProductDetail.setBackgroundColor(ContextCompat.getColor(this, R.color.colorDangerous))
             }else if (product.origin.trim().equals("Dudoso", true)){
                 newIconImage = ContextCompat.getDrawable(this, R.drawable.question_icon)
                 typeIcon.setImageDrawable(newIconImage!!)
-                itemAdditive.setBackgroundColor(ContextCompat.getColor(this, R.color.colorDoubtful))
+                itemProductDetail.setBackgroundColor(ContextCompat.getColor(this, R.color.colorDoubtful))
             }
 
             backIcon.setOnClickListener {
