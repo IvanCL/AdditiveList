@@ -12,9 +12,7 @@ import com.icl.additivelist.models.Additive
 import kotlinx.android.synthetic.main.item_additive.view.*
 import java.util.*
 import android.support.v4.content.ContextCompat.getDrawable
-import android.widget.Toast
 import com.icl.additivelist.R
-import kotlinx.android.synthetic.main.activity_find_additives.*
 
 
 class AdditiveAdapter(private val items: ArrayList<Additive>, private  val context: Context) : RecyclerView.Adapter<ViewHolder>() {

@@ -1,25 +1,16 @@
 package com.icl.additivelist.usescase.additives
 
-import android.content.Intent
-import android.graphics.drawable.Drawable
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
-
 import android.support.v7.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
-import android.view.View
 import com.icl.additivelist.data.PreferencesUtils
 import com.icl.additivelist.globals.ADDITIVES
 import com.icl.additivelist.globals.GlobalActivity
 import com.icl.additivelist.models.Additive
 import kotlinx.android.synthetic.main.activity_find_additives.*
 import com.icl.additivelist.R
-import com.icl.additivelist.usescase.main.MainActivity
-import kotlinx.android.synthetic.main.item_additive.view.*
-import kotlinx.android.synthetic.main.item_detail_additive.*
-import kotlinx.android.synthetic.main.item_detail_additive.view.*
 
 
 class AdditivesActivity : GlobalActivity() {

@@ -1,0 +1,380 @@
+[
+      { 
+         "name":"Aceite de Castor (castor oil)",
+         "description":"El aceite de ricino, en muchas ocasiones mal traducido como aceite de castor por su denominación en inglés (castor oil), se obtiene a partir de la planta Ricinus communis, que contiene aproximadamente un 40-50 % del aceite.",
+         "uses":"Forma parte de la fabricación de plásticos, lacas, pinturas, lubricantes, medicamentos y cosméticos.",
+         "origin":"Vegano"
+      },
+      { 
+         "name":"Aceite de esperma",
+         "description":"El espermaceti es una cera o aceite blanquecino, que se conoce también como <blanco de ballena>; está presente en las cavidades del cráneo del cachalote (Physeter macrocephalus) y en las grasas vascularizadas de todas las ballenas. El aceite de esperma se extrae del espermaceti mediante cristalización a 6 °C, después de tratamiento con presión y una solución química de álcali cáustico.",
+         "uses":"Se utiliza principalmente en la industria cosmética, trabajos con cuero y como lubricante. También para fabricar velas.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Aceite de visón",
+         "description":"El aceite de visón se hace a partir de grasa de visón. Se hace con la grasa que se almacena justo debajo de la piel. Retirado de pieles destinadas a la industria de la piel.",
+         "uses":"Se utiliza en varios productos médicos y cosméticos, muy extendido en “peluquería canina”. El aceite de visón también se utiliza para el tratamiento / acondicionamiento y conservación de casi todo tipo de cuero.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Aceite Marino",
+         "description":"Los aceites marinos son los que existen en peces denominados “pescados azules”, en mamíferos marinos (foca, morsa...) y en el fitoplancton del agua de mar. Se trata de la familia de ácidos grasos poliinsaturados denominada Omega-3.",
+         "uses":"A menudo comercializados y vendidos para su consumo como parte de la dieta o en suplementos dietéticos en las sociedades contemporáneas, los aceites de pescado también han encontrado papeles en uso externo como cosméticos",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Aceite oleico",
+         "description":"El ácido o aceite oleico es un ácido graso que se produce de forma natural en diversas grasas y aceites animales y vegetales. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Utilizado en cosméticos y productos alimentarios",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Ácido araquidónico",
+         "description":"El ácido araquidónico (AA) o ácido eicocsatetraenoico es un ácido graso no esencial porque el organismo lo puede sintetizar a partir del ácido linoleico. Se obtiene de animales, sobre todo a partir de grasas, músculos y membranas de mamíferos. También es posible encontrarlo en algunos vegetales. Una fuente comercial de ácido araquidónico se ha derivado a partir del hongo Mortierella alpina. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Desconocido",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Ácido hilaurónico",
+         "description":"El ácido hialurónico (AH) es un polisacárido que existe en la sinovia, humor vítreo y tejido conjuntivo colágeno de numerosos organismos animales. Destacan principalmente como fuentes más usadas las crestas de los gallos, el cordon umbilical y la aleta de tiburón. También puede ser obtenido mediante fermentado de fibras vegetales derivadas de la celulosa del pino por microorganismos, como streptococcus aunque algunas veces da riesgo a posibles mutaciones bacterianas, toxinas y pirógenos. Este se denomina NASHA (Non-Animal Stabilized Hyaluronic Acid) Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Usado principalmente en cosméticos y en menor medida en medicamentos.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Ácido oleico",
+         "description":"El ácido o aceite oleico es un ácido graso que se produce de forma natural en diversas grasas y aceites animales y vegetales. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Utilizado en cosméticos y productos alimentarios",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Ácido úrico",
+         "description":"Es un producto de desecho del metabolismo de nitrógeno en el cuerpo humano (el producto de desecho principal es la urea), y se encuentra en la orina en pequeñas cantidades. En otros animales, como aves, reptiles y muchos artrópodos, es el principal producto de desecho, y se expulsa con las heces.",
+         "uses":"Cosmética",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Adrenalina",
+         "description":"Se obtiene de hormonas de diversos animales",
+         "uses":"Diversos",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Alantoína",
+         "description":"Es una sustancia nitrogenada de una serie compleja que contiene dos moléculas de urea o sus radicales, como el ácido úrico. Obtenida de la urea de diversos animales",
+         "uses":"En cosméticos",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Albúmina",
+         "description":"La albúmina es una proteína que se encuentra en gran proporción en el plasma sanguíneo. Seroalbúmina: Es la proteína del suero sanguíneo. Ovoalbúmina: Es la albúmina de la clara del huevo. Lactoalbúmina: Es la albúmina de la leche.",
+         "uses":"Diversos productos alimentarios y cosméticos",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Ambar gris",
+         "description":"El ámbar gris es una  una secreción biliar de los intestinos del cachalote.",
+         "uses":"Fijador de perfumes y saborizante",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Angora",
+         "description":"Fibra producida a partir del pelo del Conejo de Angora",
+         "uses":"Industria textil",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Ante",
+         "description":"El ante o gamuza es un tipo de piel de alce u otros animales adobada y curtida. El cuero de ante se fabrica a partir de la parte interna de la piel, normalmente de cordero, pero también se usa de cabra, cerdo, ternero o alce.",
+         "uses":"Industria textil",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Astrakhan",
+         "description":"Es la piel de un cordero recién nacido. Para hacer un abrigo con ellos pueden utilizarse la piel de hasta cinco corderos.",
+         "uses":"Industria textil",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Azúcar refinado",
+         "description":"Para su elaboración y refinado se suele utilizar carbón animal o carbón de hueso. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Alimentación en general",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Carbamida",
+         "description":"Es un producto de desecho del metabolismo de nitrógeno en el cuerpo humano (el producto de desecho principal es la urea), y se encuentra en la orina en pequeñas cantidades. En otros animales, como aves, reptiles y muchos artrópodos, es el principal producto de desecho, y se expulsa con las heces.",
+         "uses":"Cosmética",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Carbón de hueso",
+         "description":"Es aquel obtenido mediante la destilación seca o combustión incompleta en ausencia de aire de huesos de animales sin grasa.",
+         "uses":"Decolorante en bebidas, refinado del azucar, defluorización del agua, eliminación de metales pesados ​​de soluciones acuosas.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Caseína",
+         "description":"Es una fosfoproteína (un tipo de heteroproteína) presente en la leche y en algunos de sus derivados.",
+         "uses":"Elaboración de productos alimentarios, pegamentos y pinturas, cubiertas protectoras, plásticos, clarificación de vinos, detergente,  elaboración de preparados médicos y concentrados proteicos destinados a la alimentación de los deportistas.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Cachemira",
+         "description":"Fibra obtenida de la cabra de la región de Cachemira.",
+         "uses":"Industria textil",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Castoreum/castóreo",
+         "description":"Es una secreción glandular del castor, olorosa y oleosa, que el animal usa para acicalar su pelaje.",
+         "uses":"Perfumería, aditivo alimentario, aumentar el sabor y el olor de los cigarrillos.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Catgut",
+         "description":"Las hebras de catgut son obtenidas del intestino del gusano de seda (Bombyx mori),",
+         "uses":"En todos los países de la UE está prohibido su uso",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Cerveza",
+         "description":"Las cervezas fermentadas en toneles son clarificadas para purificar el material, Esto se hace añadiendo cola de pescado (un elemento que se hace con vejiga natatoria de algunos peces tropicales, específicamente el esturión chino), que actúa como un suspensor para que el líquido caiga. En muchos casos también se utiliza un aditivo que a veces puede ser de origen animal, el Glicerol Monoestearato",
+         "uses":"Las cervezas embotelladas no son tratadas normalmente con cola de pescado. Habría que preguntar al productor.",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Cetyl alcohol",
+         "description":"El alcohol cetílico fue descubierto en 1817 por el químicos francés Michel Chevreul al calentar espermaceti, una sustancia cerosa obtenida a partir del esperma de ballena. Con la desaparición mercantil de la caza de ballenas, el alcohol cetílico se produce por hidrogenación de aceites vegetales como el aceite de palma y de aceite de coco. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Industria cosmética y como lubricante.",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Chitosan",
+         "description":"El quitosano se produce comercialmente mediante la desacetilación de la quitina, que es un elemento estructural en el exoesqueleto de los crustáceos (cangrejos, gambas, langostas , etc.)",
+         "uses":"En agricultura como antifungicida y en la industria vitivinícola para evitar el deterioro del vino, anticoagulante tópico en vendajes.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Cola de pescado",
+         "description":"La cola de pescado o colapez es obtenida de las vejigas natatorias de ciertos peces, como el esturión, el bacalao, el barbo y la carpa. Es uno de los ingredientes principales en la elaboración de llamada gelatina. Se suele emplear también como adhesivo natural.",
+         "uses":"Alimentación, clarificación de vebidas (vinos, zumos, cerveza, sidra, licores...)",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Colágeno",
+         "description":"Es una molécula proteica o proteína que forma fibras, las fibras colágenas. Estas se encuentran en todos los animales. Son secretadas por las células del tejido conjuntivo como los fibroblastos, así como por otros tipos celulares.",
+         "uses":"Cosmética y medicina",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Condones/preservativos",
+         "description":"Muchas marcas incluyen caseína en la fabricación, un producto derivado de la leche. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Anticonceptivo",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Coral",
+         "description":"Los corales son animales coloniales que viven bajo las aguas del mar, no son una planta al contrario de lo que muchas veces se piensa.",
+         "uses":"Usos medicinales y en cosmética",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Corticoides",
+         "description":"Son una variedad de hormonas del grupo de los esteroides (producida por la corteza de las glándulas suprarrenales) y sus derivados. Estas sustancias pueden sintetizarse artificialmente y tienen aplicaciones terapéuticas, utilizándose principalmente debido a sus propiedades antiinflamatorias e inmunosupresoras y a sus efectos sobre el metabolismo.",
+         "uses":"Medicinal",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Cuajo",
+         "description":"Es una sustancia presente en el cuarto estómago de los mamíferos rumiantes. Contiene principalmente la enzima llamada rennina utilizada en la fabricación de quesos cuya función es separar la caseína de su fase líquida (agua, proteínas del lactosuero y carbohidratos), llamado suero.  En la elaboración de algunos quesos son empleados cuajos de origen vegetal, que suelen provenir de la flor del cardo (Cynara cardunculus, variedad silvestre).",
+         "uses":"Industria alimentaria",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Cuero",
+         "description":"Se obtiene de la piel de diversos animales. Normalmente la industria peletera utiliza sus propias granjas para la obtención de este cuero, dado que cría a los animales con este fin específico. Rara vez se obtiene como subproducto de la industria cárnica",
+         "uses":"Industria textil",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Elastina",
+         "description":"Es una proteína del tejido conjuntivo con funciones estructurales. La elastina se encuentra presente en todos los vertebrados.",
+         "uses":"Se emplea en cosmética principalmente y en medicina.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Escualeno",
+         "description":"Es un compuesto orgánico natural obtenido originalmente con propósitos comerciales a partir del aceite de hígado de tiburón; no obstante, también existen fuentes vegetales como el salvado de arroz, el germen del trigo, y las aceitunas. Todos los organismos complejos producen escualeno, incluido los humanos. El escualeno es un hidrocarburo y un terpeno.",
+         "uses":"Se emplea en cosmética y en medicina, especialmente como adyuvante (estimulante del sistema inmune) en vacunas.",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Espermaceti",
+         "description":"El espermaceti es una cera o aceite blanquecino, que se conoce también como blanco de ballena, está presente en las cavidades del cráneo del cachalote (Physeter macrocephalus) y en las grasas vascularizadas de todas las ballenas. El aceite de esperma se extrae del espermaceti mediante cristalización a 6 °C, después de tratamiento con presión y una solución química de álcali cáustico.",
+         "uses":"Se utiliza principalmente en la industria cosmética, trabajos con cuero y como lubricante. También para fabricar velas.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Esponjas naturales",
+         "description":"Son un filo de animales invertebrados acuáticos. Existen unas 9.000 especies de esponjas en el mundo, de las cuales solo unas 150 viven en agua dulce.",
+         "uses":"Industria cosmética.",
+         "origin":"No vegano."
+      },
+      { 
+         "name":"Estradiol",
+         "description":"Es una hormona esteroide sexual femenina. Se obtiene principalmente de la orina de yeguas embarazadas.",
+         "uses":"Industria farmacéutica (píldoras anticonceptivas, para el tratamiento del síndrome premenstrual y tratamientos para la menopausia)",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Estrógeno",
+         "description":"Es una hormona esteroide sexual femenina. Se obtiene principalmente de la orina de yeguas embarazadas.",
+         "uses":"Industria farmacéutica (píldoras anticonceptivas, para el tratamiento del síndrome premenstrual y tratamientos para la menopausia)",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Fieltro",
+         "description":"Es un textil no tejido, en forma de lámina, que se obtiene al conglomerar mediante vapor y presión varias capas de fibras de lana o pelo de varios animales. Existen alternativas veganas.",
+         "uses":"Industria textil",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Franela",
+         "description":"Es un tejido suave, de varios tipos de calidades. Originalmente las franelas estaban hechas de lana, pero ahora es más frecuente verlas hechas de algodón, o fibras sintéticas. Comprobar la composición en el etiquetado.",
+         "uses":"Industria textil",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Gelatina",
+         "description":"Obtenida a partir de subproductos animales, tales como los huesos y las pieles. Puede producirse a partir de todas la especies de animales.",
+         "uses":"Industria alimentaria",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Guanina",
+         "description":"Sustancia presente principalmente en los excrementos de aves marinas, conocidos como guano. Esta resulta una fuente de ingresos para zoológicos y aquariums.",
+         "uses":"Fertilizantes",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Insulina",
+         "description":"Hormona proveniente generalmente del páncreas del cerdo. Se ha logrado crear las denominadas insulinas humanas, que son químicamente iguales a la del hombre y se obtienen bien de ciertas bacterias y levaduras mediante técnicas de ingeniería genética.",
+         "uses":"Industria farmacéutica (tratamiento de la diabetes)",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Licores",
+         "description":"La mayoría de los licores parecen ser aptos para vegetarianos, con la excepción del whisky de malta, algunos whiskys de mezcla y el coñac español. También algunos vodkas importados pueden haber sido filtrados a través de huesos de carbón. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Alimentario y de ocio.",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Lipasa",
+         "description":"Es una enzima que se usa en el organismo para disgregar las grasas de los alimentos de manera que se puedan absorber.  Las lipasas se encuentran en gran variedad de seres vivos. Se suele obtener del estómago y glándulas linguales de terneros, cabritos y corderos.",
+         "uses":"Las aplicaciones que tienen las lipasas en la industria actual son múltiples y van desde la fabricación de detergente, la industria de la leche y los quesos, panaderías para mejoramiento de sabores, industria de bebidas, producción de productos químicos de interés por medio de enlaces éster, polimerización e incluso se hacen investigaciones para la producción de biodiésel.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Metionina",
+         "description":"Abreviada como Met o M) es un aminóacido hidrófobo, se obtiene de la leche y los huevos aunque también se encuentra en frutas, verduras y semillas como el sésamo. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Industria alimentaria.",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Mohair",
+         "description":"Es la fibra procedente del pelo de la cabra de Angora.",
+         "uses":"Industria textil.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Musk/Almizcle",
+         "description":"Aceite proveniente del doloroso raspado de las glándulas genitales de comadrejas, ciervos, castores, visones.",
+         "uses":"Perfumería",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Palmitato/Ácido Palmítico",
+         "description":"Es un componente principal del aceite de la palma (aceite de palma, almendra de palma y el aceite de palma), pero también se puede encontrar en carnes, quesos, mantequilla y productos lácteos. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Cosmética y alimentación",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Pepsina",
+         "description":"Es una enzima digestiva que se segrega en el estómago y que hidroliza las proteínas en el estómago. La pepsina comercial se extrae de la capa glandular de los estómagos de cerdo.",
+         "uses":"Industria alimentaria.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Pergamino",
+         "description":"Es un material hecho a partir de la piel de res o de otros animales, especialmente fabricado para poder escribir sobre él.",
+         "uses":"Decoración",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Progesterona",
+         "description":"Hormona involucrada en el ciclo menstrual y el embarazo. Su fuente principal es el ovario (cuerpo lúteo) y la placenta, la progesterona también puede sintetizarse en las glándulas adrenales y en el hígado. La progesterona ha sido detectada en al menos una planta, 'Juglans regia'. Además, hay esteroides parecidos a la progesterona que se encuentran en la Dioscorea mexicana. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Medicina",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Propoleo",
+         "description":"Los propóleos (gr. própolis) son unas mezclas resinosas que obtienen las abejas de las yemas de los árboles y que luego procesan en la colmena como sellante de pequeños huecos",
+         "uses":"Uso medicinal",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Queratina",
+         "description":"Es una proteína con estructura fibrosa, muy rica en azufre, que constituye el componente principal que forman las capas más externas de la epidermis de los vertebrados y de otros órganos como el pelo, uñas, plumas, cuernos y pezuñas.",
+         "uses":"Cosmética",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Quitina",
+         "description":"La quitina es un carbohidrato que forma parte de las paredes celulares de los hongos, del resistente exoesqueleto de los artrópodos (arácnidos, crustáceos e insectos) y algunos órganos de otros animales",
+         "uses":"Cosmética",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Seda",
+         "description":"Es una fibra natural formada por proteínas. Aunque es producida por varios grupos de insectos, en la actualidad sólo se usa la seda producida por las larvas de Bombyx mori. Para extraer la seda, los gusanos son hervidos dentro de sus capullos.",
+         "uses":"Industria textil.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Sidra",
+         "description":"Casi todas las principales marcas de sidra han sido clarificadas con gelatina. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Alimentación",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Testosterona",
+         "description":"La testosterona es una hormona que se encuentra en mamíferos, reptiles, aves y otros vertebrados. En los mamíferos, la testosterona es producida principalmente en los testículos de los machos y en los ovarios de las hembras,",
+         "uses":"Uso médico",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Urea",
+         "description":"Es un producto de desecho del metabolismo de nitrógeno y se encuentra principalmente en la orina y las heces. También existe la urea sintética, elaborada en laboratorio a partir de amoniaco y dióxido de carbono. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Fertilizantes, cosmética, producción de drogas.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Vino",
+         "description":"Para el proceso de clarificación del vino también se utilizan productos de origen animal. Se utiliza para ello cola de pescado, gelatina, clara de huevo, caseína modificada (de la leche), quitina (un derivado de las conchas o caparazones de los cangrejos y langostas) o incluso sangre de buey (que raramente se utiliza en la actualidad). Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"La mayoría de los vinos orgánicos no utilizan productos de origen animal para sus clarificaciones, pero algunas compañías lo hacen.",
+         "origin":"Dudoso"
+      },
+      { 
+         "name":"Vitamina D3",
+         "description":"Es una provitamina soluble en grasas y se puede obtener de dos maneras: Mediante la ingestión de alimentos que contengan esta vitamina, por la transformación del colesterol o del ergosterol (propio de los hongos) por la  exposición a los rayos solares UV. La vitamina D3 se sintetiza de la lanolina, que se obtiene de la lana de las ovejas. Existe alguna marca que ha obtenido vitamina D3 de origen vegetal a partir de líquenes. La vitamina D2 sin embargo, es de origen vegetal. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Suplementos alimentarios, alimentación.",
+         "origin":"No vegano"
+      },
+      { 
+         "name":"Zumo comercial",
+         "description":"En muchos zumos comerciales se utilizan derivados animales como clarificantes. Comprobar el etiquetado vegano y si no aparece, preguntar a la empresa productora.",
+         "uses":"Alimentación",
+         "origin":"Dudoso"
+      }
+   ]
