@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:background="@color/colorBackgroundPrimary"
         android:orientation="vertical"
-        android:padding="100dp"
+        android:padding="30dp"
         tools:context=".usescase.main.MainActivity">
 
     <TextView
@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
-            android:paddingTop="15dp"
+            android:paddingTop="10dp"
             android:text="ADITIVOS"
             android:textColor="@color/colorTextPrimary"
             android:textStyle="normal|bold|italic"
@@ -27,9 +27,10 @@
 
     <ImageView
             android:id="@+id/additivesImg"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:scaleType="fitXY"
+            android:layout_width="45pt"
+            android:layout_height="40pt"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="10dp"
@@ -46,7 +47,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
-            android:paddingTop="15dp"
+            android:paddingTop="10dp"
             android:text="PRODUCTOS"
             android:textColor="@color/colorTextPrimary"
             android:textStyle="normal|bold|italic"
@@ -58,9 +59,10 @@
 
     <ImageView
             android:id="@+id/productsImg"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:scaleType="fitXY"
+            android:layout_width="45pt"
+            android:layout_height="40pt"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="10dp"
