@@ -4,34 +4,22 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/root_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        tools:context=".usescase.products.ProductsDetailActivity"
+        android:background="@color/colorBackgroundPrimary">
     <android.support.constraint.ConstraintLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:background="@color/colorBackgroundPrimary"
-            android:id="@+id/itemAdditive"
+            android:id="@+id/itemProductDetail"
             android:layout_margin="5dp">
 
 
-        <TextView android:id="@+id/additiveNumbTxt"
-                android:layout_margin="10dp"
-                android:padding="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:maxLines="1"
-                android:ellipsize="end"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textAlignment="center"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/appIcon"
-                tools:text="E120"/>
 
-        <TextView android:id="@+id/additiveNameLbl"
+
+        <TextView android:id="@+id/productNameLbl"
                 android:layout_margin="10dp"
                 android:padding="10dp"
                 android:layout_width="wrap_content"
@@ -41,18 +29,18 @@
                 android:text="Nombre:"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textAlignment="center"
-                app:layout_constraintTop_toBottomOf="@id/additiveNumbTxt"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"/>
 
-        <TextView android:id="@+id/additiveNameTxt"
+        <TextView android:id="@+id/productNameTxt"
                 android:layout_margin="10dp"
                 android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorTextPrimary"
+                android:maxLines="1"
                 android:ellipsize="end"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                app:layout_constraintTop_toBottomOf="@id/additiveNameLbl"
+                app:layout_constraintTop_toBottomOf="@id/productNameLbl"
                 app:layout_constraintLeft_toLeftOf="parent"
                 tools:text="Curcumina"/>
 
@@ -76,15 +64,14 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 tools:text="Descripción:"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/additiveNameTxt"
+                app:layout_constraintTop_toBottomOf="@id/productNameTxt"
                 />
 
-        <TextView android:id="@+id/descriptionTxt"
+        <TextView android:id="@+id/productDescriptionTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:layout_margin="10dp"
-                android:textColor="@color/colorTextPrimary"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 tools:text="Description additive Lorem Ipsum is simpl Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen booky dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
                 app:layout_constraintStart_toStartOf="parent"
@@ -92,28 +79,6 @@
                 app:layout_constraintTop_toBottomOf="@id/descriptionLbl"
                 />
 
-        <TextView android:id="@+id/sideEffectsLbl"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Riesgos:"
-                android:layout_margin="10dp"
-                android:padding="10dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/descriptionTxt"/>
-
-        <TextView android:id="@+id/sideEffectsTxt"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ellipsize="end"
-                android:layout_margin="10dp"
-                android:textColor="@color/colorTextPrimary"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                tools:text="Description additive Lorem Ipsum is simplLorem Ipsum is simply dummy text of men book"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/sideEffectsLbl"
-                />
 
         <TextView android:id="@+id/usesLbl"
                 android:layout_width="wrap_content"
@@ -123,7 +88,7 @@
                 android:padding="10dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/sideEffectsTxt"/>
+                app:layout_constraintTop_toBottomOf="@id/productDescriptionTxt"/>
 
         <TextView android:id="@+id/usesTxt"
                 android:layout_width="match_parent"
@@ -131,17 +96,16 @@
                 android:maxLines="2"
                 android:ellipsize="end"
                 android:layout_margin="10dp"
-                android:textColor="@color/colorTextPrimary"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 tools:text="Description additive Lorem Ipsum is simplLorem Ipsum is simply dummy text of men book"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/usesLbl"
+                app:layout_constraintTop_toBottomOf="@id/usesLbl"
                 />
 
 
 
-        <TextView android:id="@+id/originAdditiveLbl"
+        <TextView android:id="@+id/productOriginLbl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Origen:"
@@ -149,18 +113,17 @@
                 android:padding="10dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/usesTxt"/>
+                app:layout_constraintTop_toBottomOf="@id/usesTxt"/>
 
-        <TextView android:id="@+id/originAdditive"
+        <TextView android:id="@+id/productOrigin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:padding="10dp"
-                android:textColor="@color/colorTextPrimary"
                 android:textStyle="normal|bold|italic"
                 android:fontFamily="sans-serif-medium"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/originAdditiveLbl"
+                app:layout_constraintTop_toBottomOf="@id/productOriginLbl"
                 tools:text="origin (Vegan, Not Vegan)"/>
 
         <ImageView
@@ -170,7 +133,7 @@
                 android:layout_margin="10dp"
                 android:background="@android:color/transparent"
                 android:src="@drawable/vegan_icon_ok"
-                app:layout_constraintTop_toBottomOf="@id/originAdditive"
+                app:layout_constraintTop_toBottomOf="@id/productOrigin"
                 app:layout_constraintStart_toStartOf="parent"/>
 
         <ImageView
@@ -180,7 +143,7 @@
                 android:layout_margin="15dp"
                 android:background="@android:color/transparent"
                 android:src="@drawable/back_arrow_icon"
-                app:layout_constraintTop_toBottomOf="@id/originAdditive"
+                app:layout_constraintTop_toBottomOf="@id/productOrigin"
                 app:layout_constraintEnd_toEndOf="parent"/>
 
     </android.support.constraint.ConstraintLayout>

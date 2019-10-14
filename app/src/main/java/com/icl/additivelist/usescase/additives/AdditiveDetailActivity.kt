@@ -7,8 +7,7 @@ import android.os.Bundle
 import android.support.v4.content.ContextCompat
 import com.icl.additivelist.R
 import com.icl.additivelist.models.Additive
-import kotlinx.android.synthetic.main.activity_find_additives.*
-import kotlinx.android.synthetic.main.item_detail_additive.*
+import kotlinx.android.synthetic.main.activity_additive_detail.*
 
 class AdditiveDetailActivity : AppCompatActivity() {
 
@@ -19,9 +18,6 @@ class AdditiveDetailActivity : AppCompatActivity() {
     }
 
     private fun loadDetail() {
-        /* var additivesDetailAdapter: AdditiveDetailAdapter =
-             AdditiveDetailAdapter(foundsAdditives, this)
-         containerAdditives.adapter = additivesDetailAdapter*/
         val bundle: Bundle? = intent.extras
         val additive = bundle!!.get("additive") as Additive
         val founds =bundle!!.get("founds") as  ArrayList<Additive>
