@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="100dp"
+        android:padding="30dp"
         tools:context=".usescase.main.MainActivity"
         android:background="@color/colorBackgroundPrimary">
 
@@ -24,37 +24,24 @@
             app:layout_constraintEnd_toEndOf="@id/additivesImg"
             app:layout_constraintTop_toTopOf="parent"
             />
-    <!--
-    android:textColor="#4CAF50"
-    app:layout_constraintTop_toBottomOf="@id/additivesImg"
-        app:layout_constraintBottom_toTopOf="@id/productsImg"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
--->
+
 
     <ImageView
-        android:id="@+id/additivesImg"
-        android:src="@drawable/food_additive"
-        android:layout_width="196dp"
+            android:id="@+id/additivesImg"
+            android:src="@drawable/food_additive"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
             android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="15dp"
-        android:layout_height="196dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/additivesTxt"
-        app:layout_constraintBottom_toTopOf="@id/productsTxt"
-        />
-<!--        app:layout_constraintLeft_toRightOf="parent"
-        app:layout_constraintRight_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/additivesTxt"/>
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/additivesTxt"
+            app:layout_constraintBottom_toTopOf="@id/productsTxt"
+            />
 
-        app:layout_constraintStart_toStartOf="@id/additivesTxt"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/additivesTxt"
-        app:layout_constraintTop_toTopOf="parent"
-        -->
 
 
     <TextView
@@ -73,36 +60,23 @@
             app:layout_constraintBottom_toTopOf="@id/productsImg"
 
             />
-    <!--
 
-                app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/additivesImg"
-
-
-
-    app:layout_constraintTop_toBottomOf="@id/productsImg"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"/>-->
 
     <ImageView
             android:id="@+id/productsImg"
             android:src="@drawable/products"
-            android:layout_width="196dp"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
             android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="15dp"
-            android:layout_height="196dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/productsTxt"
-        />
-           <!-- app:layout_constraintLeft_toRightOf="parent"
-            app:layout_constraintRight_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/additivesTxt"
-            app:layout_constraintBottom_toTopOf="@id/productsTxt"/>
-            -->
+            />
+
 
 
 
