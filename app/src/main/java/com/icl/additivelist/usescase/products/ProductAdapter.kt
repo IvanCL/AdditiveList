@@ -63,6 +63,7 @@ class ViewProductHolder(view: View) : RecyclerView.ViewHolder(view) {
 
                 var intent = Intent(context, ProductsDetailActivity::class.java)
                 intent.putExtra("product", item)
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 context.startActivity(intent)
             }
         }

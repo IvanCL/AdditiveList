@@ -14,7 +14,7 @@
             android:roundIcon="@drawable/ic_launcher"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".usescase.splash.SplashActivity">
+        <activity android:name=".usescase.splash.SplashActivity" android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,19 +23,19 @@
         </activity>
         <activity
                 android:name=".usescase.products.ProductsActivity"
-                android:label="@string/title_activity_products" />
+                android:label="@string/title_activity_products" android:noHistory="true"/>
         <activity
                 android:name=".usescase.products.ProductsDetailActivity"
-                android:label="@string/title_activity_additives" />
+                android:label="@string/title_activity_additives" android:noHistory="true"/>
         <activity
                 android:name=".usescase.additives.AdditivesActivity"
-                android:label="@string/title_activity_additives" />
+                android:label="@string/title_activity_additives" android:noHistory="true"/>
         <activity
                 android:name=".usescase.additives.AdditiveDetailActivity"
-                android:label="@string/title_activity_additives" />
+                android:label="@string/title_activity_additives" android:noHistory="true"/>
         <activity
                 android:name=".usescase.main.MainActivity"
-                android:label="@string/title_activity_main" />
+                android:label="@string/title_activity_main"/>
     </application>
 
 </manifest>

@@ -65,6 +65,7 @@ class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
                 var intent = Intent(context, AdditiveDetailActivity::class.java)
                 intent.putExtra("additive", item)
                 intent.putExtra("founds", items)
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 context.startActivity(intent)
             }
         }
