@@ -19,6 +19,7 @@
             android:text="ADITIVOS"
             android:textStyle="normal|bold|italic"
             android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="15sp"
             app:layout_constraintStart_toStartOf="@id/additivesImg"
             app:layout_constraintStart_toEndOf="parent"
             app:layout_constraintEnd_toEndOf="@id/additivesImg"
@@ -28,19 +29,16 @@
 
     <ImageView
             android:id="@+id/additivesImg"
-            android:src="@drawable/food_additive"
-            android:layout_width="190dp"
-            android:layout_height="190dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
             android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            android:layout_marginTop="15dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/additivesTxt"
+            android:scaleType="fitXY"
+            android:src="@drawable/food_additive"
             app:layout_constraintBottom_toTopOf="@id/productsTxt"
-            />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/additivesTxt" />
 
 
 
@@ -51,7 +49,7 @@
             android:textColor="#444240"
             android:gravity="center"
             android:text="PRODUCTOS"
-            android:paddingTop="15dp"
+            android:paddingTop="15sp"
             android:textStyle="normal|bold|italic"
             android:fontFamily="sans-serif-medium"
             app:layout_constraintTop_toBottomOf="@id/additivesImg"
@@ -64,20 +62,16 @@
 
     <ImageView
             android:id="@+id/productsImg"
-            android:src="@drawable/products"
-            android:layout_width="190dp"
-            android:layout_height="190dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
             android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="15dp"
-            app:layout_constraintStart_toStartOf="parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/products"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/productsTxt"
-            />
-
-
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
 
 </android.support.constraint.ConstraintLayout>

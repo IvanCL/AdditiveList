@@ -51,7 +51,7 @@ class AdditivesActivity : GlobalActivity() {
                                     array[5],
                                     array[6]
                                 )
-                                if (item.name.contains(s) || item.numb.startsWith("E" + s)) {
+                                if (item.name.contains(s, true) || (item.numb.startsWith("E") && item.numb.contains(s))) {
                                     foundsAdditives.add(item)
                                     val additiveAdapter =
                                         AdditiveAdapter(foundsAdditives, this@AdditivesActivity)
