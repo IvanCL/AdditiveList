@@ -74,7 +74,7 @@
             android:textStyle="italic"
             android:textColor="@color/colorTextPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/descriptionTxt"
+            app:layout_constraintTop_toBottomOf="@+id/productDescriptionTxt"
             app:layout_constraintStart_toStartOf="parent"
             tools:text="origin (Vegan, Not Vegan)"/>
 

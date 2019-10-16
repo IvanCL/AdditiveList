@@ -5,7 +5,7 @@
     <color name="colorTextPrimary">#444240</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorDangerous">#EB080F</color>
-    <color name="colorVegan">#47E60D</color>
-    <color name="colorDoubtful">#F56719</color>
+    <color name="colorDangerous">#D5E71212</color>
+    <color name="colorVegan">#67C744</color>
+    <color name="colorDoubtful">#E07134</color>
 </resources>

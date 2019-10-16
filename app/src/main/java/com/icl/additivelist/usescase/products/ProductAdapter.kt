@@ -44,18 +44,18 @@ class ViewProductHolder(view: View) : RecyclerView.ViewHolder(view) {
             // Check type of additive
             var newIconImage: Drawable?
             newIconImage = ContextCompat.getDrawable(context, R.drawable.vegan_icon_ok)
-            //typeIcon.setImageDrawable(newIconImage!!)
+            itemView.vegNoVegIcon.setImageDrawable(newIconImage!!)
             itemView.itemProduct.setBackgroundColor(ContextCompat.getColor(context, R.color.colorVegan))
 
             // Check origin
-            if (item.origin.trim().equals("No vegano", true)) {
+            if (item.origin.trim().contains("No vegano", true)) {
                 newIconImage = ContextCompat.getDrawable(context, R.drawable.skull_icon)
 
-                //typeIcon.setImageDrawable(newIconImage!!)
+                itemView.vegNoVegIcon.setImageDrawable(newIconImage!!)
                 itemView.itemProduct.setBackgroundColor(ContextCompat.getColor(context, R.color.colorDangerous))
             }else if (item.origin.trim().equals("Dudoso", true)){
                 newIconImage = ContextCompat.getDrawable(context, R.drawable.question_icon)
-                //typeIcon.setImageDrawable(newIconImage!!)
+                itemView.vegNoVegIcon.setImageDrawable(newIconImage!!)
                 itemView.itemProduct.setBackgroundColor(ContextCompat.getColor(context, R.color.colorDoubtful))
             }
 
