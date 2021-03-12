@@ -12,6 +12,7 @@ import com.icl.additivelist.data.PreferencesUtils
 import com.icl.additivelist.globals.ADDITIVES
 import com.icl.additivelist.globals.DAYS_FROM_ADDITIVES_UPDATE
 import com.icl.additivelist.models.Additive
+import com.icl.additivelist.models.RestResponse
 import com.icl.additivelist.usescase.main.MainActivity
 
 
@@ -79,7 +80,7 @@ class SplashActivity :AppCompatActivity() {
                 this.runOnUiThread {
                     Log.d("ADITIVOS RECIBIDOS", result)
 
-                    additiveList = Gson().fromJson(result, Array<Additive>::class.java).toList()
+                    additiveList = Gson().fromJson(result, RestResponse::class.java).data.asList()
 
                     loadAdditivesIntoPreferences()
                     var intent = Intent(this@SplashActivity, MainActivity::class.java)
