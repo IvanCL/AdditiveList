@@ -5,17 +5,19 @@ import android.support.v7.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
+import com.google.gson.Gson
 import com.icl.additivelist.data.PreferencesUtils
 import com.icl.additivelist.globals.ADDITIVES
 import com.icl.additivelist.globals.GlobalActivity
 import com.icl.additivelist.models.Additive
 import kotlinx.android.synthetic.main.activity_find_additives.*
 import com.icl.additivelist.R
+import com.icl.additivelist.models.RestResponse
 
 
 class AdditivesActivity : GlobalActivity() {
 
-    var additiveList : MutableSet<String>? = null
+    var additiveList: MutableSet<String>? = null
     var foundsAdditives: ArrayList<Additive> = arrayListOf()
 
     // region LifeCircle
@@ -38,21 +40,18 @@ class AdditivesActivity : GlobalActivity() {
             override fun afterTextChanged(s: Editable) {
                 if (!s.isBlank() && s.length >= 2) {
                     if (additiveList != null) {
-                        additiveList!!.forEach { additive: String ->
+                        additiveList!!.forEach { itemAdditive: String ->
                             run {
-                                Log.d("ADITIVOS [BUSQUEDA]", additive)
-                                val array = additive.split("|")
-                                val item = Additive(
-                                    array[0],
-                                    array[1],
-                                    array[2],
-                                    array[3],
-                                    array[4],
-                                    array[5],
-                                    array[6]
-                                )
-                                if (item.name.contains(s, true) || (item.numb.startsWith("E") && item.numb.contains(s))) {
-                                    foundsAdditives.add(item)
+                                Log.d("ADITIVOS [BUSQUEDA]", itemAdditive)
+
+                                var additive = Gson().fromJson<Additive>(itemAdditive, Additive::class.java)
+
+                                if (additive.name.contains(
+                                        s,
+                                        true
+                                    ) || (additive.numb.startsWith("E") && additive.numb.contains(s))
+                                ) {
+                                    foundsAdditives.add(additive)
                                     val additiveAdapter =
                                         AdditiveAdapter(foundsAdditives, this@AdditivesActivity)
                                     containerAdditives.adapter = additiveAdapter

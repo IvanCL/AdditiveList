@@ -2,16 +2,13 @@ package com.icl.additivelist.data
 
 import android.content.Context
 import android.content.SharedPreferences
-import android.preference.PreferenceManager
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import com.icl.additivelist.models.Additive
-import java.util.*
+import com.google.gson.Gson
 
 class PreferencesUtils(context: Context) : AppCompatActivity() {
 
     val context: Context = context
-
 
     lateinit var preferences: SharedPreferences
 
@@ -26,7 +23,8 @@ class PreferencesUtils(context: Context) : AppCompatActivity() {
         val editor = preferences.edit()
         var preferenceElement = getPreference(namePreference) ?: mutableSetOf()
         nameList.forEach { it: Any ->
-            preferenceElement.add(it.toString())
+            var json = Gson().toJson(it)
+            preferenceElement.add(json)
         }
 
         editor.clear()
