@@ -1,0 +1,3 @@
+#Exclude everything
+#*
+app/src/main/assets/config.properties

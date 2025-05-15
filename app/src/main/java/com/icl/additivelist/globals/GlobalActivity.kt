@@ -1,12 +1,15 @@
 package com.icl.additivelist.globals
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import android.util.Log
+import com.icl.additivelist.R
+import com.icl.additivelist.databinding.ActivityFindAdditivesBinding
 import com.icl.additivelist.models.Additive
 import com.icl.additivelist.usescase.additives.AdditiveAdapter
-import kotlinx.android.synthetic.main.activity_find_additives.*
+import com.icl.additivelist.usescase.additives.AdditivesActivity
+//import kotlinx.android.synthetic.main.activity_find_additives.*
 
 abstract class GlobalActivity : AppCompatActivity() {
 
@@ -21,11 +24,13 @@ abstract class GlobalActivity : AppCompatActivity() {
     // region nav
 
     fun loadFragment() {
-        additivesList = getPosts()
+        /*additivesList = getPosts()
+        val binding = ActivityFindAdditivesBinding(setContentView(R.layout.activity_find_additives))
 
-        containerAdditives.layoutManager = LinearLayoutManager(this)
+        containerAdditives.layoutManager =
+            LinearLayoutManager(this)
         var additiveAdapter = AdditiveAdapter(additivesList, this@GlobalActivity)
-        containerAdditives.adapter = additiveAdapter
+        containerAdditives.adapter = additiveAdapter**/
 /*        navView.setNavigationItemSelectedListener { item ->
 
             when (item.itemId) {

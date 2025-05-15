@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AdditiveList.iml" filepath="$PROJECT_DIR$/AdditiveList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdditiveList.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdditiveList.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdditiveList.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdditiveList.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdditiveList.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdditiveList.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdditiveList.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdditiveList.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StudioProjects.AdditiveList.iml" filepath="$PROJECT_DIR$/.idea/modules/StudioProjects.AdditiveList.iml" />
     </modules>
   </component>
 </project>

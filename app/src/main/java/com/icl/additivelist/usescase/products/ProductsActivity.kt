@@ -1,7 +1,7 @@
 package com.icl.additivelist.usescase.products
 
 import android.os.Bundle
-import android.support.v7.widget.LinearLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
@@ -10,154 +10,88 @@ import com.icl.additivelist.R
 import com.icl.additivelist.config.ConfigProperties
 import com.icl.additivelist.globals.GlobalActivity
 import com.icl.additivelist.models.Products
-import kotlinx.android.synthetic.main.activity_products.*
-import org.json.JSONObject
-import java.io.InputStream
+import com.icl.additivelist.databinding.ActivityProductsBinding // Importa el binding
 import java.net.URL
 
 class ProductsActivity : GlobalActivity() {
 
-    var productsList : List<Products>? = null
+    private lateinit var binding: ActivityProductsBinding // Declara el binding
+    var productsList: List<Products>? = null
     var foundsProducts: ArrayList<Products> = arrayListOf()
     var allProducts: ArrayList<Products> = arrayListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_products)
-        containerProducts.layoutManager = LinearLayoutManager(this)
-
-        getProducts("")
-        findProduct()
+        binding = ActivityProductsBinding.inflate(layoutInflater) // Infla el layout
+        setContentView(binding.root) // Usa binding.root
+        binding.containerProducts.layoutManager = LinearLayoutManager(this) // Usa binding
+        //getProducts("")
+        //findProduct()
     }
 
-    private fun getProducts(name:String){
-        /* var obj = readJSONFromAsset()
-         productsList = Gson().fromJson(obj, Array<Products>::class.java).toList()*/
-        var url : String?
-
-        if (name.isNullOrEmpty()){
-            url =ConfigProperties.getValue(
-                "url.products",
-                this.applicationContext
-            )
-            callApiProducts(url, name)
-
-        }else{
-            url = ConfigProperties.getValue(
-                "url.productsByName",
-                this.applicationContext
-            )+ name
-            callApiProducts(url, name)
+    private fun getProducts(name: String) {
+        val url: String? = if (name.isNullOrEmpty()) {
+            ConfigProperties.getValue("url.products", this.applicationContext)
+        } else {
+            ConfigProperties.getValue("url.productsByName", this.applicationContext) + name
         }
-
+        callApiProducts(url, name)
     }
 
     private fun callApiProducts(url: String?, name: String) {
-        var result: String
         Thread {
-            result = URL(
-                url
-            ).readText()
-            this.runOnUiThread {
+            val result = URL(url).readText()
+            runOnUiThread {
                 Log.d("PRODUCTOS RECIBIDOS", result)
                 productsList = Gson().fromJson(result, Array<Products>::class.java).toList()
 
-                productsList!!.forEach { product: Products ->
-                    run {
-
-                        if (name.isNullOrEmpty()){
-                            allProducts.add(product)
-                            val productAdapter =
-                                ProductAdapter(allProducts, this@ProductsActivity)
-                            containerProducts.adapter = productAdapter
-                        }else if (product.name.toLowerCase().contains(name.toLowerCase())){
-                            foundsProducts.add(product)
-                            val productAdapter =
-                                ProductAdapter(foundsProducts, this@ProductsActivity)
-                            containerProducts.adapter = productAdapter
-                        }
+                productsList?.forEach { product ->
+                    if (name.isNullOrEmpty()) {
+                        allProducts.add(product)
+                        val productAdapter = ProductAdapter(allProducts, this@ProductsActivity)
+                        binding.containerProducts.adapter = productAdapter // Usa binding
+                    } else if (product.name.toLowerCase().contains(name.toLowerCase())) {
+                        foundsProducts.add(product)
+                        val productAdapter = ProductAdapter(foundsProducts, this@ProductsActivity)
+                        binding.containerProducts.adapter = productAdapter // Usa binding
                     }
+                }
+                if (name.isNullOrEmpty() && allProducts.isNotEmpty()) {
+                    binding.containerProducts.adapter = ProductAdapter(allProducts, this@ProductsActivity) // Asegura que el adaptador se inicialice al cargar todos los productos
+                } else if (!name.isNullOrEmpty() && foundsProducts.isNotEmpty()) {
+                    binding.containerProducts.adapter = ProductAdapter(foundsProducts, this@ProductsActivity) // Asegura que el adaptador se actualice con los resultados de la búsqueda
+                } else if (productsList.isNullOrEmpty()) {
+                    binding.containerProducts.adapter = ProductAdapter(arrayListOf(), this@ProductsActivity) // Muestra una lista vacía si no hay productos
                 }
             }
         }.start()
     }
 
-    private fun readJSONFromAsset(): String? {
-        var json: String? = null
-        try {
-            val  inputStream: InputStream = assets.open("products.json")
-            json = inputStream.bufferedReader().use{it.readText()}
-        } catch (ex: Exception) {
-            ex.printStackTrace()
-            return null
-        }
-        return json
-    }
-
     private fun findProduct() {
-
-        finderProductTxt.addTextChangedListener(object : TextWatcher {
-
+        binding.finderProductTxt.addTextChangedListener(object : TextWatcher { // Usa binding
             override fun afterTextChanged(s: Editable) {
                 if (!s.isBlank() && s.length >= 3) {
                     getProducts(s.toString())
-/*                    if (!productsList.isNullOrEmpty()){
-                        productsList!!.forEach { product: Products ->
-                            run {
-                                if (product.name.toLowerCase().contains(s.toString().toLowerCase()))
-                                    foundsProducts.add(product)
-                            }
-                        }
-
-                        val productAdapter =
-                            ProductAdapter(foundsProducts, this@ProductsActivity)
-                        containerProducts.adapter = productAdapter
-                    }*/
-
-                    /*if (productsList != null) {
-                        productsList!!.forEach { product: Products ->
-                            run {
-                                Log.d("PRODUCTOS [BUSQUEDA]", product.toString())
-                                *//*val array = product.split("|")
-                                val item = Products(
-                                    array[0],
-                                    array[1],
-                                    array[2],
-                                    array[3],
-                                    array[4]
-                                )*//*
-                                if (product.name.contains(s)) {
-
-                                    foundsProducts.add(product)
-                                    val productAdapter =
-                                        ProductAdapter(foundsProducts, this@ProductsActivity)
-                                    containerProducts.adapter = productAdapter
-                                }
-
-                            }
-                        }
-                    }*/
-                } else if (s.isBlank() || s.isEmpty()) {
-                    foundsProducts.clear()
-                    val productAdapter = ProductAdapter(allProducts, this@ProductsActivity)
-                    containerProducts.adapter = productAdapter
+                } else {
+                    getProducts("") // Si el texto está vacío o tiene menos de 3 caracteres, muestra todos los productos
                 }
-
             }
 
             override fun beforeTextChanged(
                 s: CharSequence, start: Int,
                 count: Int, after: Int
             ) {
-                foundsProducts.clear()
+                foundsProducts.clear() // Limpia los resultados previos antes de una nueva búsqueda
             }
 
             override fun onTextChanged(
                 s: CharSequence, start: Int,
                 before: Int, count: Int
             ) {
-
+                // No se necesita lógica específica aquí
             }
         })
+        // Inicializa el RecyclerView con un adaptador vacío o con todos los productos al inicio
+        binding.containerProducts.adapter = ProductAdapter(allProducts, this@ProductsActivity)
     }
 }

@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".usescase.products.ProductsDetailActivity"
         android:background="@color/colorBackgroundPrimary">
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -146,5 +146,5 @@
                 app:layout_constraintTop_toBottomOf="@id/productOrigin"
                 app:layout_constraintEnd_toEndOf="parent"/>
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

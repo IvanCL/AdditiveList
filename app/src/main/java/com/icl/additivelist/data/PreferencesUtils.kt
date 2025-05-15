@@ -3,7 +3,7 @@ package com.icl.additivelist.data
 import android.content.Context
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 import com.icl.additivelist.models.Additive
 import java.util.*
