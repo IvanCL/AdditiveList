@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorBackgroundPrimary">#A94CAF50</color>
-    <color name="colorTextPrimary">#444240</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <!-- Vegan/Not Vegan colors -->
+    <color name="colorPrimary">#8FBC8F</color>
+    <color name="colorVegan">#8FBC8F</color>
+    <color name="colorDoubtful">#F0E68C</color>
+    <color name="colorDangerous">#E9967A</color>
+    <!-- End Vegan/Not Vegan colors -->
+    <!-- App Theme -->
+    <color name="colorBackgroundPrimary">#F5F5DC</color>
+    <color name="colorTextPrimary">#333333</color>
+    <color name="colorPrimaryDark">#8FBC8F</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorDangerous">#D5E71212</color>
-    <color name="colorVegan">#67C744</color>
-    <color name="colorDoubtful">#E07134</color>
+    <!-- End App Theme -->
 </resources>

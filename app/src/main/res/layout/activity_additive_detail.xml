@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="#A94CAF50"
+            android:background="@color/colorBackgroundPrimary"
             android:id="@+id/itemAdditive"
             android:layout_margin="5dp">
 
