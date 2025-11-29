@@ -5,24 +5,35 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 35
     defaultConfig {
         applicationId "com.icl.additivelist"
         minSdkVersion 21
-        targetSdkVersion 33
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 35
+        versionCode 2
+        versionName "1.1"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
+    signingConfigs {
+        release {
+            storeFile file('/Users/ivan/credentials/upload-keystore.jks')
+            storePassword 'Pirineos.2025'
+            keyAlias 'upload_key_alias'
+            keyPassword 'Pirineos.2025'
+        }
+    }
+
     buildFeatures {
-        viewBinding = true
+        viewBinding true
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            // Habilitamos la ofuscación y reducción de código con R8
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     /**androidExtensions {
@@ -40,11 +51,20 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.google.android.material:material:1.0.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
-    implementation "com.google.code.gson:gson:2.8.5"
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'com.google.android.material:material:1.13.0'
+    implementation "com.google.code.gson:gson:2.13.2"
+
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.3.0'
+    androidTestImplementation 'androidx.test:core-ktx:1.7.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.7.0'
+    // Idling Resources para sincronizar tests de UI con tareas en segundo plano
+    implementation 'androidx.test.espresso:espresso-idling-resource:3.7.0'
 }

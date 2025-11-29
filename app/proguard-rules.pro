@@ -19,3 +19,13 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Rules for Gson
+# Mantenemos los nombres de los campos de las clases que se serializan con Gson.
+# Esto es crucial para que la serialización y deserialización funcionen correctamente.
+-keepclassmembers class com.icl.additivelist.models.** { *; }
+
+# Keep parcelable classes
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}

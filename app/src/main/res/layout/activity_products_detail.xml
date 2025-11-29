@@ -6,13 +6,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".usescase.products.ProductsDetailActivity"
-        android:background="@color/colorBackgroundPrimary">
+        android:background="?attr/colorSurface">
     <androidx.constraintlayout.widget.ConstraintLayout
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@color/colorBackgroundPrimary"
             android:id="@+id/itemProductDetail"
             android:layout_margin="5dp">
 
@@ -27,7 +26,7 @@
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:text="Nombre:"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="?attr/textAppearanceHeadlineSmall"
                 android:textAlignment="center"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"/>
@@ -39,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAppearance="?attr/textAppearanceTitleMedium"
                 app:layout_constraintTop_toBottomOf="@id/productNameLbl"
                 app:layout_constraintLeft_toLeftOf="parent"
                 tools:text="Curcumina"/>
@@ -61,7 +60,7 @@
                 android:layout_margin="10dp"
                 android:padding="10dp"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="?attr/textAppearanceHeadlineSmall"
                 tools:text="Descripción:"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/productNameTxt"
@@ -72,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:layout_margin="10dp"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textAppearance="?attr/textAppearanceBodyLarge"
                 tools:text="Description additive Lorem Ipsum is simpl Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen booky dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -86,7 +85,7 @@
                 android:text="Usos:"
                 android:layout_margin="10dp"
                 android:padding="10dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="?attr/textAppearanceHeadlineSmall"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/productDescriptionTxt"/>
 
@@ -96,7 +95,7 @@
                 android:maxLines="2"
                 android:ellipsize="end"
                 android:layout_margin="10dp"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textAppearance="?attr/textAppearanceBodyLarge"
                 tools:text="Description additive Lorem Ipsum is simplLorem Ipsum is simply dummy text of men book"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -111,7 +110,7 @@
                 android:text="Origen:"
                 android:layout_margin="10dp"
                 android:padding="10dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="?attr/textAppearanceHeadlineSmall"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/usesTxt"/>
 

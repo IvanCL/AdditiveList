@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Vegan/Not Vegan colors -->
-    <color name="colorPrimary">#8FBC8F</color>
     <color name="colorVegan">#8FBC8F</color>
     <color name="colorDoubtful">#F0E68C</color>
     <color name="colorDangerous">#E9967A</color>
-    <!-- End Vegan/Not Vegan colors -->
-    <!-- App Theme -->
-    <color name="colorBackgroundPrimary">#F5F5DC</color>
-    <color name="colorTextPrimary">#333333</color>
-    <color name="colorPrimaryDark">#8FBC8F</color>
-    <color name="colorAccent">#D81B60</color>
-    <!-- End App Theme -->
+
+    <!-- Material 3 Light Theme Colors -->
+    <color name="colorPrimary">#386A20</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimaryContainer">#B7F397</color>
+    <color name="colorOnPrimaryContainer">#082100</color>
+    <color name="colorSecondary">#55624C</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSecondaryContainer">#D9E7CA</color>
+    <color name="colorOnSecondaryContainer">#131F0D</color>
+    <color name="colorTertiary">#386666</color>
+    <color name="colorOnTertiary">#FFFFFF</color>
+    <color name="colorTertiaryContainer">#BBEBEB</color>
+    <color name="colorOnTertiaryContainer">#002020</color>
+    <color name="colorError">#BA1A1A</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorErrorContainer">#FFDAD6</color>
+    <color name="colorOnErrorContainer">#410002</color>
+    <color name="colorBackground">#FCFDF7</color>
+    <color name="colorOnBackground">#1A1C18</color>
+    <color name="colorSurface">#FCFDF7</color>
+    <color name="colorOnSurface">#1A1C18</color>
+    <color name="colorSurfaceVariant">#E0E4D6</color>
+    <color name="colorOnSurfaceVariant">#44483E</color>
+    <color name="colorOutline">#74796D</color>
+    <color name="colorSurfaceInverse">#2F312C</color>
+    <color name="colorOnSurfaceInverse">#F1F1EA</color>
+    <color name="colorPrimaryInverse">#9CD67E</color>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Dark Theme Colors -->
+    <color name="colorPrimary">#9CD67E</color>
+    <color name="colorOnPrimary">#0F3900</color>
+    <color name="colorPrimaryContainer">#215106</color>
+    <color name="colorOnPrimaryContainer">#B7F397</color>
+    <color name="colorSecondary">#BCCBB0</color>
+    <color name="colorOnSecondary">#283420</color>
+    <color name="colorSecondaryContainer">#3E4A35</color>
+    <color name="colorOnSecondaryContainer">#D9E7CA</color>
+    <color name="colorTertiary">#A0CFCE</color>
+    <color name="colorOnTertiary">#003737</color>
+    <color name="colorTertiaryContainer">#1E4E4E</color>
+    <color name="colorOnTertiaryContainer">#BBEBEB</color>
+    <color name="colorError">#FFB4AB</color>
+    <color name="colorOnError">#690005</color>
+    <color name="colorErrorContainer">#93000A</color>
+    <color name="colorOnErrorContainer">#FFDAD6</color>
+    <color name="colorBackground">#1A1C18</color>
+    <color name="colorOnBackground">#E3E3DC</color>
+    <color name="colorSurface">#1A1C18</color>
+    <color name="colorOnSurface">#E3E3DC</color>
+    <color name="colorSurfaceVariant">#44483E</color>
+    <color name="colorOnSurfaceVariant">#C4C8BB</color>
+    <color name="colorOutline">#8E9286</color>
+    <color name="colorSurfaceInverse">#E3E3DC</color>
+    <color name="colorOnSurfaceInverse">#1A1C18</color>
+    <color name="colorPrimaryInverse">#386A20</color>
+</resources>

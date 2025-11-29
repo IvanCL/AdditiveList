@@ -1,107 +1,85 @@
 package com.icl.additivelist.usescase.splash
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import com.google.gson.Gson
 import com.icl.additivelist.R
 import com.icl.additivelist.config.ConfigProperties
-import java.net.URL
-import android.util.Log
-import com.google.gson.Gson
 import com.icl.additivelist.data.PreferencesUtils
 import com.icl.additivelist.globals.ADDITIVES
-import com.icl.additivelist.globals.DAYS_FROM_ADDITIVES_UPDATE
 import com.icl.additivelist.models.Additive
+import com.icl.additivelist.testing.EspressoIdlingResource
 import com.icl.additivelist.usescase.main.MainActivity
+import com.icl.additivelist.usescase.tutorial.PREF_TUTORIAL_COMPLETED
+import com.icl.additivelist.usescase.tutorial.TutorialActivity
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.net.URL
 
+class SplashActivity : AppCompatActivity() {
 
-class SplashActivity :AppCompatActivity() {
-
-    var additiveList : List<Additive>? = null
-    var days : MutableSet<String>? = mutableSetOf()
-
+    private val TAG = "SPLASH_DEBUG"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        var additivesSaved:  MutableSet<String>? = PreferencesUtils(this.applicationContext).getPreference(ADDITIVES)
-        days = PreferencesUtils(this.applicationContext).getPreference(DAYS_FROM_ADDITIVES_UPDATE)
+        val preferences = PreferencesUtils(applicationContext)
+        val additivesSaved = preferences.getAdditiveList(ADDITIVES)
 
-        if(additivesSaved.isNullOrEmpty() || (days.isNullOrEmpty() || (!days.isNullOrEmpty() && checkLastUpdateOfAdditives()))){
-            getAdditives()
-        }else{
-            var intent = Intent(this@SplashActivity, MainActivity::class.java)
-            startActivity(intent)
+        if (additivesSaved.isEmpty()) {
+            downloadAdditivesAndNavigate()
+        } else {
+            Log.d(TAG, "Additives found in cache, skipping download.")
+            navigateToNextScreen()
         }
-        var intent = Intent(this@SplashActivity, MainActivity::class.java)
-        startActivity(intent)
     }
 
-    /**
-     * Check the last day when shared preferences were updated
-     */
-    private fun checkLastUpdateOfAdditives(): Boolean {
-        var any =false
-        if (days != null) {
-            var any = days!!.any { p: String ->
-                run {
-                    var a = Integer.parseInt(p)
-                    if (a > 7) {
-                        days!!.clear()
-                        days!!.add("0")
-                        return true
-                    }
-                    Log.d("ADITIVOS AL DIA", "ADITIVOS AL DIA")
-                    days!!.clear()
-                    a += 1
-                    days!!.add(a.toString())
-                    PreferencesUtils(this.applicationContext).saveSetPreferences(days!!.toList(), DAYS_FROM_ADDITIVES_UPDATE)
-                    return false
+    private fun downloadAdditivesAndNavigate() {
+        EspressoIdlingResource.increment()
+        // Usamos corrutinas para la tarea en segundo plano
+        lifecycleScope.launch {
+            try {
+                Log.d(TAG, "Starting additive download...")
+                val url = ConfigProperties.getValue("url.additiveAll", applicationContext)
+                Log.d(TAG, "Downloading from: $url")
+
+                // Hacemos la llamada de red en un hilo de IO
+                val result = withContext(Dispatchers.IO) {
+                    URL(url).readText()
                 }
+
+                Log.d(TAG, "Download successful. JSON Result: $result")
+
+                val additiveList = Gson().fromJson(result, Array<Additive>::class.java).toList()
+                val preferences = PreferencesUtils(applicationContext)
+                preferences.saveAdditiveList(additiveList, ADDITIVES)
+                Log.d(TAG, "Additives saved to preferences.")
+
+                navigateToNextScreen()
+            } catch (e: Exception) {
+                Log.e(TAG, "Error downloading or parsing additives", e)
+                navigateToNextScreen()
+            } finally {
+                EspressoIdlingResource.decrement()
             }
         }
-        return any
     }
 
-    /**
-     * Gets the updated list of additives
-     */
-    private fun getAdditives() {
-        var result: String
-            Thread {
-                result = URL(
-                    ConfigProperties.getValue(
-                        "url.additiveAll",
-                        this.applicationContext
-                    )
-                ).readText()
-                this.runOnUiThread {
-                    Log.d("ADITIVOS RECIBIDOS", result)
+    private fun navigateToNextScreen() {
+        val preferences = PreferencesUtils(applicationContext)
+        val tutorialCompleted = preferences.getBooleanPreference(PREF_TUTORIAL_COMPLETED)
 
-                    additiveList = Gson().fromJson(result, Array<Additive>::class.java).toList()
-
-                    loadAdditivesIntoPreferences()
-                    var intent = Intent(this@SplashActivity, MainActivity::class.java)
-                    startActivity(intent)
-                }
-            }.start()
-
-    }
-
-    /**
-     * Save and update additives and timer
-     */
-    private fun loadAdditivesIntoPreferences(){
-        if(additiveList!=null){
-            Log.d("ADITIVOS ACTUALIZADOS", "ADITIVOS ACTUALIZADOS")
-           PreferencesUtils(this.applicationContext).saveSetPreferences(additiveList!!, ADDITIVES)
-            if (days.isNullOrEmpty())
-                days  = mutableSetOf("1")
-           PreferencesUtils(this.applicationContext).saveSetPreferences(days!!.toList(), DAYS_FROM_ADDITIVES_UPDATE)
+        val intent = if (tutorialCompleted) {
+            Intent(this, MainActivity::class.java)
+        } else {
+            Intent(this, TutorialActivity::class.java)
         }
+        startActivity(intent)
+        finish()
     }
-
-
-
 }
