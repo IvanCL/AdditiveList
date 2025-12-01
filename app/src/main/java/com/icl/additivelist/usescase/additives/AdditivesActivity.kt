@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
 import com.icl.additivelist.data.PreferencesUtils
 import com.icl.additivelist.globals.ADDITIVES
 import com.icl.additivelist.globals.GlobalActivity
@@ -27,7 +28,7 @@ class AdditivesActivity : GlobalActivity() {
         setupSearch()
 
         // Mostrar la lista completa al inicio
-        additiveAdapter.submitList(fullAdditiveList)
+        updateList(fullAdditiveList)
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -49,8 +50,6 @@ class AdditivesActivity : GlobalActivity() {
     }
 
     private fun loadAdditives() {
-        // Leemos la lista de aditivos directamente desde el JSON guardado.
-        // No hay más procesamiento manual de Strings.
         fullAdditiveList = PreferencesUtils(this.applicationContext).getAdditiveList(ADDITIVES)
     }
 
@@ -58,19 +57,30 @@ class AdditivesActivity : GlobalActivity() {
         binding.finderTxt.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable) {
                 val query = s.toString()
-                if (query.isBlank()) {
-                    additiveAdapter.submitList(fullAdditiveList)
+                val filteredList = if (query.isBlank()) {
+                    fullAdditiveList
                 } else {
-                    val filteredList = fullAdditiveList.filter { additive ->
+                    fullAdditiveList.filter { additive ->
                         additive.name.contains(query, ignoreCase = true) ||
                         (additive.numb.startsWith("E", ignoreCase = true) && additive.numb.contains(query, ignoreCase = true))
                     }
-                    additiveAdapter.submitList(filteredList)
                 }
+                updateList(filteredList)
             }
 
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
             override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
         })
+    }
+
+    private fun updateList(list: List<Additive>) {
+        additiveAdapter.submitList(list)
+        if (list.isEmpty()) {
+            binding.emptyStateLayout.visibility = View.VISIBLE
+            binding.containerAdditives.visibility = View.GONE
+        } else {
+            binding.emptyStateLayout.visibility = View.GONE
+            binding.containerAdditives.visibility = View.VISIBLE
+        }
     }
 }

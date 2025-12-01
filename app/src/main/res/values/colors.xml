@@ -2,7 +2,7 @@
 <resources>
     <!-- Vegan/Not Vegan colors -->
     <color name="colorVegan">#8FBC8F</color>
-    <color name="colorDoubtful">#F0E68C</color>
+    <color name="colorDoubtful">#FFC107</color> <!-- Tono de amarillo (Amber) más oscuro para mejorar la legibilidad -->
     <color name="colorDangerous">#E9967A</color>
 
     <!-- Material 3 Light Theme Colors -->

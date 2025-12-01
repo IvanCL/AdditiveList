@@ -3,12 +3,14 @@ package com.icl.additivelist.usescase.splash
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.google.gson.Gson
 import com.icl.additivelist.R
 import com.icl.additivelist.config.ConfigProperties
 import com.icl.additivelist.data.PreferencesUtils
+import com.icl.additivelist.databinding.ActivitySplashBinding
 import com.icl.additivelist.globals.ADDITIVES
 import com.icl.additivelist.models.Additive
 import com.icl.additivelist.testing.EspressoIdlingResource
@@ -23,10 +25,12 @@ import java.net.URL
 class SplashActivity : AppCompatActivity() {
 
     private val TAG = "SPLASH_DEBUG"
+    private lateinit var binding: ActivitySplashBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        binding = ActivitySplashBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         val preferences = PreferencesUtils(applicationContext)
         val additivesSaved = preferences.getAdditiveList(ADDITIVES)
@@ -40,20 +44,14 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun downloadAdditivesAndNavigate() {
+        binding.progressBar.visibility = View.VISIBLE
         EspressoIdlingResource.increment()
-        // Usamos corrutinas para la tarea en segundo plano
+
         lifecycleScope.launch {
             try {
                 Log.d(TAG, "Starting additive download...")
                 val url = ConfigProperties.getValue("url.additiveAll", applicationContext)
-                Log.d(TAG, "Downloading from: $url")
-
-                // Hacemos la llamada de red en un hilo de IO
-                val result = withContext(Dispatchers.IO) {
-                    URL(url).readText()
-                }
-
-                Log.d(TAG, "Download successful. JSON Result: $result")
+                val result = withContext(Dispatchers.IO) { URL(url).readText() }
 
                 val additiveList = Gson().fromJson(result, Array<Additive>::class.java).toList()
                 val preferences = PreferencesUtils(applicationContext)
