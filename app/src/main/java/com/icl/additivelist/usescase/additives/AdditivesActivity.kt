@@ -1,21 +1,19 @@
 package com.icl.additivelist.usescase.additives
 
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
-import com.icl.additivelist.data.PreferencesUtils
-import com.icl.additivelist.globals.ADDITIVES
-import com.icl.additivelist.globals.GlobalActivity
-import com.icl.additivelist.models.Additive
+import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.icl.additivelist.databinding.ActivityFindAdditivesBinding
 
-class AdditivesActivity : GlobalActivity() {
+class AdditivesActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityFindAdditivesBinding
     private lateinit var additiveAdapter: AdditiveAdapter
-    private var fullAdditiveList: List<Additive> = listOf()
+    private val viewModel: AdditivesViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,11 +22,8 @@ class AdditivesActivity : GlobalActivity() {
 
         setupToolbar()
         setupRecyclerView()
-        loadAdditives()
         setupSearch()
-
-        // Mostrar la lista completa al inicio
-        updateList(fullAdditiveList)
+        observeViewModel()
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -49,23 +44,11 @@ class AdditivesActivity : GlobalActivity() {
         }
     }
 
-    private fun loadAdditives() {
-        fullAdditiveList = PreferencesUtils(this.applicationContext).getAdditiveList(ADDITIVES)
-    }
-
     private fun setupSearch() {
         binding.finderTxt.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable) {
-                val query = s.toString()
-                val filteredList = if (query.isBlank()) {
-                    fullAdditiveList
-                } else {
-                    fullAdditiveList.filter { additive ->
-                        additive.name.contains(query, ignoreCase = true) ||
-                        (additive.numb.startsWith("E", ignoreCase = true) && additive.numb.contains(query, ignoreCase = true))
-                    }
-                }
-                updateList(filteredList)
+                // Notificamos al ViewModel que la query ha cambiado.
+                viewModel.search(s.toString())
             }
 
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
@@ -73,14 +56,15 @@ class AdditivesActivity : GlobalActivity() {
         })
     }
 
-    private fun updateList(list: List<Additive>) {
-        additiveAdapter.submitList(list)
-        if (list.isEmpty()) {
-            binding.emptyStateLayout.visibility = View.VISIBLE
-            binding.containerAdditives.visibility = View.GONE
-        } else {
-            binding.emptyStateLayout.visibility = View.GONE
-            binding.containerAdditives.visibility = View.VISIBLE
+    private fun observeViewModel() {
+        // La Activity observa los cambios en el ViewModel y actualiza la UI.
+        viewModel.additives.observe(this) { additives ->
+            additiveAdapter.submitList(additives)
+        }
+
+        viewModel.showEmptyState.observe(this) { showEmpty ->
+            binding.emptyStateLayout.visibility = if (showEmpty) View.VISIBLE else View.GONE
+            binding.containerAdditives.visibility = if (showEmpty) View.GONE else View.VISIBLE
         }
     }
 }

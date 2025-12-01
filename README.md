@@ -7,36 +7,68 @@ La aplicación permite a los usuarios buscar aditivos por su número E o por su 
 ## Características Principales
 
 - **Lista Completa de Aditivos:** La aplicación descarga y almacena una lista completa de aditivos alimentarios la primera vez que se ejecuta.
-- **Búsqueda Rápida:** Permite buscar aditivos de forma instantánea por su nombre o número E (ej: "E120" o "Cochinilla").
-- **Identificación por Colores:** Utiliza un sistema de colores intuitivo para una rápida identificación del origen del aditivo:
-    - **Verde:** Origen vegano.
-    - **Amarillo:** Origen dudoso (puede ser animal o vegetal).
-    - **Rojo:** Origen no vegano.
-- **Vista de Detalle:** Ofrece una pantalla de detalle para cada aditivo con información sobre su función, descripción y posibles efectos secundarios.
-- **Tutorial de Bienvenida:** Guía a los nuevos usuarios en su primera ejecución, explicando las funcionalidades clave.
+- **Búsqueda Rápida:** Permite buscar aditivos de forma instantánea por su nombre o número E.
+- **Identificación por Colores:** Utiliza un sistema de colores intuitivo para una rápida identificación del origen del aditivo.
+- **Vista de Detalle:** Ofrece una pantalla de detalle para cada aditivo con información sobre su función y descripción.
+- **Tutorial de Bienvenida:** Guía a los nuevos usuarios en su primera ejecución.
+- **Diseño Moderno:** Interfaz de usuario basada en Material 3 con soporte para tema claro/oscuro.
+
+---
 
 ## Arquitectura y Tecnologías
 
-El proyecto sigue las prácticas modernas de desarrollo de Android y ha sido actualizado para usar las siguientes tecnologías:
+El proyecto ha sido refactorizado para seguir una arquitectura moderna **MVVM (Model-View-ViewModel)**, que separa las responsabilidades y mejora la robustez y escalabilidad de la aplicación.
+
+### Diagrama de Flujo (MVVM)
+
+El flujo de datos en la pantalla de búsqueda de aditivos sigue este patrón:
+
+```
+  +----------------+
+  |      VIEW      |  <-- (AdditivesActivity)
+  | (Interfaz de   |      - Muestra los datos
+  |    Usuario)    |      - Notifica acciones del usuario
+  +-------+--------+
+          |
+          | 1. El usuario escribe en el buscador.
+          |    La Vista notifica al ViewModel.
+          |
+  +-------v--------+
+  |   VIEWMODEL    |  <-- (AdditivesViewModel)
+  | (Lógica de     |      - Mantiene los datos y el estado.
+  |   Presentación)|      - Sobrevive a giros de pantalla.
+  +-------+--------+
+          |
+          | 2. El ViewModel filtra la lista y actualiza
+          |    el LiveData. La Vista es notificada.
+          |
+  +-------v--------+
+  |      DATA      |  <-- (PreferencesUtils / Red)
+  | (Fuentes de    |      - Carga los datos (SharedPreferences).
+  |      Datos)    |      - Realiza llamadas de red.
+  +----------------+
+```
+
+### Componentes Clave
+
+-   **View (Vista):** Representada por `AdditivesActivity`. Su única responsabilidad es "pintar" la pantalla con los datos que recibe y capturar las interacciones del usuario (como escribir en el buscador). No contiene ninguna lógica de negocio.
+
+-   **ViewModel (`AdditivesViewModel`):** Actúa como un intermediario. Contiene toda la lógica de presentación:
+    -   Mantiene la lista completa de aditivos.
+    -   Expone los datos que la vista necesita a través de **`LiveData`**. `LiveData` es un observador que notifica automáticamente a la `Activity` cuando los datos cambian, para que la interfaz se actualice.
+    -   **Sobrevive a los cambios de configuración:** Como el `ViewModel` no se destruye cuando se gira el teléfono, la lista de aditivos y el estado de la búsqueda se conservan, evitando recargas innecesarias.
+
+-   **Data (Datos):** Representado por `PreferencesUtils` y la lógica de descarga de red. Se encarga de obtener los datos, ya sea desde la memoria del teléfono (`SharedPreferences` con Gson) o desde el servidor web.
+
+### Otras Tecnologías
 
 - **Lenguaje:** 100% [Kotlin](https://kotlinlang.org/).
+- **Asincronía:** Se usan **Corrutinas de Kotlin** para realizar tareas en segundo plano (como la descarga de datos) de una forma moderna y eficiente.
 - **Interfaz de Usuario (UI):**
-    - [Material Design 3](https://m3.material.io/) para un aspecto moderno y consistente.
-    - Soporte automático para **Tema Claro y Oscuro**.
-    - **ViewBinding** para una interacción segura y eficiente con las vistas.
-    - Componentes modernos de AndroidX como `MaterialCardView` y `MaterialToolbar`.
-- **Listas Eficientes:**
-    - `RecyclerView` con `ListAdapter` y `DiffUtil` para un rendimiento óptimo y animaciones automáticas al mostrar y filtrar la lista de aditivos.
-- **Persistencia de Datos:**
-    - **SharedPreferences** para almacenar datos de forma local.
-    - **Gson** para serializar y deserializar la lista de aditivos de forma robusta, reemplazando el antiguo sistema manual.
+    - [Material Design 3](https://m3.material.io/).
+    - **ViewBinding** para una interacción segura con las vistas.
+- **Listas Eficientes:** `RecyclerView` con `ListAdapter` para un rendimiento óptimo.
+- **Persistencia:** `SharedPreferences` con **Gson** para serializar la lista de aditivos de forma robusta.
 - **Testing:**
-    - **Tests Unitarios (JUnit):** Para validar la lógica de negocio (filtrado, asignación de colores, etc.) de forma rápida y aislada.
-    - **Tests de UI (Espresso):** Para validar flujos de usuario completos, como el tutorial de bienvenida. Se utiliza un **`IdlingResource`** para sincronizar los tests con las tareas en segundo plano (como la descarga de datos), garantizando su fiabilidad.
-
-## Cómo Compilar y Ejecutar
-
-1.  Clona o descarga el repositorio.
-2.  Abre el proyecto en la última versión de Android Studio.
-3.  Sincroniza el proyecto con los ficheros de Gradle.
-4.  Ejecuta la aplicación en un emulador o dispositivo físico.
+    - **Tests Unitarios (JUnit):** Para validar la lógica de negocio de forma aislada.
+    - **Tests de UI (Espresso):** Para validar flujos de usuario completos. Se utiliza un **`IdlingResource`** para sincronizar los tests con las corrutinas, garantizando su fiabilidad.
