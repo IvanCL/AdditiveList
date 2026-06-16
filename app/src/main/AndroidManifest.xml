@@ -30,13 +30,21 @@
                 android:label="@string/title_activity_additives" android:noHistory="true"/>
         <activity
                 android:name=".usescase.additives.AdditivesActivity"
-                android:label="@string/title_activity_additives" android:noHistory="true"/>
+                android:label="@string/title_activity_additives"/>
         <activity
                 android:name=".usescase.additives.AdditiveDetailActivity"
-                android:label="@string/title_activity_additives" android:noHistory="true"/>
+                android:label="@string/title_activity_additives"/>
         <activity
                 android:name=".usescase.main.MainActivity"
                 android:label="@string/title_activity_main"/>
+        <activity
+                android:name=".usescase.common.ComingSoonActivity"
+                android:label="Información"/>
+        <activity
+                android:name=".usescase.tutorial.TutorialActivity"
+                android:label="Tutorial"
+                android:theme="@style/Theme.Material3.DayNight.NoActionBar"/>
+
     </application>
 
 </manifest>
