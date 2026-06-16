@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Permiso para acceder a internet y descargar la lista de aditivos -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
             android:allowBackup="true"
@@ -21,7 +21,12 @@
         </activity>
         <activity
                 android:name=".usescase.products.ProductsActivity"
-                android:label="@string/title_activity_products" android:noHistory="true"/>
+                android:label="@string/products_title"
+                android:parentActivityName=".usescase.main.MainActivity" />
+        <activity
+                android:name=".usescase.products.ProductResultActivity"
+                android:label="@string/product_result_title"
+                android:parentActivityName=".usescase.products.ProductsActivity" />
         <activity
                 android:name=".usescase.products.ProductsDetailActivity"
                 android:label="@string/title_activity_additives" android:noHistory="true"/>
@@ -39,6 +44,16 @@
         <activity
                 android:name=".usescase.common.ComingSoonActivity"
                 android:label="Información"/>
+        <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="${applicationId}.fileprovider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths" />
+        </provider>
+
         <activity
                 android:name=".usescase.tutorial.TutorialActivity"
                 android:label="Tutorial"

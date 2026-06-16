@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.icl.additivelist.R
 import com.icl.additivelist.databinding.ActivityMainBinding // Importa el binding
 import com.icl.additivelist.usescase.additives.AdditivesActivity
-import com.icl.additivelist.usescase.common.ComingSoonActivity
+import com.icl.additivelist.usescase.products.ProductsActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,11 +34,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun clickOnProducts() {
         binding.productsImg.setOnClickListener { // Usa binding
-            val intent = Intent(this.applicationContext, ComingSoonActivity::class.java)
+            val intent = Intent(this.applicationContext, ProductsActivity::class.java)
             startActivity(intent)
         }
         binding.productsTxt.setOnClickListener { // Usa binding
-            val intent = Intent(this.applicationContext, ComingSoonActivity::class.java)
+            val intent = Intent(this.applicationContext, ProductsActivity::class.java)
             startActivity(intent)
         }
     }

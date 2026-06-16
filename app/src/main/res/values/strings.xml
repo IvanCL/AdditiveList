@@ -14,4 +14,17 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- Products / OCR analysis -->
+    <string name="products_title">Analizar Producto</string>
+    <string name="products_instructions">Fotografía o selecciona la imagen con la lista de ingredientes de un producto para analizar si es apto para veganos.</string>
+    <string name="btn_camera">Usar cámara</string>
+    <string name="btn_gallery">Elegir de galería</string>
+    <string name="analyzing">Analizando imagen…</string>
+    <string name="product_result_title">Resultado del análisis</string>
+    <string name="additives_found_count">Aditivos detectados (%d)</string>
+    <string name="no_additives_found">No se detectaron aditivos (números E) en la imagen.</string>
+    <string name="mvp1_disclaimer">Análisis basado únicamente en aditivos (números E). Los ingredientes no aditivos no se tienen en cuenta en esta versión.</string>
+    <string name="camera_permission_denied">Se necesita permiso de cámara para usar esta función.</string>
+    <string name="ocr_error">No se pudo analizar la imagen. Inténtalo de nuevo.</string>
 </resources>
