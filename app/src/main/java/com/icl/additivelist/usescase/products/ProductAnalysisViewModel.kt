@@ -12,6 +12,7 @@ import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import com.icl.additivelist.data.PreferencesUtils
 import com.icl.additivelist.globals.ADDITIVES
 import com.icl.additivelist.models.Additive
+import com.icl.additivelist.models.NonVeganIngredient
 import kotlinx.coroutines.launch
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
@@ -20,7 +21,8 @@ import kotlin.coroutines.suspendCoroutine
 data class ProductAnalysisResult(
     val verdict: String,
     val detectedAdditives: List<Additive>,
-    val noAdditivesFound: Boolean
+    val detectedIngredients: List<NonVeganIngredient>,
+    val noIssuesFound: Boolean
 )
 
 class ProductAnalysisViewModel(application: Application) : AndroidViewModel(application) {
@@ -43,25 +45,29 @@ class ProductAnalysisViewModel(application: Application) : AndroidViewModel(appl
             try {
                 val scaledBitmap = scaleBitmap(bitmap)
                 val rawText = recognizeText(scaledBitmap)
+                val cleanedText = removeTraceWarnings(rawText)
                 val allAdditives = PreferencesUtils(getApplication()).getAdditiveList(ADDITIVES)
 
-                // Match by E-number (E120, E-120, E 120)
-                val eNumbers = AdditiveParser.extractAdditiveNumbers(rawText)
+                // Match additives by E-number (E120, E-120, E 120)
+                val eNumbers = AdditiveParser.extractAdditiveNumbers(cleanedText)
                 val detectedByNumber = eNumbers.mapNotNull { eNum ->
                     allAdditives.find {
                         AdditiveParser.normalizeNumb(it.numb) == AdditiveParser.normalizeNumb(eNum)
                     }
                 }
 
-                // Match by additive name (e.g. "Carmín")
-                val detectedByName = AdditiveParser.findAdditivesByName(rawText, allAdditives)
+                // Match additives by name (e.g. "Carmín")
+                val detectedByName = AdditiveParser.findAdditivesByName(cleanedText, allAdditives)
+                val detectedAdditives = (detectedByNumber + detectedByName).distinctBy { it.numb }
 
-                val detected = (detectedByNumber + detectedByName).distinctBy { it.numb }
+                // Match non-vegan/doubtful ingredients by name (e.g. "leche", "vitamina D3")
+                val detectedIngredients = IngredientParser(getApplication()).findProblematicIngredients(cleanedText)
 
                 _analysisResult.value = ProductAnalysisResult(
-                    verdict = computeVerdict(detected),
-                    detectedAdditives = detected,
-                    noAdditivesFound = detected.isEmpty()
+                    verdict = computeVerdict(detectedAdditives, detectedIngredients),
+                    detectedAdditives = detectedAdditives,
+                    detectedIngredients = detectedIngredients,
+                    noIssuesFound = detectedAdditives.isEmpty() && detectedIngredients.isEmpty()
                 )
             } catch (e: Exception) {
                 _error.value = e.message
@@ -76,10 +82,16 @@ class ProductAnalysisViewModel(application: Application) : AndroidViewModel(appl
         _error.value = null
     }
 
-    private fun computeVerdict(additives: List<Additive>): String = when {
-        additives.any { it.origin.trim() == "No vegano" } -> "No vegano"
-        additives.any { it.origin.trim() == "Dudoso" } -> "Dudoso"
+    private fun computeVerdict(additives: List<Additive>, ingredients: List<NonVeganIngredient>): String = when {
+        additives.any { it.origin.trim() == "No vegano" } || ingredients.any { it.origin == "No vegano" } -> "No vegano"
+        additives.any { it.origin.trim() == "Dudoso" } || ingredients.any { it.origin == "Dudoso" } -> "Dudoso"
         else -> "Vegano"
+    }
+
+    // Removes "Puede contener [trazas de] ..." clauses so their ingredients
+    // are not counted as actual ingredients of the product.
+    private fun removeTraceWarnings(text: String): String {
+        return text.replace(Regex("""puede\s+contener[^.;]*""", RegexOption.IGNORE_CASE), "")
     }
 
     private fun scaleBitmap(bitmap: Bitmap, maxDimension: Int = 1024): Bitmap {

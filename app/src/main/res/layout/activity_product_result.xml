@@ -68,13 +68,13 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- MVP1 disclaimer -->
+            <!-- Disclaimer -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:alpha="0.6"
-                android:text="@string/mvp1_disclaimer"
+                android:text="@string/analysis_disclaimer"
                 android:textAppearance="?attr/textAppearanceBodySmall" />
 
             <com.google.android.material.divider.MaterialDivider
@@ -109,6 +109,39 @@
                 android:layout_height="wrap_content"
                 android:nestedScrollingEnabled="false"
                 tools:listitem="@layout/item_additive" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Problematic ingredients section header -->
+            <TextView
+                android:id="@+id/ingredientsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAppearance="?attr/textAppearanceTitleMedium"
+                tools:text="Ingredientes problemáticos (2)" />
+
+            <!-- No problematic ingredients state -->
+            <TextView
+                android:id="@+id/noIngredientsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="@string/no_problematic_ingredients"
+                android:textAppearance="?attr/textAppearanceBodyMedium"
+                android:visibility="gone" />
+
+            <!-- Chips for each detected problematic ingredient -->
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/ingredientsChipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
 
         </LinearLayout>
 

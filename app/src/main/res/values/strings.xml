@@ -24,7 +24,9 @@
     <string name="product_result_title">Resultado del análisis</string>
     <string name="additives_found_count">Aditivos detectados (%d)</string>
     <string name="no_additives_found">No se detectaron aditivos (números E) en la imagen.</string>
-    <string name="mvp1_disclaimer">Análisis basado únicamente en aditivos (números E). Los ingredientes no aditivos no se tienen en cuenta en esta versión.</string>
+    <string name="analysis_disclaimer">Análisis basado en aditivos (números E) e ingredientes problemáticos conocidos. La precisión depende de la calidad del texto capturado por la cámara.</string>
+    <string name="ingredients_found_count">Ingredientes problemáticos (%d)</string>
+    <string name="no_problematic_ingredients">No se detectaron ingredientes problemáticos.</string>
     <string name="camera_permission_denied">Se necesita permiso de cámara para usar esta función.</string>
     <string name="ocr_error">No se pudo analizar la imagen. Inténtalo de nuevo.</string>
 </resources>

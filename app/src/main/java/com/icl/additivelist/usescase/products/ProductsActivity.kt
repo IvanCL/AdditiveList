@@ -118,7 +118,7 @@ class ProductsActivity : AppCompatActivity() {
         val intent = Intent(this, ProductResultActivity::class.java).apply {
             putExtra(ProductResultActivity.EXTRA_VERDICT, result.verdict)
             putParcelableArrayListExtra(ProductResultActivity.EXTRA_ADDITIVES, ArrayList(result.detectedAdditives))
-            putExtra(ProductResultActivity.EXTRA_NO_ADDITIVES, result.noAdditivesFound)
+            putParcelableArrayListExtra(ProductResultActivity.EXTRA_INGREDIENTS, ArrayList(result.detectedIngredients))
         }
         startActivity(intent)
     }

@@ -4,9 +4,11 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.chip.Chip
 import com.icl.additivelist.R
 import com.icl.additivelist.databinding.ActivityProductResultBinding
 import com.icl.additivelist.models.Additive
+import com.icl.additivelist.models.NonVeganIngredient
 import com.icl.additivelist.usescase.additives.AdditiveAdapter
 
 class ProductResultActivity : AppCompatActivity() {
@@ -22,10 +24,11 @@ class ProductResultActivity : AppCompatActivity() {
 
         val verdict = intent.getStringExtra(EXTRA_VERDICT) ?: "Vegano"
         val additives = intent.getParcelableArrayListExtra<Additive>(EXTRA_ADDITIVES) ?: arrayListOf()
-        val noAdditivesFound = intent.getBooleanExtra(EXTRA_NO_ADDITIVES, false)
+        val ingredients = intent.getParcelableArrayListExtra<NonVeganIngredient>(EXTRA_INGREDIENTS) ?: arrayListOf()
 
         renderVerdict(verdict)
-        renderAdditives(additives, noAdditivesFound)
+        renderAdditives(additives)
+        renderIngredients(ingredients)
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -49,11 +52,9 @@ class ProductResultActivity : AppCompatActivity() {
         binding.verdictCard.setCardBackgroundColor(getColor(colorRes))
     }
 
-    private fun renderAdditives(additives: List<Additive>, noAdditivesFound: Boolean) {
-        val count = additives.size
-        binding.additivesHeader.text = getString(R.string.additives_found_count, count)
-
-        if (noAdditivesFound) {
+    private fun renderAdditives(additives: List<Additive>) {
+        binding.additivesHeader.text = getString(R.string.additives_found_count, additives.size)
+        if (additives.isEmpty()) {
             binding.emptyAdditivesText.visibility = View.VISIBLE
             binding.additivesRecyclerView.visibility = View.GONE
         } else {
@@ -66,9 +67,30 @@ class ProductResultActivity : AppCompatActivity() {
         }
     }
 
+    private fun renderIngredients(ingredients: List<NonVeganIngredient>) {
+        binding.ingredientsHeader.text = getString(R.string.ingredients_found_count, ingredients.size)
+        if (ingredients.isEmpty()) {
+            binding.noIngredientsText.visibility = View.VISIBLE
+            binding.ingredientsChipGroup.visibility = View.GONE
+        } else {
+            binding.noIngredientsText.visibility = View.GONE
+            binding.ingredientsChipGroup.visibility = View.VISIBLE
+            ingredients.forEach { ingredient ->
+                val chip = Chip(this).apply {
+                    text = ingredient.term
+                    isClickable = false
+                    setChipBackgroundColorResource(
+                        if (ingredient.origin == "No vegano") R.color.colorDangerous else R.color.colorDoubtful
+                    )
+                }
+                binding.ingredientsChipGroup.addView(chip)
+            }
+        }
+    }
+
     companion object {
         const val EXTRA_VERDICT = "verdict"
         const val EXTRA_ADDITIVES = "additives"
-        const val EXTRA_NO_ADDITIVES = "no_additives_found"
+        const val EXTRA_INGREDIENTS = "ingredients"
     }
 }
