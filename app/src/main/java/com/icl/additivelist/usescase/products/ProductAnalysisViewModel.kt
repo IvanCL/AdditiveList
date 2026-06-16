@@ -43,13 +43,20 @@ class ProductAnalysisViewModel(application: Application) : AndroidViewModel(appl
             try {
                 val scaledBitmap = scaleBitmap(bitmap)
                 val rawText = recognizeText(scaledBitmap)
-                val eNumbers = AdditiveParser.extractAdditiveNumbers(rawText)
                 val allAdditives = PreferencesUtils(getApplication()).getAdditiveList(ADDITIVES)
-                val detected = eNumbers.mapNotNull { eNum ->
+
+                // Match by E-number (E120, E-120, E 120)
+                val eNumbers = AdditiveParser.extractAdditiveNumbers(rawText)
+                val detectedByNumber = eNumbers.mapNotNull { eNum ->
                     allAdditives.find {
                         AdditiveParser.normalizeNumb(it.numb) == AdditiveParser.normalizeNumb(eNum)
                     }
-                }.distinctBy { it.numb }
+                }
+
+                // Match by additive name (e.g. "Carmín")
+                val detectedByName = AdditiveParser.findAdditivesByName(rawText, allAdditives)
+
+                val detected = (detectedByNumber + detectedByName).distinctBy { it.numb }
 
                 _analysisResult.value = ProductAnalysisResult(
                     verdict = computeVerdict(detected),
