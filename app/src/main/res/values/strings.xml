@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Food Additives</string>
+    <string name="app_name">Vegan Scan</string>
     <string name="title_activity_login">Iniciar Sesion</string>
     <string name="title_activity_additives">Busqueda de aditivos</string>
     <string name="title_activity_products">Busqueda de productos</string>
