@@ -4,6 +4,12 @@ plugins {
     id("kotlin-parcelize")
 }
 
+def localProps = new Properties()
+def localPropsFile = rootProject.file('local.properties')
+if (localPropsFile.exists()) {
+    localPropsFile.withInputStream { localProps.load(it) }
+}
+
 android {
     compileSdk 35
     defaultConfig {
@@ -17,10 +23,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('/Users/ivan/credentials/upload-keystore.jks')
-            storePassword 'Pirineos.2025'
-            keyAlias 'upload_key_alias'
-            keyPassword 'Pirineos.2025'
+            storeFile file(localProps['signing.storeFile'] ?: '')
+            storePassword localProps['signing.storePassword'] ?: ''
+            keyAlias localProps['signing.keyAlias'] ?: ''
+            keyPassword localProps['signing.keyPassword'] ?: ''
         }
     }
 
