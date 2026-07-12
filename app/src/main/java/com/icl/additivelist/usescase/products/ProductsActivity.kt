@@ -138,6 +138,7 @@ class ProductsActivity : AppCompatActivity() {
             putExtra(ProductResultActivity.EXTRA_VERDICT, result.verdict)
             putParcelableArrayListExtra(ProductResultActivity.EXTRA_ADDITIVES, ArrayList(result.detectedAdditives))
             putParcelableArrayListExtra(ProductResultActivity.EXTRA_INGREDIENTS, ArrayList(result.detectedIngredients))
+            putExtra(ProductResultActivity.EXTRA_READ_TEXT, result.readText)
         }
         startActivity(intent)
     }

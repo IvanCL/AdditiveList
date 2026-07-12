@@ -28,4 +28,7 @@
     <string name="camera_permission_denied">Se necesita permiso de cámara para usar esta función.</string>
     <string name="ocr_error">No se pudo analizar la imagen. Inténtalo de nuevo.</string>
     <string name="crop_ingredients_title">Encuadra la lista de ingredientes</string>
+    <string name="read_text_header">Texto leído por la cámara</string>
+    <string name="read_text_empty">No se ha reconocido ningún texto en la imagen.</string>
+    <string name="expand_read_text">Mostrar u ocultar el texto leído</string>
 </resources>
