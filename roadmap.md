@@ -1,6 +1,8 @@
 # Roadmap — Mejora de Interfaz Gráfica (AdditiveList / Vegan Scan)
 
-Rama: `feature/ui-revamp` (creada desde `master`, incluye el commit de limpieza de `.gitignore`).
+> **Estado: CERRADO.** Las 4 fases se implementaron y se verificaron en dispositivo.
+> Rama: [`feature/ui-improvements`](https://github.com/IvanCL/AdditiveList/tree/feature/ui-improvements) (creada desde `master`, subida a `origin`, pendiente de PR/merge).
+> Ver [upgrades-2.0.md](upgrades-2.0.md) para la siguiente propuesta (recorte de ingredientes antes del OCR).
 
 ## Contexto
 
@@ -54,22 +56,28 @@ El proyecto ya migró a **Material 3** (`Theme.Material3.DayNight.NoActionBar`),
 ### 9. Limpieza de recursos no usados
 - `strings.xml` conserva cadenas de una pantalla de login que no existe en la app actual (`title_activity_login`, `prompt_email`, `prompt_password`, `action_sign_in`, etc.), y algunas están en inglés mientras el resto de la app está en español. No es un cambio visual pero ensucia el proyecto y conviene retirarlo en la misma pasada.
 
-## Propuesta de fases
+## Fases y resultado
 
-1. **Fase 1 — Base visual coherente** (mayor impacto/menor riesgo)
-   - Rediseño de `MainActivity` con tiles tipo tarjeta.
-   - Unificación de `item_product.xml` con `item_additive.xml`.
-   - Buscador con `TextInputLayout`.
-2. **Fase 2 — Sistema de color y marca**
-   - Colores semánticos con variante oscura.
-   - Activar Material You (`DynamicColors`).
-   - Splash nativo con `core-splashscreen`.
-3. **Fase 3 — Iconografía y accesibilidad**
-   - Migrar iconos PNG a vectores tintables.
-   - Añadir `contentDescription` reales.
-4. **Fase 4 — Limpieza**
-   - Eliminar strings/recursos muertos de login.
+1. **✅ Fase 1 — Base visual coherente**
+   - Rediseño de `MainActivity`: toolbar + `MaterialCardView` tipo "tiles" para Aditivos/Productos (portrait y landscape).
+   - Unificación de `item_product.xml` con `item_additive.xml` (más tarde este archivo se eliminó junto con su pantalla, ver Fase 3).
+   - Buscador migrado a `TextInputLayout` con icono de búsqueda y botón de limpiar.
+2. **✅ Fase 2 — Sistema de color y marca**
+   - Hallazgo no previsto: `AppTheme` no aplicaba ningún `<item>` de color — la app se veía con el morado por defecto de Material 3 en vez de la paleta verde de `colors.xml`. Se cableó toda la paleta M3 al tema.
+   - Colores semánticos (`colorVegan`/`colorDoubtful`/`colorDangerous`) con variante oscura.
+   - Splash nativo con `androidx.core:core-splashscreen`, visible mientras se descargan los aditivos.
+   - **Material You (`DynamicColors`) descartado a propósito**: en Android 12+ sustituiría la paleta de marca verde por los colores del fondo de pantalla del usuario; se priorizó la identidad visual.
+3. **✅ Fase 3 — Iconografía**
+   - Trío de estado (`vegan_icon_ok`/`skull_icon`/`question_icon`) redibujado como `VectorDrawable`s de una misma familia visual (antes el icono "vegano" era un badge con degradado de un pack distinto a los otros dos).
+   - Hallazgo no previsto: `back_arrow_icon`/`info_icon` solo se usaban en `ProductsDetailActivity`, una pantalla **inalcanzable** desde cualquier flujo real (sustituida por el análisis OCR sin retirar el código viejo). Se eliminó toda esa rama muerta (`ProductsDetailActivity`, `ProductAdapter`, `item_product.xml`, modelo `Products`, `GlobalActivity`) en vez de vectorizar iconos de una pantalla muerta.
+   - `vegan_flag_icon.png` (sin usar en ningún sitio) eliminado.
+   - `food_additive.png`/`products.png` se dejaron sin cambios (ya eran consistentes entre sí, prioridad baja).
+   - **Accesibilidad (`contentDescription` reales) no abordada** — queda pendiente si se retoma este roadmap.
+4. **✅ Fase 4 — Limpieza**
+   - Eliminadas las strings muertas de una pantalla de login que no existe en la app (`title_activity_login`, `prompt_email`, `action_sign_in`, etc.).
 
-## Siguiente paso
+## Pendiente / fuera de esta rama
 
-Dime si seguimos con esta propuesta tal cual, si quieres reordenar prioridades, o si prefieres acotar el alcance a una sola fase para esta rama.
+- `contentDescription` reales para iconos con significado (TalkBack) — mencionado en el hallazgo #8 original, no implementado.
+- Migrar `food_additive.png`/`products.png` a vector, si se quiere nitidez perfecta a gran tamaño — baja prioridad.
+- Recorte manual de ingredientes antes del OCR — ver [upgrades-2.0.md](upgrades-2.0.md).
