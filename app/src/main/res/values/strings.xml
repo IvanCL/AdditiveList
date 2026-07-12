@@ -27,4 +27,5 @@
     <string name="no_problematic_ingredients">No se detectaron ingredientes problemáticos.</string>
     <string name="camera_permission_denied">Se necesita permiso de cámara para usar esta función.</string>
     <string name="ocr_error">No se pudo analizar la imagen. Inténtalo de nuevo.</string>
+    <string name="crop_ingredients_title">Encuadra la lista de ingredientes</string>
 </resources>

@@ -14,6 +14,9 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
+import com.canhub.cropper.CropImageContract
+import com.canhub.cropper.CropImageContractOptions
+import com.canhub.cropper.CropImageOptions
 import com.icl.additivelist.R
 import com.icl.additivelist.databinding.ActivityProductsBinding
 import java.io.File
@@ -27,15 +30,20 @@ class ProductsActivity : AppCompatActivity() {
     // Camera capture contract
     private val takePicture = registerForActivityResult(ActivityResultContracts.TakePicture()) { success ->
         if (success) {
-            pendingPhotoUri?.let { uri ->
-                decodeBitmap(uri)?.let { viewModel.analyzeImage(it) }
-            }
+            pendingPhotoUri?.let { uri -> launchCrop(uri) }
         }
     }
 
     // Gallery picker contract
     private val pickImage = registerForActivityResult(ActivityResultContracts.GetContent()) { uri ->
-        uri?.let { decodeBitmap(it)?.let { bmp -> viewModel.analyzeImage(bmp) } }
+        uri?.let { launchCrop(it) }
+    }
+
+    // Ingredient list crop contract, run before OCR to reduce noise (brand, nutrition table, barcode...)
+    private val cropImage = registerForActivityResult(CropImageContract()) { result ->
+        if (result.isSuccessful) {
+            result.uriContent?.let { uri -> decodeBitmap(uri)?.let { bmp -> viewModel.analyzeImage(bmp) } }
+        }
     }
 
     // Camera permission contract
@@ -101,6 +109,17 @@ class ProductsActivity : AppCompatActivity() {
         val uri = FileProvider.getUriForFile(this, "${packageName}.fileprovider", imageFile)
         pendingPhotoUri = uri
         takePicture.launch(uri)
+    }
+
+    private fun launchCrop(uri: Uri) {
+        cropImage.launch(
+            CropImageContractOptions(
+                uri = uri,
+                cropImageOptions = CropImageOptions(
+                    activityTitle = getString(R.string.crop_ingredients_title),
+                ),
+            ),
+        )
     }
 
     private fun decodeBitmap(uri: Uri): Bitmap? {

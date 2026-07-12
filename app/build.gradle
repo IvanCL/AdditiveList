@@ -74,6 +74,9 @@ dependencies {
     // ML Kit OCR (on-device, Latin script — unbundled via GMS, supports 16KB page size)
     implementation 'com.google.android.gms:play-services-mlkit-text-recognition:19.0.1'
 
+    // Recorte manual de la foto antes del OCR (reduce ruido: marca, tabla nutricional, etc.)
+    implementation 'com.vanniktech:android-image-cropper:4.7.0'
+
     // Testing
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.3.0'
