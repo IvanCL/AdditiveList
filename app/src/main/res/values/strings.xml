@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Food Additives</string>
+    <string name="app_name">Vegan Scan</string>
     <string name="title_activity_login">Iniciar Sesion</string>
     <string name="title_activity_additives">Busqueda de aditivos</string>
     <string name="title_activity_products">Busqueda de productos</string>
@@ -14,4 +14,19 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- Products / OCR analysis -->
+    <string name="products_title">Analizar Producto</string>
+    <string name="products_instructions">Fotografía o selecciona la imagen con la lista de ingredientes de un producto para analizar si es apto para veganos.</string>
+    <string name="btn_camera">Usar cámara</string>
+    <string name="btn_gallery">Elegir de galería</string>
+    <string name="analyzing">Analizando imagen…</string>
+    <string name="product_result_title">Resultado del análisis</string>
+    <string name="additives_found_count">Aditivos detectados (%d)</string>
+    <string name="no_additives_found">No se detectaron aditivos (números E) en la imagen.</string>
+    <string name="analysis_disclaimer">Análisis basado en aditivos (números E) e ingredientes problemáticos conocidos. La precisión depende de la calidad del texto capturado por la cámara.</string>
+    <string name="ingredients_found_count">Ingredientes problemáticos (%d)</string>
+    <string name="no_problematic_ingredients">No se detectaron ingredientes problemáticos.</string>
+    <string name="camera_permission_denied">Se necesita permiso de cámara para usar esta función.</string>
+    <string name="ocr_error">No se pudo analizar la imagen. Inténtalo de nuevo.</string>
 </resources>
