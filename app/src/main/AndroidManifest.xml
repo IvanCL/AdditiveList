@@ -58,6 +58,10 @@
                 android:label="Tutorial"
                 android:theme="@style/Theme.Material3.DayNight.NoActionBar"/>
 
+        <activity
+                android:name="com.canhub.cropper.CropImageActivity"
+                android:theme="@style/Theme.App.Cropper"/>
+
     </application>
 
 </manifest>

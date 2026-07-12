@@ -22,7 +22,8 @@ data class ProductAnalysisResult(
     val verdict: String,
     val detectedAdditives: List<Additive>,
     val detectedIngredients: List<NonVeganIngredient>,
-    val noIssuesFound: Boolean
+    val noIssuesFound: Boolean,
+    val readText: String
 )
 
 class ProductAnalysisViewModel(application: Application) : AndroidViewModel(application) {
@@ -67,7 +68,8 @@ class ProductAnalysisViewModel(application: Application) : AndroidViewModel(appl
                     verdict = computeVerdict(detectedAdditives, detectedIngredients),
                     detectedAdditives = detectedAdditives,
                     detectedIngredients = detectedIngredients,
-                    noIssuesFound = detectedAdditives.isEmpty() && detectedIngredients.isEmpty()
+                    noIssuesFound = detectedAdditives.isEmpty() && detectedIngredients.isEmpty(),
+                    readText = rawText.trim()
                 )
             } catch (e: Exception) {
                 _error.value = e.message

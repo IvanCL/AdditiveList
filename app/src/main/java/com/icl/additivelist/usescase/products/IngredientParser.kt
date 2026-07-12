@@ -25,7 +25,8 @@ class IngredientParser(context: Context) {
     }
 
     // Checks that the term appears surrounded by non-letter/digit chars to avoid
-    // false positives (e.g. "leche" inside "lechuga")
+    // false positives (e.g. "leche" inside "lechuga"), and skips occurrences directly
+    // followed by "vegano/a" (e.g. "queso vegano"), which are explicitly vegan variants.
     private fun containsWholeWord(text: String, term: String): Boolean {
         var startIndex = 0
         while (true) {
@@ -33,8 +34,24 @@ class IngredientParser(context: Context) {
             if (index == -1) return false
             val before = if (index > 0) text[index - 1] else ' '
             val after = if (index + term.length < text.length) text[index + term.length] else ' '
-            if (!before.isLetterOrDigit() && !after.isLetterOrDigit()) return true
+            val isWholeWord = !before.isLetterOrDigit() && !after.isLetterOrDigit()
+            if (isWholeWord && !isFollowedByVeganModifier(text, index + term.length)) return true
             startIndex = index + 1
         }
+    }
+
+    // Only whitespace (no commas) is allowed between the term and the modifier, so
+    // "queso, vegano" (a separate list item) still counts as a match, unlike "queso vegano".
+    private fun isFollowedByVeganModifier(text: String, afterTermIndex: Int): Boolean {
+        var i = afterTermIndex
+        while (i < text.length && text[i] == ' ') i++
+        return VEGAN_MODIFIERS.any { modifier ->
+            text.startsWith(modifier, i) &&
+                (i + modifier.length >= text.length || !text[i + modifier.length].isLetterOrDigit())
+        }
+    }
+
+    private companion object {
+        val VEGAN_MODIFIERS = setOf("vegano", "vegana", "veganos", "veganas")
     }
 }

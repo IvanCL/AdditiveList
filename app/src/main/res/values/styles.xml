@@ -37,4 +37,13 @@
         <item name="postSplashScreenTheme">@style/AppTheme</item>
     </style>
 
+    <!-- CropImageActivity (Android-Image-Cropper) muestra el botón de confirmar recorte
+         como ítem del menú de la ActionBar, que AppTheme no tiene por ser NoActionBar. -->
+    <style name="Theme.App.Cropper" parent="AppTheme">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
 </resources>

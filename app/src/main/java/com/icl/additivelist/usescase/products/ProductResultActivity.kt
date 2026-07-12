@@ -25,10 +25,12 @@ class ProductResultActivity : AppCompatActivity() {
         val verdict = intent.getStringExtra(EXTRA_VERDICT) ?: "Vegano"
         val additives = intent.getParcelableArrayListExtra<Additive>(EXTRA_ADDITIVES) ?: arrayListOf()
         val ingredients = intent.getParcelableArrayListExtra<NonVeganIngredient>(EXTRA_INGREDIENTS) ?: arrayListOf()
+        val readText = intent.getStringExtra(EXTRA_READ_TEXT) ?: ""
 
         renderVerdict(verdict)
         renderAdditives(additives)
         renderIngredients(ingredients)
+        renderReadText(readText)
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -88,9 +90,19 @@ class ProductResultActivity : AppCompatActivity() {
         }
     }
 
+    private fun renderReadText(readText: String) {
+        binding.readTextContent.text = readText.ifBlank { getString(R.string.read_text_empty) }
+        binding.readTextHeader.setOnClickListener {
+            val expanded = binding.readTextContent.visibility == View.VISIBLE
+            binding.readTextContent.visibility = if (expanded) View.GONE else View.VISIBLE
+            binding.readTextExpandIcon.rotation = if (expanded) 0f else 180f
+        }
+    }
+
     companion object {
         const val EXTRA_VERDICT = "verdict"
         const val EXTRA_ADDITIVES = "additives"
         const val EXTRA_INGREDIENTS = "ingredients"
+        const val EXTRA_READ_TEXT = "read_text"
     }
 }
