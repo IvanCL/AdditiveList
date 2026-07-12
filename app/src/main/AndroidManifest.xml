@@ -30,9 +30,6 @@
                 android:label="@string/product_result_title"
                 android:parentActivityName=".usescase.products.ProductsActivity" />
         <activity
-                android:name=".usescase.products.ProductsDetailActivity"
-                android:label="@string/title_activity_additives" android:noHistory="true"/>
-        <activity
                 android:name=".usescase.additives.AdditivesActivity"
                 android:label="@string/title_activity_additives"
                 android:parentActivityName=".usescase.main.MainActivity"/>
