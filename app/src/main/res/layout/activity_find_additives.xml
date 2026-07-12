@@ -26,19 +26,30 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <EditText
-            android:id="@+id/finderTxt"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/finderLayout"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:hint="Buscar nº(E120...) o nombre de aditivos"
-            android:tooltipText="Busqueda de aditivos: E-120...120, Carmin" />
+            android:hint="@string/search_additives_hint"
+            app:startIconDrawable="@drawable/ic_search_24"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/finderTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/containerAdditives"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/finderTxt"
+            android:layout_below="@id/finderLayout"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/item_additive" />
 

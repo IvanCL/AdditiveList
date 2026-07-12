@@ -13,7 +13,8 @@
             android:usesCleartextTraffic="true"
             android:theme="@style/AppTheme">
         <activity android:name=".usescase.splash.SplashActivity" android:noHistory="true"
-                android:exported="true">
+                android:exported="true"
+                android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,9 +29,6 @@
                 android:name=".usescase.products.ProductResultActivity"
                 android:label="@string/product_result_title"
                 android:parentActivityName=".usescase.products.ProductsActivity" />
-        <activity
-                android:name=".usescase.products.ProductsDetailActivity"
-                android:label="@string/title_activity_additives" android:noHistory="true"/>
         <activity
                 android:name=".usescase.additives.AdditivesActivity"
                 android:label="@string/title_activity_additives"
