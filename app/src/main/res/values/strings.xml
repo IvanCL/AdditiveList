@@ -15,6 +15,15 @@
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
 
+    <!-- Home -->
+    <string name="home_additives_title">Aditivos</string>
+    <string name="home_additives_subtitle">Consulta el origen y la función de cientos de aditivos alimentarios (números E)</string>
+    <string name="home_products_title">Productos</string>
+    <string name="home_products_subtitle">Analiza la lista de ingredientes de un producto y descubre si es apto para veganos</string>
+
+    <!-- Additives search -->
+    <string name="search_additives_hint">Buscar nº (E120…) o nombre de aditivo</string>
+
     <!-- Products / OCR analysis -->
     <string name="products_title">Analizar Producto</string>
     <string name="products_instructions">Fotografía o selecciona la imagen con la lista de ingredientes de un producto para analizar si es apto para veganos.</string>

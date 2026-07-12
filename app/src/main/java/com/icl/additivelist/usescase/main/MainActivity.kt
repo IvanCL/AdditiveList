@@ -17,27 +17,20 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater) // Infla el layout
         setContentView(binding.root) // Usa binding.root
 
+        setSupportActionBar(binding.toolbar)
         clickOnAdditives()
         clickOnProducts()
     }
 
     private fun clickOnAdditives() {
-        binding.additivesTxt.setOnClickListener { // Usa binding
-            val intent = Intent(this.applicationContext, AdditivesActivity::class.java)
-            startActivity(intent)
-        }
-        binding.additivesImg.setOnClickListener { // Usa binding
+        binding.cardAdditives.setOnClickListener {
             val intent = Intent(this.applicationContext, AdditivesActivity::class.java)
             startActivity(intent)
         }
     }
 
     private fun clickOnProducts() {
-        binding.productsImg.setOnClickListener { // Usa binding
-            val intent = Intent(this.applicationContext, ProductsActivity::class.java)
-            startActivity(intent)
-        }
-        binding.productsTxt.setOnClickListener { // Usa binding
+        binding.cardProducts.setOnClickListener {
             val intent = Intent(this.applicationContext, ProductsActivity::class.java)
             startActivity(intent)
         }

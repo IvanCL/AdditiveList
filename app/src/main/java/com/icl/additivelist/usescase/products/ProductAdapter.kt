@@ -25,17 +25,17 @@ class ProductAdapter(private val items: ArrayList<Products>, private val context
                 var newIconImage: Drawable?
                 newIconImage = ContextCompat.getDrawable(context, R.drawable.vegan_icon_ok)
                 binding.vegNoVegIcon.setImageDrawable(newIconImage!!)
-                binding.itemProduct.setBackgroundColor(ContextCompat.getColor(context, R.color.colorVegan))
+                binding.itemProduct.setCardBackgroundColor(ContextCompat.getColor(context, R.color.colorVegan))
 
                 // Check origin
                 if (item.origin.trim().contains("No vegano", true)) {
                     newIconImage = ContextCompat.getDrawable(context, R.drawable.skull_icon)
                     binding.vegNoVegIcon.setImageDrawable(newIconImage!!)
-                    binding.itemProduct.setBackgroundColor(ContextCompat.getColor(context, R.color.colorDangerous))
+                    binding.itemProduct.setCardBackgroundColor(ContextCompat.getColor(context, R.color.colorDangerous))
                 } else if (item.origin.trim().equals("Dudoso", true)) {
                     newIconImage = ContextCompat.getDrawable(context, R.drawable.question_icon)
                     binding.vegNoVegIcon.setImageDrawable(newIconImage!!)
-                    binding.itemProduct.setBackgroundColor(ContextCompat.getColor(context, R.color.colorDoubtful))
+                    binding.itemProduct.setCardBackgroundColor(ContextCompat.getColor(context, R.color.colorDoubtful))
                 }
 
                 binding.root.setOnClickListener {
