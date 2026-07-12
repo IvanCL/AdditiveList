@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.lifecycleScope
 import com.google.gson.Gson
 import com.icl.additivelist.R
@@ -26,9 +27,13 @@ class SplashActivity : AppCompatActivity() {
 
     private val TAG = "SPLASH_DEBUG"
     private lateinit var binding: ActivitySplashBinding
+    private var isLoading = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
+        splashScreen.setKeepOnScreenCondition { isLoading }
+
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -77,6 +82,7 @@ class SplashActivity : AppCompatActivity() {
         } else {
             Intent(this, TutorialActivity::class.java)
         }
+        isLoading = false
         startActivity(intent)
         finish()
     }

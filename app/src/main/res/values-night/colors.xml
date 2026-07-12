@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Vegan/Not Vegan colors, darkened so light on-surface text stays legible -->
+    <color name="colorVegan">#3F6B3F</color>
+    <color name="colorDoubtful">#8A6D1B</color>
+    <color name="colorDangerous">#8B4B39</color>
+
     <!-- Material 3 Dark Theme Colors -->
     <color name="colorPrimary">#9CD67E</color>
     <color name="colorOnPrimary">#0F3900</color>
